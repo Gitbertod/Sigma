@@ -4,6 +4,7 @@ import styles from "./NavBar.module.css";
 import { IoPeopleSharp } from "react-icons/io5";
 import { FaHistory,FaUniversity,FaFileContract,FaChartLine } from "react-icons/fa";
 import { FaPeopleGroup,FaPeopleArrows,FaPeopleLine } from "react-icons/fa6";
+import { DrawerComponent } from "../drawer/DrawerComponent";
 
 
 const NavBar = () => {
@@ -159,7 +160,7 @@ const NavBar = () => {
           </div>
           <Link to="/contacto">Contact Us</Link>
         </div>
-        {/* <DrawerComponent></DrawerComponent> */}
+        <DrawerComponent></DrawerComponent>
       </div>
     </>
   );

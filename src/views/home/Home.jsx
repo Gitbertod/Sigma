@@ -4,6 +4,9 @@ import VideoHome from "../../components/video-home/VideoHome";
 import { useEffect } from "react";
 import styles from "./Home.module.css";
 import AOS from "aos";
+import { Button } from "flowbite-react";
+import { FooterComponent } from "../../components/footer/FooterComponent";
+
 const Home = () => {
   useEffect(() => {
     AOS.init();
@@ -47,6 +50,7 @@ const Home = () => {
           }
           imgSrc="./people2.png"
         />
+        <FooterComponent></FooterComponent>
       </div>
     </>
   );

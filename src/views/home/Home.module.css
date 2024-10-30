@@ -1,0 +1,86 @@
+.container {
+    font-family: "Qualy";
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 50vh;
+  }
+.centerContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+    
+}
+.h1{
+    font-family: "Qualy_Bold";
+    display: flex;
+    flex-direction: column;
+    color:white;
+    font-size: 80px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.subtitle{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 350px;
+    justify-content: center;
+    
+    text-align: center;
+}
+
+.newsContainer {
+  position: relative; /* Para que los elementos posicionados absolutamente sean relativos a este contenedor */
+  height: 100vh;
+  overflow: hidden; /* Para asegurar que el contenido no desborde el contenedor */
+}
+.newsContainer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("/bg_white1.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: blur(3px);
+    z-index: 0; /* Asegura que esté detrás del contenido */
+  }
+  
+  .newsContainer > * {
+    position: relative;
+    z-index: 1; /* Asegura que el contenido esté por encima del fondo */
+  }
+
+
+  /*******************************/
+  .ingeniero{
+    mask-image: linear-gradient(white 80%, transparent);
+   
+  }
+
+  /*RESPONSIVE*/
+  @media(max-width:540px){
+    .img{
+      height: 60px;
+    }
+
+    .h1{
+      color:white;
+      font-size: 40px;
+    }
+
+    .subtitle{
+      color: white;
+      font-size: 25px;
+      margin-bottom: 350px;
+  }
+  }

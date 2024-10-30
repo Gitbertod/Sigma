@@ -1,15 +1,12 @@
-import './App.css'
+import "./App.css";
+import Home from "./views/home/Home";
 
 function App() {
-  
-
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-      Hello Sigma!
-    </h1>
+      <Home />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

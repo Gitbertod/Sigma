@@ -49,7 +49,7 @@ const NavBar = () => {
                 isOpenSoluciones ? styles.slidebottom : ""
               }`}
             >
-              <Link to="/soluciones/distribucion-respaldo-de-energia">
+              <Link to="/who-we-are">
                 <div className={styles.slidebottom}>
                   <div className={styles.category}>
                     <IoPeopleSharp className={styles.icon} />
@@ -58,7 +58,7 @@ const NavBar = () => {
                 </div>
               </Link>
 
-              <Link to="/soluciones/climatizacion">
+              <Link to="/history">
                 <div className={styles.slidebottom}>
                   <div className={styles.category}>
                     <FaHistory className={styles.icon}/>

@@ -6,6 +6,7 @@ import styles from "./Home.module.css";
 import AOS from "aos";
 import { Button } from "flowbite-react";
 import { FooterComponent } from "../../components/footer/FooterComponent";
+import News from "../../components/news/News";
 
 const Home = () => {
   useEffect(() => {
@@ -50,6 +51,7 @@ const Home = () => {
           }
           imgSrc="./people2.png"
         />
+        <News/>
         <FooterComponent></FooterComponent>
       </div>
     </>

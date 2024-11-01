@@ -1,8 +1,6 @@
 .dataInfoContainer{
     display: flex;
     margin-top: 80px;
-    
-    
 }
 .dataInfo{
     display: flex;
@@ -26,6 +24,8 @@
     font-size: 18px;
     font-family: "Anonymous Pro", monospace;
     font-style: normal;
+    color: black;
+    max-width: 250px;
 }
 .whiteLine{
     width: 10px;

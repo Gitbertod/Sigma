@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-image: url("./background.svg"); 
+    background-attachment: fixed;
+    position: relative; /* Para que los elementos posicionados absolutamente sean relativos a este contenedor */
+    overflow: hidden;
+    background-size: cover;
+    min-height: 110vh;  
+    height: auto;
+    z-index: -1;
+    color:white;
+}
+.content{
+    background-color: white;
+    height: auto;
+}
+.containerTitle{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.title{
+    height: 40vh;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 100px;
+    text-align: center;
+}
+
+.symbol{
+    height: 200px;
+    border-radius: 50%;
+    justify-content: center;
+    justify-items: center;
+    margin: 0px auto;
+    margin-top: -80px;
+}
+.timeLineContainer{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    margin-right:20px ;
+    color: #921345;
+}

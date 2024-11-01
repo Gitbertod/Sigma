@@ -7,6 +7,7 @@ import AOS from "aos";
 import { Button } from "flowbite-react";
 import { FooterComponent } from "../../components/footer/FooterComponent";
 import News from "../../components/news/News";
+import DataBoxIcons from "../../components/data-box-icons/DataBoxIcons";
 
 const Home = () => {
   useEffect(() => {
@@ -50,8 +51,12 @@ const Home = () => {
             </>
           }
           imgSrc="./people2.png"
+          childComponent3={<DataBoxIcons></DataBoxIcons>}
         />
-        <News/>
+        <div className="bg-white justify-items-center">
+          <DataBoxIcons className="m-5"></DataBoxIcons>
+        </div>
+        <News />
         <FooterComponent></FooterComponent>
       </div>
     </>

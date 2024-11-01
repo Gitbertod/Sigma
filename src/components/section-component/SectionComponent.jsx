@@ -14,6 +14,7 @@ const SectionComponent = ({
     imgContainerClass,
     childComponent,
     childComponent2,
+    childComponent3,
     alternativeStyles
 }) => {
     useEffect(() => {
@@ -26,7 +27,7 @@ const SectionComponent = ({
                 <div
                     className={`${styles.containerText} ${containerTextClass} ${alternativeStyles?.containerText}`}
                     data-aos="fade-right"
-                >
+                    >
                     <h5>{title}</h5>
                     <p className={styles.parrafo}>{text}</p>
                     {childComponent}
@@ -36,7 +37,7 @@ const SectionComponent = ({
                     className={`${styles.imgContainer} ${imgContainerClass} ${alternativeStyles?.imgContainer}`}
                     data-aos="fade-up"
                     data-aos-duration="2000"
-                >
+                    >
                     {childComponent2}
                     <img src={imgSrc} />
                 </div>

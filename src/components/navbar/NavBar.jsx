@@ -66,7 +66,7 @@ const NavBar = () => {
                   </div>
                 </div>
               </Link>
-              <Link to="/soluciones/climatizacion">
+              <Link to="/institutional-pillars">
                 <div className={styles.slidebottom}>
                   <div className={styles.category}>
                     <FaUniversity className={styles.icon}/>
@@ -91,7 +91,7 @@ const NavBar = () => {
                 isOpenSoluciones ? styles.slidebottom : ""
               }`}
             >
-              <Link to="/soluciones/distribucion-respaldo-de-energia">
+              <Link to="/operating-lease">
                 <div className={styles.slidebottom}>
                   <div className={styles.category}>
                     <FaFileContract className={styles.icon} />
@@ -127,7 +127,7 @@ const NavBar = () => {
                 isOpenSectores ? styles.slidebottom : ""
               }`}
             >
-              <Link to="/data-centers">
+              <Link to="/staff">
                 <div className={styles.slidebottom}>
                   <div className={styles.category}>
                     <FaPeopleGroup className={styles.icon} />
@@ -135,7 +135,7 @@ const NavBar = () => {
                   </div>
                 </div>
               </Link>
-              <Link to="/mineria">
+              <Link to="/investment-commitee">
                 <div className={styles.slidebottom}>
                   <div className={styles.category}>
                     <FaPeopleArrows className={styles.icon} />
@@ -143,7 +143,7 @@ const NavBar = () => {
                   </div>
                 </div>
               </Link>
-              <Link to="/industria-electrica">
+              <Link to="/board-of-directors">
                 <div className={styles.slidebottom}>
                   <div className={styles.category}>
                     <FaPeopleLine className={styles.icon} />
@@ -155,10 +155,10 @@ const NavBar = () => {
           </div>
           <div className={styles.subnav}>
             <button className={styles.subnavbtn}>
-              <Link to="/voyant365">News</Link>
+              <Link to="/news">News</Link>
             </button>
           </div>
-          <Link to="/contacto">Contact Us</Link>
+          <Link to="/contact-us">Contact Us</Link>
         </div>
         <DrawerComponent></DrawerComponent>
       </div>

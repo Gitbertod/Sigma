@@ -13,7 +13,7 @@ const History = () => {
       <div className={styles.container}>
         <div className={styles.title}>HISTORY</div>
         <div className={styles.content}>
-          <img src="/sigmaCircle.svg" className={styles.symbol}></img>
+          <img src="./sigmaCircle.svg" className={styles.symbol}></img>
           <TimeLine></TimeLine>
         </div>
       </div>

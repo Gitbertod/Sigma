@@ -3,6 +3,8 @@ import { TimeLine } from "../../components/time-line/TimeLine";
 import styles from "./History.module.css";
 import NavBar from "../../components/navbar/NavBar";
 import { FaCalendarAlt } from "react-icons/fa";
+import { Footer } from "flowbite-react";
+import { FooterComponent } from "../../components/footer/FooterComponent";
 
 const History = () => {
   return (
@@ -12,14 +14,10 @@ const History = () => {
         <div className={styles.title}>HISTORY</div>
         <div className={styles.content}>
           <img src="/sigmaCircle.svg" className={styles.symbol}></img>
-          <div className={styles.containerTitle}>
-            <h2 className={styles.h2}></h2>
-          </div>
-          <div className={styles.timeLineContainer}>
-            <TimeLine></TimeLine>
-          </div>
+          <TimeLine></TimeLine>
         </div>
       </div>
+      <FooterComponent></FooterComponent>
     </>
   );
 };

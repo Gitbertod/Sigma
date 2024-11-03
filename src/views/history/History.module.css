@@ -9,10 +9,10 @@
     min-height: 110vh;  
     height: auto;
     z-index: -1;
-    color:white;
+    
 }
 .content{
-    background-color: white;
+    
     height: auto;
 }
 .containerTitle{
@@ -29,6 +29,7 @@
     margin-bottom: 40px;
     font-size: 100px;
     text-align: center;
+    color: #ccc;
 }
 
 .symbol{
@@ -39,13 +40,7 @@
     margin: 0px auto;
     margin-top: -80px;
 }
-.timeLineContainer{
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-    
-}
+
 .icon{
     width: 100px;
     height: 100px;

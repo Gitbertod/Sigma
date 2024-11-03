@@ -1,6 +1,6 @@
 .container{
     display: flex;
-    background-image: url("./Recurso 7.svg"); 
+    background-image: url("/Recurso 7.svg"); 
     background-color: white;
     position: relative; /* Para que los elementos posicionados absolutamente sean relativos a este contenedor */
     overflow: hidden;

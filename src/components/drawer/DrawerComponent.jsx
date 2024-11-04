@@ -45,18 +45,9 @@ export function DrawerComponent() {
                 <Sidebar.Items>
                   <Sidebar.ItemGroup>
                     <Sidebar.Collapse icon={HiUsers} label="About Us">
-                      {/* <Link to="/nosotros">Who we are</Link>
-                      <Link to="/nosotros">History</Link>
-                      <Link to="/nosotros">Institutional Pillars</Link> */}
-                      <Link to="/who-we-are">
-                        <Sidebar.Item href="/who-we-are">
-                          Who we are
-                        </Sidebar.Item>
-                      </Link>
-                      <Sidebar.Item href="#">History</Sidebar.Item>
-                      <Sidebar.Item href="#">
-                        Institutional Pillars
-                      </Sidebar.Item>
+                      <Link to="/who-we-are">Who we are</Link><br></br>
+                      <Link to="/history">History</Link><br></br>
+                      <Link to="/institutional-pillars">Institutional Pillars</Link><br></br>
                     </Sidebar.Collapse>
 
                     <Sidebar.Collapse icon={HiShoppingBag} label="Busisness">

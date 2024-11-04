@@ -48,7 +48,11 @@ export function DrawerComponent() {
                       {/* <Link to="/nosotros">Who we are</Link>
                       <Link to="/nosotros">History</Link>
                       <Link to="/nosotros">Institutional Pillars</Link> */}
-                      <Sidebar.Item href="/who-we-are">Who we are</Sidebar.Item>
+                      <Link to="/who-we-are">
+                        <Sidebar.Item href="/who-we-are">
+                          Who we are
+                        </Sidebar.Item>
+                      </Link>
                       <Sidebar.Item href="#">History</Sidebar.Item>
                       <Sidebar.Item href="#">
                         Institutional Pillars
@@ -66,8 +70,11 @@ export function DrawerComponent() {
                         </Sidebar.Item>
                         <Sidebar.Item href="#">Advantages</Sidebar.Item>
                       </Sidebar.Collapse>
-                      <Sidebar.Collapse href="#" label="Infrastructure Private Equity">
-                      <Sidebar.Item href="#">Managed Funds</Sidebar.Item>
+                      <Sidebar.Collapse
+                        href="#"
+                        label="Infrastructure Private Equity"
+                      >
+                        <Sidebar.Item href="#">Managed Funds</Sidebar.Item>
                       </Sidebar.Collapse>
                     </Sidebar.Collapse>
                     <Sidebar.Collapse icon={HiCollection} label="Team">

@@ -6,7 +6,7 @@
     justify-content: space-evenly;
     align-items: center;
     height: 100px;
-    z-index: 100;
+    z-index: 10;
     line-height: 50px;
   }
   .navbar a {
@@ -20,6 +20,7 @@
     line-height: 50px;
     padding-left: 10px;
     padding-right: 10px;
+    z-index: 10;
   }
   .subnav .subnavbtn {
     display: flex;
@@ -33,11 +34,13 @@
     margin: 0;
     padding-left: 10px;
     padding-right: 10px;
+    z-index: 10;
   }
   .navbar a:hover,
   .subnav:hover .subnavbtn {
     background-color: #eee;
     transition: background-color 600ms;
+    z-index: 10;
   }
   .subnavContent {
     display: none;
@@ -50,6 +53,7 @@
     color: #f9b03a;
     transform: translateY(-50%);
     transition: opacity 600ms, transform 600ms;
+    z-index: 10;
   }
   .subnavContent a {
     display: flex;

@@ -22,8 +22,8 @@ export function FooterComponent() {
             </Link>
             <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-400 sm:mb-0 dark:text-gray-400">
               <li>
-                <a href="/nosotros" className="hover:underline me-4 md:me-6">
-                  About Us
+                <a href="/who-we-are" className="hover:underline me-4 md:me-6">
+                  Who we are
                 </a>
               </li>
               <li>

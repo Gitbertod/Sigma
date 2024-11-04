@@ -11,7 +11,7 @@ const DataBoxIcons = () => {
           title={"EXPERIENCE"}
           text={
             <>
-              +18 Years of experience <br></br>in asset management
+              +19 Years of experience <br></br>in asset management
             </>
           }
           whiteLine={<div className={styles.whiteLine}></div>}

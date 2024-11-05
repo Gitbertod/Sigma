@@ -7,18 +7,19 @@ import { FaPeopleGroup,FaPeopleArrows,FaPeopleLine } from "react-icons/fa6";
 import { DrawerComponent } from "../drawer/DrawerComponent";
 
 
+
 const NavBar = () => {
-  const [isOpenSoluciones, setIsOpenSoluciones] = useState(false);
+  const [isOpenBusisnes, setisOpenBusisnes] = useState(false);
   const [isOpenSectores, setIsOpenSectores] = useState(false);
 
-  const handleSolucionesHover = () => {
-    setIsOpenSoluciones(true);
+  const handleAboutUsHover = () => {
+    setisOpenBusisnes(true);
   };
   const handleSectoresHover = () => {
     setIsOpenSectores(true);
   };
   const handleMouseLeave = () => {
-    setIsOpenSoluciones(false);
+    setisOpenBusisnes(false);
     setIsOpenSectores(false);
   };
 
@@ -37,16 +38,16 @@ const NavBar = () => {
         <div className={styles.subnav}>
             <button
               className={styles.subnavbtn}
-              onMouseEnter={handleSolucionesHover}
+              onMouseEnter={handleAboutUsHover}
               onMouseLeave={handleMouseLeave}
             >
-              <Link to="/soluciones"> About Us</Link>
+              <Link to="#"> About Us</Link>
             </button>
             <div
-              onMouseEnter={handleSolucionesHover}
+              onMouseEnter={handleAboutUsHover}
               onMouseLeave={handleMouseLeave}
               className={`${styles.subnavContent} ${
-                isOpenSoluciones ? styles.slidebottom : ""
+                isOpenBusisnes ? styles.slidebottom : ""
               }`}
             >
               <Link to="/who-we-are">
@@ -79,16 +80,16 @@ const NavBar = () => {
           <div className={styles.subnav}>
             <button
               className={styles.subnavbtn}
-              onMouseEnter={handleSolucionesHover}
+              onMouseEnter={handleAboutUsHover}
               onMouseLeave={handleMouseLeave}
             >
-              <Link to="/soluciones"> Busisness</Link>
+              <Link to="#"> Busisness</Link>
             </button>
             <div
-              onMouseEnter={handleSolucionesHover}
+              onMouseEnter={handleAboutUsHover}
               onMouseLeave={handleMouseLeave}
               className={`${styles.subnavContent} ${
-                isOpenSoluciones ? styles.slidebottom : ""
+                isOpenBusisnes ? styles.slidebottom : ""
               }`}
             >
               <Link to="/operating-lease">
@@ -96,6 +97,8 @@ const NavBar = () => {
                   <div className={styles.category}>
                     <FaFileContract className={styles.icon} />
                     Operating Lease
+
+                    
                   </div>
                   
                 </div>

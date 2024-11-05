@@ -1,4 +1,3 @@
-import React from 'react'
 import NavBar from "../../components/navbar/NavBar";
 import CardProfile from "../../components/card-profile/CardProfile";
 import styles from "./investmentCommitee.module.css";

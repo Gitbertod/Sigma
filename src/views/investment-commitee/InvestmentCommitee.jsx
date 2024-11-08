@@ -15,21 +15,25 @@ const InvestmentCommitee = () => {
               photo={"./craig-smith.jpg"}
               name={"Craig Carleton-Smith"}
               position={"Executive Chairman - CIO"}
+              link={"/investment-commitee/craig-carleton"}
             />
             <CardProfile
               photo={"./luis-felipe-mauger.jpg"}
               name={"Luiz Felipe Mauger"}
               position={"Director"}
+              link={"/investment-commitee/luiz-felipe-mauger"}
             />
             <CardProfile
               photo={"./manuel-salazar.jpg"}
               name={"Manuel Salazar"}
               position={"Managing Partner"}
+              link={"/investment-commitee/manuel-salazar"}
             />
             <CardProfile
               photo={"./katherine-reyes.jpg"}
               name={"Katherine Reyes"}
               position={"CEO"}
+              link={"/investment-commitee/katherine-reyes"}
             />
             <div className={styles.imagen}></div>
           </div>

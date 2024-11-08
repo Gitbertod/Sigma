@@ -1,10 +1,7 @@
-import React from "react";
 import { TimeLine } from "../../components/time-line/TimeLine";
 import styles from "./History.module.css";
 import NavBar from "../../components/navbar/NavBar";
-import { FaCalendarAlt } from "react-icons/fa";
-import { Footer } from "flowbite-react";
-import { FooterComponent } from "../../components/footer/FooterComponent";
+
 
 const History = () => {
   return (
@@ -17,7 +14,7 @@ const History = () => {
           <TimeLine></TimeLine>
         </div>
       </div>
-      <FooterComponent></FooterComponent>
+      
     </>
   );
 };

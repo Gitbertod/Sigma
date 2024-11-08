@@ -57,7 +57,6 @@ const Home = () => {
           <DataBoxIcons className="m-5"></DataBoxIcons>
         </div>
         <News />
-        <FooterComponent></FooterComponent>
       </div>
     </>
   );

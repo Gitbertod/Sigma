@@ -121,7 +121,7 @@ const NavBar = () => {
               onMouseEnter={handleSectoresHover}
               onMouseLeave={handleMouseLeave}
             >
-              <Link to="/sectores">Team</Link>
+              <Link to="#">Team</Link>
             </button>
             <div
               onMouseEnter={handleSectoresHover}

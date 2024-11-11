@@ -45,9 +45,14 @@ export function DrawerComponent() {
                 <Sidebar.Items>
                   <Sidebar.ItemGroup>
                     <Sidebar.Collapse icon={HiUsers} label="About Us">
-                      <Link to="/who-we-are">Who we are</Link><br></br>
-                      <Link to="/history">History</Link><br></br>
-                      <Link to="/institutional-pillars">Institutional Pillars</Link><br></br>
+                      <Link to="/who-we-are">Who we are</Link>
+                      <br></br>
+                      <Link to="/history">History</Link>
+                      <br></br>
+                      <Link to="/institutional-pillars">
+                        Institutional Pillars
+                      </Link>
+                      <br></br>
                     </Sidebar.Collapse>
 
                     <Sidebar.Collapse icon={HiShoppingBag} label="Busisness">
@@ -69,19 +74,25 @@ export function DrawerComponent() {
                       </Sidebar.Collapse>
                     </Sidebar.Collapse>
                     <Sidebar.Collapse icon={HiCollection} label="Team">
-                      <Sidebar.Item href="/who-we-are">Staff</Sidebar.Item>
-                      <Sidebar.Item href="/who-we-are">
-                        Investment Committee
-                      </Sidebar.Item>
-                      <Sidebar.Item href="/who-we-are">
-                        Board of Directors
-                      </Sidebar.Item>
+                      <Link to={"/staff"}>
+                        <Sidebar.Item href="/staff">Staff</Sidebar.Item>
+                      </Link>
+                      <Link to={"/investment-commitee"}>
+                        <Sidebar.Item href="/investment-commitee">
+                          Investment Committee
+                        </Sidebar.Item>
+                      </Link>
+                      <Link to={"/board-of-directors"}>
+                        <Sidebar.Item href="/board-of-directors">
+                          Board of Directors
+                        </Sidebar.Item>
+                      </Link>
                     </Sidebar.Collapse>
                     <Sidebar.Item icon={HiCollection}>
-                      <Link to="/voyant365">News and Insights</Link>
+                      <Link to="/news">News and Insights</Link>
                     </Sidebar.Item>
                     <Sidebar.Item icon={HiInformationCircle}>
-                      <Link to="/contacto">Contact Us</Link>
+                      <Link to="/contacto-us">Contact Us</Link>
                     </Sidebar.Item>
                   </Sidebar.ItemGroup>
                 </Sidebar.Items>

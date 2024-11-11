@@ -1,8 +1,6 @@
-import React from "react";
 import styles from "./Staff.module.css";
 import NavBar from "../../components/navbar/NavBar";
 import CardProfile from "../../components/card-profile/CardProfile";
-
 import AOS from "aos";
 import { useEffect } from "react";
 

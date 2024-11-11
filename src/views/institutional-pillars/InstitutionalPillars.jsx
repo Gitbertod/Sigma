@@ -1,10 +1,8 @@
-import React from "react";
 import styles from "./InstitutionalPillars.module.css";
 import { IoPeopleSharp } from "react-icons/io5";
 import { GrTechnology } from "react-icons/gr";
 import { FaSearchengin } from "react-icons/fa6";
 import NavBar from "../../components/navbar/NavBar";
-import { FooterComponent } from "../../components/footer/FooterComponent";
 
 import AOS from "aos";
 import { useEffect } from "react";

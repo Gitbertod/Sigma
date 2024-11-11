@@ -1,6 +1,5 @@
 "use client";
 
-import { Footer } from "flowbite-react";
 import { Link } from "react-router-dom";
 
 export function FooterComponent() {

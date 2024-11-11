@@ -1,8 +1,6 @@
-
 "use client";
 
 import { Footer } from "flowbite-react";
-import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 export function FooterComponent() {
@@ -22,18 +20,18 @@ export function FooterComponent() {
             </Link>
             <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-400 sm:mb-0 dark:text-gray-400">
               <li>
-                <a href="/who-we-are" className="hover:underline me-4 md:me-6">
-                  Who we are
+                <a href="/staff" className="hover:underline me-4 md:me-6">
+                Staff
                 </a>
               </li>
               <li>
-                <a href="/soluciones" className="hover:underline me-4 md:me-6">
-                  Busisness
+                <a href="/investment-commitee" className="hover:underline me-4 md:me-6">
+                Investment Commitee
                 </a>
               </li>
               <li>
-                <a href="/sectores" className="hover:underline me-4 md:me-6">
-                  Team
+                <a href="/board-of-directors" className="hover:underline me-4 md:me-6">
+                  Board of directors
                 </a>
               </li>
               <li>

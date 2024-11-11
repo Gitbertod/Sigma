@@ -1,9 +1,15 @@
-import React from "react";
 import CardProfile from "../../components/card-profile/CardProfile";
 import NavBar from "../../components/navbar/NavBar";
 import styles from "./BoardOfDirectors.module.css";
+import AOS from "aos";
+import { useEffect } from "react";
 
 const BoardOfDirectors = () => {
+  useEffect(() => {
+    AOS.init();
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <>
       <NavBar />

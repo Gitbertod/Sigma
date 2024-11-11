@@ -1,8 +1,16 @@
 import NavBar from "../../components/navbar/NavBar";
 import CardProfile from "../../components/card-profile/CardProfile";
 import styles from "./InvestmentCommitee.module.css";
+import AOS from "aos";
+import { useEffect } from "react";
 
 const InvestmentCommitee = () => {
+  
+  useEffect(() => {
+    AOS.init();
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <>
     

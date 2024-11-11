@@ -6,8 +6,16 @@ import { FaSearchengin } from "react-icons/fa6";
 import NavBar from "../../components/navbar/NavBar";
 import { FooterComponent } from "../../components/footer/FooterComponent";
 
+import AOS from "aos";
+import { useEffect } from "react";
+
 
 const InstitutionalPillars = () => {
+  useEffect(() => {
+    AOS.init();
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <>
       <NavBar></NavBar>
@@ -66,7 +74,6 @@ const InstitutionalPillars = () => {
           </div>
         </div>
       </div>
-      <FooterComponent/>
     </>
   );
 };

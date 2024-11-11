@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import NavBar from "../../components/navbar/NavBar";
 
 const News = () => {
   return (
-    <div>News</div>
-  )
-}
+    <>
+      <NavBar/>
+      
+    </>
+  );
+};
 
-export default News
+export default News;

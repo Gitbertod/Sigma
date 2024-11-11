@@ -1,12 +1,16 @@
   .container{ 
     display: grid;
     grid-template-rows: auto 1fr auto;
+    background: radial-gradient(circle, #801d1d 10%, transparent 11%);
+        background-size: 3em 3em;
+        background-color: #730000;
+        opacity: 1
   }
   
   .contactoTitulo{
     display: flex;
     justify-content: center;
-    color:rgb(124, 0, 48) ;
+    color:rgb(255, 255, 255) ;
     font-size: 50px;
     margin: 20px;
   }
@@ -37,7 +41,7 @@
   .contactoSubtitulo{
     display: flex;
     justify-content: center;
-    color:rgb(102, 41, 41);
+    color:rgb(255, 255, 255);
     font-size: large;
     margin-bottom: 20px;
     text-align: center;

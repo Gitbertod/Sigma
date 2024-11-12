@@ -21,6 +21,10 @@ import IrzioPinasco from "./views/board-of-directors/IrzioPinasco";
 import GonzaloDeLasCasas from "./views/board-of-directors/GonzaloDeLasCasas";
 import MartinPerez from "./views/board-of-directors/MartinPerez";
 import AnaMariaBitar from "./views/board-of-directors/AnaMariaBitar";
+import ManagedFunds from "./views/managed-funds/ManagedFunds";
+import ProductsDescriptions from "./views/product-descriptions/ProductsDescriptions";
+import Advantages from "./views/advantages/Advantages";
+import InfrastructurePrivateEquityMF from "./views/infrastructure-private-equity-managed-funds/InfrastructurePrivateEquityMF";
  
 
 function App() {
@@ -49,6 +53,10 @@ function App() {
         <Route path="/board-of-directors/martin-perez" element={<MartinPerez />}></Route>
         <Route path="/board-of-directors/ana-maria-bitar" element={<AnaMariaBitar />}></Route>
         <Route path="/news" element={<News />}></Route>
+        <Route path="/managed-funds" element={<ManagedFunds />}></Route>
+        <Route path="/product-description" element={<ProductsDescriptions />}></Route>
+        <Route path="/advantages" element={<Advantages />}></Route>
+        <Route path="/infrastructure-private-equity/managed-funds" element={<InfrastructurePrivateEquityMF />}></Route>
         <Route path="/contact-us" element={<ContactView />}></Route>
       </Routes>
       <FooterComponent></FooterComponent>

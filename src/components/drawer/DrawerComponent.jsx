@@ -60,17 +60,23 @@ export function DrawerComponent() {
                         href="/who-we-are"
                         label="Operating Lease"
                       >
-                        <Sidebar.Item href="#">Managed Funds</Sidebar.Item>
-                        <Sidebar.Item href="#">
-                          Product Description
-                        </Sidebar.Item>
-                        <Sidebar.Item href="#">Advantages</Sidebar.Item>
+                        <Link to={"/managed-funds"}>
+                          <Sidebar.Item>Managed Funds</Sidebar.Item>
+                        </Link>
+                        <Link to={"/product-description"}>
+                          <Sidebar.Item>Product Description</Sidebar.Item>
+                        </Link>
+                        <Link to="/advantages">
+                          <Sidebar.Item>Advantages</Sidebar.Item>
+                        </Link>
                       </Sidebar.Collapse>
                       <Sidebar.Collapse
                         href="#"
                         label="Infrastructure Private Equity"
                       >
-                        <Sidebar.Item href="#">Managed Funds</Sidebar.Item>
+                        <Link to="/infrastructure-private-equity/managed-funds">
+                          <Sidebar.Item>Managed Funds</Sidebar.Item>
+                        </Link>
                       </Sidebar.Collapse>
                     </Sidebar.Collapse>
                     <Sidebar.Collapse icon={HiCollection} label="Team">

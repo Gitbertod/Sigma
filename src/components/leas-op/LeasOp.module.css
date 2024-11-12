@@ -1,0 +1,18 @@
+.leasContainer {
+  font-style: normal;
+  max-width: 20rem;
+  margin: 20px;
+  background-color: rgba(146, 19, 69, 0.5);;
+  padding: 20px;
+  border-radius: 20px;
+  
+}
+
+.lista {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+h3{
+    font-size: xx-large;
+    opacity: 1;
+}

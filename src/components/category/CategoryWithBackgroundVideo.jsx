@@ -52,18 +52,18 @@ const CategoryWithBackgroundVideo = ({
           ></video>
         )}
       </div>
-      {childComponent}
       <div className={styles.mainContainer}>
         {/* <img
           src={logosBgSrc}
           className={styles.logosVoyant}
           alt="Logos Background"
-        /> */}
+          /> */}
         <div className={styles.container}>
           <h1>{title}</h1>
           <div className={styles.yellowLine}></div>
           <p className={styles.textInfo}>{text}</p>
           {/* <BoxDataPercentage></BoxDataPercentage> */}
+          {childComponent}
         </div>
       </div>
     </>

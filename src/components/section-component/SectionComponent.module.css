@@ -1,6 +1,6 @@
 .container{
     display: flex;
-    background-image: url("/Recurso 7.svg"); 
+    background-image: url("/backgroundLogoSigma.jpg"); 
     background-color: white;
     position: relative; /* Para que los elementos posicionados absolutamente sean relativos a este contenedor */
     overflow: hidden;
@@ -9,14 +9,14 @@
     min-height: 105vh;  
     height: auto;
     z-index: -1;
-    color:white;
+    color:rgb(123, 4, 4);
 }
 
 .container h5{
     font-size: 70px;
     font-weight: 500;
     text-align: left;
-    color: white;
+    color: rgb(123, 4, 4);
 }
 .containerInfo{
     display: flex;

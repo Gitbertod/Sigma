@@ -29,12 +29,12 @@ const BoardOfDirectors = () => {
               position={"Director"}
               link={"/board-of-directors/luiz-felipe-mauger"}
             />
-            <CardProfile
-              photo={"./irzio-pinasco.jpg"}
-              name={"Irzio Pinasco"}
-              position={"Director"}
-              link={"/board-of-directors/irzio-pinasco"}
-            />
+              <CardProfile
+                photo={"./ana-maria-bitar.jpg"}
+                name={"Ana María Bitar"}
+                position={"Independent Director"}
+                link={"/board-of-directors/ana-maria-bitar"}
+              />
             <CardProfile
               photo={"./gonzalo-de-las-casas.jpg"}
               name={"Gonzalo De Las Casas"}
@@ -42,16 +42,16 @@ const BoardOfDirectors = () => {
               link={"/board-of-directors/gonzalo-de-las-casas"}
             />
             <CardProfile
+              photo={"./irzio-pinasco.jpg"}
+              name={"Irzio Pinasco"}
+              position={"Director"}
+              link={"/board-of-directors/irzio-pinasco"}
+            />
+            <CardProfile
               photo={"./martin-perez.jpg"}
               name={"Martín Pérez"}
               position={"Alternate Director"}
               link={"/board-of-directors/martin-perez"}
-            />
-            <CardProfile
-              photo={"./ana-maria-bitar.jpg"}
-              name={"Ana María Bitar"}
-              position={"Independent Director"}
-              link={"/board-of-directors/ana-maria-bitar"}
             />
             <div className={styles.imagen}></div>
           </div>

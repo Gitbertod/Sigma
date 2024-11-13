@@ -25,6 +25,7 @@ import ManagedFunds from "./views/managed-funds/ManagedFunds";
 import ProductsDescriptions from "./views/product-descriptions/ProductsDescriptions";
 import Advantages from "./views/advantages/Advantages";
 import InfrastructurePrivateEquityMF from "./views/infrastructure-private-equity-managed-funds/InfrastructurePrivateEquityMF";
+import OperatingLease from "./views/operating-lease/OperatingLease";
  
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
         <Route path="/investment-commitee/luiz-felipe-mauger" element={<LuizFelipeMauger />}></Route>
         <Route path="/investment-commitee/manuel-salazar" element={<ManuelSalazar />}></Route>
         <Route path="/investment-commitee/katherine-reyes" element={<KatherineReyes />}></Route>
+        <Route path="/operating-lease" element={<OperatingLease />}></Route>
         <Route path="/board-of-directors" element={<BoardOfDirectors />}></Route>
         <Route path="/board-of-directors/craig-carleton" element={<CraigCarletonSmith />}></Route>
         <Route path="/board-of-directors/luiz-felipe-mauger" element={<LuizFelipeMauger />}></Route>

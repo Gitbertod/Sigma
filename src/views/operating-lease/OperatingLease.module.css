@@ -1,0 +1,10 @@
+.containerCategories{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.icon {
+    width: 70px;
+    height: 70px;
+}

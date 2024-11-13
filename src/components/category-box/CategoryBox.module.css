@@ -1,0 +1,19 @@
+.boxCategory{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    color: white;
+}
+
+/*RESPONSIVE*/
+@media(max-width:640px){
+    .boxCategory{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 25px;
+    }
+}

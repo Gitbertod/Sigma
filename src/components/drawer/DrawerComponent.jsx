@@ -94,9 +94,11 @@ export function DrawerComponent() {
                         </Sidebar.Item>
                       </Link>
                     </Sidebar.Collapse>
-                    <Sidebar.Item icon={HiCollection}>
-                      <Link to="/news">News and Insights</Link>
-                    </Sidebar.Item>
+                    <Link to={"/news"}>
+                      <Sidebar.Item icon={HiCollection} href="/news">
+                        News and Insights
+                      </Sidebar.Item>
+                    </Link>
                     <Sidebar.Item icon={HiInformationCircle}>
                       <Link to="/contacto-us">Contact Us</Link>
                     </Sidebar.Item>

@@ -3,7 +3,7 @@ import styles from "./CardProfile.module.css";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
-const CardProfile = ({ name, position, photo, likedin,link }) => {
+const CardProfile = ({ name, position, photo, linkedin, link }) => {
   return (
     <div className={styles.card} data-aos="fade-up" data-aos-duration="2000">
       <Link to={link}>
@@ -14,9 +14,9 @@ const CardProfile = ({ name, position, photo, likedin,link }) => {
           {position}
         </p>
       </Link>
-      <Link to={"#"}>
+      <a href={linkedin}>
         <FaLinkedinIn className={styles.icon} />
-      </Link>
+      </a>
     </div>
   );
 };

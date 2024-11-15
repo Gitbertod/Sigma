@@ -24,24 +24,28 @@ const InvestmentCommitee = () => {
               name={"Craig Carleton-Smith"}
               position={"Executive Chairman - CIO"}
               link={"/investment-commitee/craig-carleton"}
+              linkedin={"https://www.linkedin.com/in/craig-carleton-smith-56a3236/"}
             />
             <CardProfile
               photo={"./luis-felipe-mauger.jpg"}
               name={"Luiz Felipe Mauger"}
               position={"Director"}
               link={"/investment-commitee/luiz-felipe-mauger"}
+              linkedin={"https://www.linkedin.com/in/lfm-luizfelipemauger/"}
             />
             <CardProfile
               photo={"./manuel-salazar.jpg"}
               name={"Manuel Salazar"}
               position={"Managing Partner"}
               link={"/investment-commitee/manuel-salazar"}
+              linkedin={"https://www.linkedin.com/in/manuel-salazar-maurer/"}
             />
             <CardProfile
               photo={"./katherine-reyes.jpg"}
               name={"Katherine Reyes"}
               position={"CEO"}
               link={"/investment-commitee/katherine-reyes"}
+              linkedin={"https://www.linkedin.com/in/katherine-reyes-warthon-a480612/"}
             />
             <div className={styles.imagen}></div>
           </div>

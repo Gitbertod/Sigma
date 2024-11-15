@@ -104,7 +104,7 @@ const NavBar = () => {
                 </div>
               </Link>
 
-              <Link to="/soluciones/climatizacion">
+              <Link to="/infrastructure-private-equity/managed-funds">
                 <div className={styles.slidebottom}>
                   <div className={styles.category}>
                     <FaChartLine className={styles.icon} />

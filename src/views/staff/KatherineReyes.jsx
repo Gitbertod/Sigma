@@ -15,6 +15,7 @@ const KatherineReyes = () => {
   return (
     <>
       <NavBar />
+      
       <SectionComponent
         title="Katherine Reyes Warthon"
         text={

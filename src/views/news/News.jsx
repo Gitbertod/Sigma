@@ -23,19 +23,19 @@ const News = () => {
               title={
                 "Insightful Discussions on Legal Frameworks, Pandemic Impact, and Leasing Market Trends"
               }
-              photo={"./public/xv_latam_leasing.jpg"}
+              photo={"./news/xv_latam_leasing.jpg"}
             />
           </div>
           <div data-aos="fade-up" data-aos-duration="2000">
             <CardComponent
               title={"Luz del Sur formally receives Tres Hermanas and Marcona"}
-              photo={"./public/mario_firmando_v2.jpg"}
+              photo={"./news/Mario_Firmando_v2.jpg"}
             />
           </div>
           <div data-aos="fade-up" data-aos-duration="2000">
             <CardComponent
               title={"Cavali Negotiable Invoices and Factoring 2024"}
-              photo={"./public/news1.jpeg"}
+              photo={"./news/news1.jpeg"}
             />
           </div>
           <div data-aos="fade-up" data-aos-duration="2000">

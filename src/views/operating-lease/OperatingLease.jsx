@@ -6,30 +6,33 @@ import styles from "./OperatingLease.module.css";
 import { HiOutlineDocumentSearch } from "react-icons/hi";
 import { GiPodiumWinner } from "react-icons/gi";
 import CategoryBox from "../../components/category-box/CategoryBox";
-import video_bg from "../../assets/oleoducto.mov"
+import video_bg from "../../assets/oleoducto.mov";
+import { useTranslation } from "react-i18next";
 
 const OperatingLease = () => {
+  const { t } = useTranslation();
+
   return (
     <>
-      <NavBar></NavBar>
+      <NavBar />
       <CategoryWithBackgroundVideo
         videoSrc={video_bg}
-        title={"Operating Lease"}
+        title={t("OperatingLease.OperatingLeaseTitle")}
         childComponent={
           <div className={styles.containerCategories}>
             <CategoryBox
-              icon={<GiMoneyStack className={styles.icon}></GiMoneyStack>}
-              title={"Managed Funds"}
+              icon={<GiMoneyStack className={styles.icon} />}
+              title={t("OperatingLease.OperatingLeaseManagedFunds")}
               link="/managed-funds"
             />
             <CategoryBox
               icon={<HiOutlineDocumentSearch className={styles.icon} />}
-              title={"Product Description"}
+              title={t("OperatingLease.OperatingLeaseProductDescription")}
               link="/product-description"
             />
             <CategoryBox
               icon={<GiPodiumWinner className={styles.icon} />}
-              title={"Advantages"}
+              title={t("OperatingLease.OperatingLeaseAdvantages")}
               link="/advantages"
             />
           </div>
@@ -40,3 +43,6 @@ const OperatingLease = () => {
 };
 
 export default OperatingLease;
+
+
+

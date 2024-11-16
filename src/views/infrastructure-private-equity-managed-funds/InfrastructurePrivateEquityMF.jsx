@@ -3,34 +3,31 @@ import NavBar from "../../components/navbar/NavBar";
 import CategoryWithBackgroundVideo from "../../components/category/CategoryWithBackgroundVideo";
 import styles from "./InfrastructurePrivateEquityMF.module.css";
 import video_bg from "../../assets/eolico.mov";
+import { useTranslation } from "react-i18next";
 
 const InfrastructurePrivateEquityMF = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <NavBar />
       <CategoryWithBackgroundVideo
         videoSrc={video_bg}
-        title={"Managed Funds"}
+        title={t("InfrastructurePrivateEquityMF.ManagedFundsTitle")}
         text={
           <>
             <h2 className={styles.subtitle}>
-              Infrastructure Private Equity Fund
+              {t("InfrastructurePrivateEquityMF.InfrastructurePrivateEquityFundTitle")}
             </h2>
             <ul>
               <li className={styles.lista}>
-                Launched in 2012, the $500 million private equity fund secured
-                $250 million in committed capital after two successful
-                fundraising rounds.
+                {t("InfrastructurePrivateEquityMF.FundLaunchDetails")}
               </li>
               <li className={styles.lista}>
-                Investors include the three main Peruvian Pension Funds and two
-                other renowned institutional investors.
+                {t("InfrastructurePrivateEquityMF.InvestorDetails")}
               </li>
               <li className={styles.lista}>
-                Dedicated to investing in greenfield infrastructure projects
-                encompassing power generation, transmission, transportation,
-                ports, etc. Sigma collaborates with key global sponsors to
-                develop impactful projects in Peru.
+                {t("InfrastructurePrivateEquityMF.InvestmentFocus")}
               </li>
             </ul>
           </>

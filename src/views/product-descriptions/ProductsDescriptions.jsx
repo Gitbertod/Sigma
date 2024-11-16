@@ -3,43 +3,38 @@ import NavBar from "../../components/navbar/NavBar";
 import CategoryWithBackgroundVideo from "../../components/category/CategoryWithBackgroundVideo";
 import styles from "./ProductsDescriptions.module.css";
 import video_bg from "../../assets/productDescription.mov";
+import { useTranslation } from "react-i18next";
 
 const ProductsDescriptions = () => {
+  const { t } = useTranslation();
+
   return (
     <>
-      <NavBar></NavBar>
+      <NavBar />
       <CategoryWithBackgroundVideo
-      videoSrc={video_bg}
-        title={"Product description"}
+        videoSrc={video_bg}
+        title={t("ProductDescription.ProductDescriptionTitle")}
         text={
           <>
-            Operating Lease is a rental agreement facilitating the use of an
-            asset for a predetermined term, mutually agreed upon by the lessor
-            and the customer. Key features include:
+            {t("ProductDescription.ProductDescriptionText")}
             <ul className={styles.lista}>
               <li>
-                <strong>Lease/Renewable Contract:</strong> It operates as a lease rather than a
-                credit arrangement.
-              </li><br></br>
+                <strong>{t("ProductDescription.LeaseRenewableContract")}</strong> {t("ProductDescription.LeaseRenewableContractDesc")}
+              </li><br />
               <li>
-                <strong>Quota Based on Asset Productive Value (50% - 80%):</strong> The
-                installment is determined by the productive value of the asset.
-              </li><br></br>
+                <strong>{t("ProductDescription.QuotaBasedOnValue")}</strong> {t("ProductDescription.QuotaBasedOnValueDesc")}
+              </li><br />
               <li>
-                <strong>Specialized Maintenance:</strong> Direct (dealer) and web indirect
-                (dealer certified) maintenance services are provided.
-              </li><br></br>
+                <strong>{t("ProductDescription.SpecializedMaintenance")}</strong> {t("ProductDescription.SpecializedMaintenanceDesc")}
+              </li><br />
               <li>
-                <strong>Support for Project Development and Growth Plans:</strong> An excellent
-                alternative to bolster projects and growth initiatives.
-              </li><br></br>
+                <strong>{t("ProductDescription.SupportForProjects")}</strong> {t("ProductDescription.SupportForProjectsDesc")}
+              </li><br />
               <li>
-                <strong>Customized Structures:</strong> Tailored solutions for the development of
-                company-specific structures.
-              </li><br></br>
+                <strong>{t("ProductDescription.CustomizedStructures")}</strong> {t("ProductDescription.CustomizedStructuresDesc")}
+              </li><br />
               <li>
-                <strong>Contractual Simplicity:</strong> Emphasizes simplicity in the contractual
-                framework.
+                <strong>{t("ProductDescription.ContractualSimplicity")}</strong> {t("ProductDescription.ContractualSimplicityDesc")}
               </li>
             </ul>
           </>
@@ -50,3 +45,4 @@ const ProductsDescriptions = () => {
 };
 
 export default ProductsDescriptions;
+

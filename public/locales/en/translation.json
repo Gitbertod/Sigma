@@ -23,51 +23,121 @@
     "topPosition": "#1",
     "topPositionText": "Operating Lease Investment Fund Manager in the market"
   },
-  "WhoWeAreTitle":"Who we are",
-  "WhoWeAreText":"Sigma is a dedicated investment fund management company specializing in both public and private Investment Funds. Our focus extends to financial products such as operating lease and private equity investments, particularly in companies dedicated to infrastructure development. With a robust track record, Sigma Safi S.A. has firmly established itself as a leading Investment Fund Manager in Peru, earning the trust of institutional investors and key companies alike.Since our inception in 2006, Sigma has successfully garnered US$950 million in investment commitments across six managed investment funds over the past 18 years. Notably, five of these funds have been allocated to operating lease, with a cumulative investment exceeding US$1,400 million in fixed assets.",
-  "WhoWeAreSectionText":"Among them, LeasOp I, the inaugural Operating Lease fund, stands out as a public fund with the participation of the country's three main Pension Funds. In subsequent years, we expanded our portfolio with the launch of LeasOp VI in April 2017. Additionally, in July 2019, LeasOp V was introduced, drawing investment from prominent entities in the banking and insurance sector.Sigma takes pride in successfully concluding the management of two private operating lease funds, LeasOp II (2016) and LeasOp III (2013), both of which saw the full repayment of invested capital and respective yields.In the realm of Private Equity, our Infrastructure Private Equity Fund strategically invests in companies and projects associated with infrastructure development, spanning transportation, treatment plants, energy generation and transmission, and alternative energy sources.",
+  "WhoWeAreTitle": "Who we are",
+  "WhoWeAreText": "Sigma is a dedicated investment fund management company specializing in both public and private Investment Funds. Our focus extends to financial products such as operating lease and private equity investments, particularly in companies dedicated to infrastructure development. With a robust track record, Sigma Safi S.A. has firmly established itself as a leading Investment Fund Manager in Peru, earning the trust of institutional investors and key companies alike.Since our inception in 2006, Sigma has successfully garnered US$950 million in investment commitments across six managed investment funds over the past 18 years. Notably, five of these funds have been allocated to operating lease, with a cumulative investment exceeding US$1,400 million in fixed assets.",
+  "WhoWeAreSectionText": "Among them, LeasOp I, the inaugural Operating Lease fund, stands out as a public fund with the participation of the country's three main Pension Funds. In subsequent years, we expanded our portfolio with the launch of LeasOp VI in April 2017. Additionally, in July 2019, LeasOp V was introduced, drawing investment from prominent entities in the banking and insurance sector.Sigma takes pride in successfully concluding the management of two private operating lease funds, LeasOp II (2016) and LeasOp III (2013), both of which saw the full repayment of invested capital and respective yields.In the realm of Private Equity, our Infrastructure Private Equity Fund strategically invests in companies and projects associated with infrastructure development, spanning transportation, treatment plants, energy generation and transmission, and alternative energy sources.",
   "HistoryTitle": "History",
   "Timeline": {
     "2005AugustDate": "2005 August",
     "2005AugustTitle": "2005 August",
     "2005AugustDescription": "Sigma achieves a significant milestone by obtaining operating authorization from the SMV, laying the foundation for its future endeavors in the financial realm.",
-    
     "2006JuneDate": "2006 June",
     "2006JuneTitle": "2006 June",
     "2006JuneDescription": "Embarking on its operational journey, Sigma introduces the LeasOp I fund, capturing attention with a substantial $16 million in subscribed equity.",
-    
     "2008JulyDate": "2008 July",
     "2008JulyTitle": "2008 July",
     "2008JulyDescription": "Demonstrating strategic collaboration, Sigma launches the LeasOp III fund, boasting an impressive authorized capital of $100 million.",
-    
     "2009MarchDate": "2009 March",
     "2009MarchTitle": "2009 March",
     "2009MarchDescription": "Sigma diversifies its investment portfolio with the initiation of the LeasOp II fund with an outstanding authorized capital of $100 million.",
-    
     "2010OctoberDate": "2010 October",
     "2010OctoberTitle": "2010 October",
     "2010OctoberDescription": "Responding to dynamic market needs, the SMV approves a capital increase in the LeasOp I fund, allowing for expansion up to $200 million, while extending the term until December 31, 2020.",
-    
     "2012AprilDate": "2012 April",
     "2012AprilTitle": "2012 April",
     "2012AprilDescription": "Sigma expands its footprint with the introduction of the Sigma FI Private Equity fund for Infrastructure Projects. This fund sets an ambitious fundraising target of up to $500 million, with an initial commitment of $86 million.",
-    
     "2013DecemberDate": "2013 December",
     "2013DecemberTitle": "2013 December",
     "2013DecemberDescription": "Continuing its trend of financial success, Sigma achieves a milestone with the successful repayment of the LeasOp III fund to its investors.",
-    
     "2014NovemberDate": "2014 November",
     "2014NovemberTitle": "2014 November",
     "2014NovemberDescription": "The Sigma FI fund experiences substantial growth, increasing its committed capital to an impressive $249 million.",
-    
     "2017MarchDate": "2017 March",
     "2017MarchTitle": "2017 March",
     "2017MarchDescription": "Expanding its operational portfolio, Sigma launches the LeasOp VI fund with an authorized capital of $100 million.",
-    
     "2019JulyDate": "2019 July",
     "2019JulyTitle": "2019 July",
     "2019JulyDescription": "Expanding its operational portfolio, Sigma launches the LeasOp VI fund with an authorized capital of $100 million."
   },
+  "InstitutionalPillars": {
+    "InstitutionalPillarsTitle": "Institutional Pillars",
+    "InstitutionalPillarsTeamTitle": "Team / Board of Directors",
+    "InstitutionalPillarsTeamDescription": "Top-notch professionals with deep knowledge in Operating Lease, close relationships with suppliers, as well as an extensive potential customer network. Sigma's board members have extensive experience in banking and capital markets.",
+    "InstitutionalPillarsTechnologyTitle": "Technology and Process",
+    "InstitutionalPillarsTechnologyDescription": "In-house proprietary software that supports every core workflow process, from structuring, approvals, and administration of our contracts, as well as collection processes and accounting procedures. Access to various sources of information for client evaluation and pre-screening: World-check, Sentinel (Central credit register).",
+    "InstitutionalPillarsRiskTitle": "Risk Management",
+    "InstitutionalPillarsRiskDescription": "Main focus: client, assets, and place of operation. Strong emphasis on the Know Your Customer (KYC) methodology. Experience with tailor-made structures including additional guarantees/collaterals. For example: Cross-defaults, warranties, trust guarantees, cash collaterals, among others."
+  },
+  "OperatingLease": {
+    "OperatingLeaseTitle": "Operating Lease",
+    "OperatingLeaseManagedFunds": "Managed Funds",
+    "OperatingLeaseProductDescription": "Product Description",
+    "OperatingLeaseAdvantages": "Advantages"
+  },
+  "ManagedFunds": {
+    "ManagedFundsTitle": "Managed Funds",
+    "ManagedFundsText": "Sigma currently manages 4 investment funds, having had capital commitments of over US$800 million in the last 8 years for Operating Lease and Private Equity funds.",
+    "LeasOpI": "LeasOp I",
+    "LeasOpIDescription1": "Operating Lease fund with $250 million in operations spanning diverse sectors like construction, mining, infrastructure, manufacturing, logistics, transportation, and fishing.",
+    "LeasOpIDescription2": "Commenced operations in 2006, achieving tenfold growth from the initial commitment.",
+    "LeasOpIDescription3": "Listed on the Lima Stock Exchange, with Peruvian pension funds (AFP's) as key investors.",
+    "LeasOpIDescription4": "APOYO, backed by Fitch ratings, bestowed LeasOp I with an A rating.",
+    "LeasOpII": "LeasOp II",
+    "LeasOpIIDescription1": "Operating Lease Fund launched in 2009.",
+    "LeasOpIIDescription2": "Initial authorized capital of $100 million, exclusively dedicated to the corporate sector.",
+    "LeasOpIIDescription3": "In 2017 Sigma upholds its commitment to investor satisfaction with the triumphant repayment of the fund.",
+    "LeasOpIII": "LeasOp III",
+    "LeasOpIIIDescription1": "July 2008 launch: Operating Lease Fund.",
+    "LeasOpIIIDescription2": "Initial commitment of $100 million; this fund has been successfully repaid.",
+    "LeasOpIIIDescription3": "In 2013 continuing its trend of financial success, Sigma achieves a milestone with the successful repayment of the LeasOp III fund.",
+    "LeasOpV": "LeasOp V",
+    "LeasOpVDescription1": "July 2019 launch: Operating Lease Fund.",
+    "LeasOpVDescription2": "Total authorized capital of $200 million; estimated repayment completion by 2025, maintaining a PCR rating of AAf since inception.",
+    "LeasOpVI": "LeasOp VI",
+    "LeasOpVIDescription1": "July 2008 launch: Operating Lease Fund.",
+    "LeasOpVIDescription2": "Initial commitment of $100 million; this fund has been successfully repaid.",
+    "LeasOpVIDescription3": "In 2013 continuing its trend of financial success, Sigma achieves a milestone with the successful repayment of the LeasOp III fund."
+  },
+  "ProductDescription": {
+    "ProductDescriptionTitle": "Product Description",
+    "ProductDescriptionText": "Operating Lease is a rental agreement facilitating the use of an asset for a predetermined term, mutually agreed upon by the lessor and the customer. Key features include:",
+    "LeaseRenewableContract": "Lease/Renewable Contract",
+    "LeaseRenewableContractDesc": "It operates as a lease rather than a credit arrangement.",
+    "QuotaBasedOnValue": "Quota Based on Asset Productive Value (50% - 80%)",
+    "QuotaBasedOnValueDesc": "The installment is determined by the productive value of the asset.",
+    "SpecializedMaintenance": "Specialized Maintenance",
+    "SpecializedMaintenanceDesc": "Direct (dealer) and web indirect (dealer certified) maintenance services are provided.",
+    "SupportForProjects": "Support for Project Development and Growth Plans",
+    "SupportForProjectsDesc": "An excellent alternative to bolster projects and growth initiatives.",
+    "CustomizedStructures": "Customized Structures",
+    "CustomizedStructuresDesc": "Tailored solutions for the development of company-specific structures.",
+    "ContractualSimplicity": "Contractual Simplicity",
+    "ContractualSimplicityDesc": "Emphasizes simplicity in the contractual framework."
+  },
+  "InfrastructurePrivateEquityMF": {
+    "ManagedFundsTitle": "Managed Funds",
+    "InfrastructurePrivateEquityFundTitle": "Infrastructure Private Equity Fund",
+    "FundLaunchDetails": "Launched in 2012, the $500 million private equity fund secured $250 million in committed capital after two successful fundraising rounds.",
+    "InvestorDetails": "Investors include the three main Peruvian Pension Funds and two other renowned institutional investors.",
+    "InvestmentFocus": "Dedicated to investing in greenfield infrastructure projects encompassing power generation, transmission, transportation, ports, etc. Sigma collaborates with key global sponsors to develop impactful projects in Peru."
+  },
+  "KatherineReyes": {
+    "KatherineReyesTitle": "Katherine Reyes Warthon",
+    "KatherineReyesText": "An executive boasting over 23 years of experience in the Financial Sector, Katherine held the pivotal role of Manager at the Risk Division of Wholesale Banking at Banco Financiero del Peru (Now Banco Pichincha). Here, her responsibilities included the management and evaluation of the client portfolio. Prior to this, she served as the Deputy Manager of Corporate Banking at HSBC Bank Peru and as Deputy Assistant Manager of Senior Corporate Banking at the Banco de Credito del Peru. She holds a license in Industrial Engineering from the Pontificia Universidad Católica del Perú and an MBA specialized in Corporate Finance from IE Business School in Madrid, Spain."
+  },
+  "KarenAmes": {
+    "KarenAmesTitle": "Karen Ames",
+    "KarenAmesText": "An executive with more than 15 years of experience in the Financial Sector, Karen currently serves as Vice President of Legal Affairs & Compliance at Sigma SAFI. Throughout her professional journey, she has garnered expertise in Corporate Law, Insurance, Finance, and Capital Markets. Karen's legal career includes positions in the Counseling and Contracts Area of the Legal Division at Rímac Internacional Cía. de Seguros y Reaseguros S.A. She is a graduate of the Universidad Peruana de Ciencias Aplicadas, holding a Master's Degree in Law (LLM) from Northwestern University, along with certifications in management from IE University and Yale University."
+  },
+  "GuillermoTeramura":{
+    "GuillermoTeramuraTitle": "Guillermo Teramura Miyashiro",
+    "GuillermoTeramuraText": "With over 15 years of experience in the financial sector, Guillermo has demonstrated proficiency in strategic planning, commercial operations, product development, and project management. His career includes roles such as Head of Planning for the Personal Banking division of HSBC Peru, Commercial Director at Hermes Transportes Blindados, and Foreign Trade Product Specialist and Project Coordinator at Scotiabank Peru. Guillermo holds a Bachelor's degree in Industrial Engineering from Universidad de Lima and an MBA from Hult International Business School in Boston, USA."
+  },
+  "ArturoPalomares":{
+    "ArturoPalomaresTitle": "Arturo Palomares",
+    "ArturoPalomaresText": "An executive with over 20 years of experience in the Peruvian Financial System and Capital Markets, Arturo has held key positions, including Deputy Manager of the Risk Division of Banco Sudamericano and Senior Credit Officer of Risk Management at BankBoston Peru. His responsibilities involved developing, managing, and controlling the Risk Policy for ABF products, such as Leasing, Discounts, Factoring, Warrants, and Mortgage Loans for the Corporate Banking and Business Banking Segments. Arturo has previous experience in Administration and Credit Control, where he was in charge of evaluating and classifying the Loan Portfolio and the sufficiency of provisions. He is a Certified Public Accountant graduated from Universidad de Lima and holds a Master's in Finance from Universidad del Pacífico."
+  }
+  ,
   
   "footer": {
     "Staff": "Staff",

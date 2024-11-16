@@ -41,11 +41,11 @@ function App() {
         <Route path="/staff/katherine-reyes" element={<KatherineReyes />}></Route>
         <Route path="/staff/guillermo-teramura" element={<GuillermoTeramura />}></Route>
         <Route path="/staff/arturo-palomares" element={<ArturoPalomares />}></Route>
-        <Route path="/investment-commitee" element={<InvestmentCommitee />}></Route>
-        <Route path="/investment-commitee/craig-carleton" element={<CraigCarletonSmith />}></Route>
-        <Route path="/investment-commitee/luiz-felipe-mauger" element={<LuizFelipeMauger />}></Route>
-        <Route path="/investment-commitee/manuel-salazar" element={<ManuelSalazar />}></Route>
-        <Route path="/investment-commitee/katherine-reyes" element={<KatherineReyes />}></Route>
+        <Route path="/investment-committee" element={<InvestmentCommitee />}></Route>
+        <Route path="/investment-committee/craig-carleton" element={<CraigCarletonSmith />}></Route>
+        <Route path="/investment-committee/luiz-felipe-mauger" element={<LuizFelipeMauger />}></Route>
+        <Route path="/investment-committee/manuel-salazar" element={<ManuelSalazar />}></Route>
+        <Route path="/investment-committee/katherine-reyes" element={<KatherineReyes />}></Route>
         <Route path="/operating-lease" element={<OperatingLease />}></Route>
         <Route path="/board-of-directors" element={<BoardOfDirectors />}></Route>
         <Route path="/board-of-directors/craig-carleton" element={<CraigCarletonSmith />}></Route>

@@ -4,7 +4,7 @@ import styles from "./InvestmentCommitee.module.css";
 import AOS from "aos";
 import { useEffect } from "react";
 
-const InvestmentCommitee = () => {
+const InvestmentCommittee = () => {
   
   useEffect(() => {
     AOS.init();
@@ -17,34 +17,34 @@ const InvestmentCommitee = () => {
     <NavBar></NavBar>
       <div className={styles.fondo}>
         <div className={styles.container}>
-          <h3 className="mt-5">Investment Commitee</h3>
+          <h3 className="mt-5">Investment Committee</h3>
           <div className={styles.containerInfo}>
             <CardProfile
               photo={"./craig-smith.jpg"}
               name={"Craig Carleton-Smith"}
               position={"Executive Chairman - CIO"}
-              link={"/investment-commitee/craig-carleton"}
+              link={"/investment-committee/craig-carleton"}
               linkedin={"https://www.linkedin.com/in/craig-carleton-smith-56a3236/"}
             />
             <CardProfile
               photo={"./luis-felipe-mauger.jpg"}
               name={"Luiz Felipe Mauger"}
               position={"Director"}
-              link={"/investment-commitee/luiz-felipe-mauger"}
+              link={"/investment-committee/luiz-felipe-mauger"}
               linkedin={"https://www.linkedin.com/in/lfm-luizfelipemauger/"}
             />
             <CardProfile
               photo={"./manuel-salazar.jpg"}
               name={"Manuel Salazar"}
               position={"Managing Partner"}
-              link={"/investment-commitee/manuel-salazar"}
+              link={"/investment-committee/manuel-salazar"}
               linkedin={"https://www.linkedin.com/in/manuel-salazar-maurer/"}
             />
             <CardProfile
               photo={"./katherine-reyes.jpg"}
               name={"Katherine Reyes"}
               position={"CEO"}
-              link={"/investment-commitee/katherine-reyes"}
+              link={"/investment-committee/katherine-reyes"}
               linkedin={"https://www.linkedin.com/in/katherine-reyes-warthon-a480612/"}
             />
             <div className={styles.imagen}></div>
@@ -55,4 +55,4 @@ const InvestmentCommitee = () => {
   )
 }
 
-export default InvestmentCommitee
+export default InvestmentCommittee

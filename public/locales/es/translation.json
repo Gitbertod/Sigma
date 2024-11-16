@@ -31,43 +31,112 @@
     "2005AugustDate": "2005 Agosto",
     "2005AugustTitle": "2005 Agosto",
     "2005AugustDescription": "Sigma logra un hito significativo al obtener la autorización operativa de la SMV, sentando las bases para sus futuros esfuerzos en el ámbito financiero.",
-    
     "2006JuneDate": "2006 Junio",
     "2006JuneTitle": "2006 Junio",
     "2006JuneDescription": "Sigma inicia su jornada operativa al presentar el fondo LeasOp I, captando atención con un capital suscrito de $16 millones.",
-    
     "2008JulyDate": "2008 Julio",
     "2008JulyTitle": "2008 Julio",
     "2008JulyDescription": "Demostrando una colaboración estratégica, Sigma lanza el fondo LeasOp III, con un impresionante capital autorizado de $100 millones.",
-    
     "2009MarchDate": "2009 Marzo",
     "2009MarchTitle": "2009 Marzo",
     "2009MarchDescription": "Sigma diversifica su portafolio de inversión con la iniciación del fondo LeasOp II, con un capital autorizado destacado de $100 millones.",
-    
     "2010OctoberDate": "2010 Octubre",
     "2010OctoberTitle": "2010 Octubre",
     "2010OctoberDescription": "Respondiendo a las dinámicas necesidades del mercado, la SMV aprueba un aumento de capital en el fondo LeasOp I, permitiendo la expansión hasta $200 millones, extendiendo su término hasta el 31 de diciembre de 2020.",
-    
     "2012AprilDate": "2012 Abril",
     "2012AprilTitle": "2012 Abril",
     "2012AprilDescription": "Sigma amplía su huella con la introducción del fondo Sigma FI Private Equity para proyectos de Infraestructura. Este fondo establece un ambicioso objetivo de recaudación de hasta $500 millones, con un compromiso inicial de $86 millones.",
-    
     "2013DecemberDate": "2013 Diciembre",
     "2013DecemberTitle": "2013 Diciembre",
     "2013DecemberDescription": "Continuando con su tendencia de éxito financiero, Sigma logra un hito con el reembolso exitoso del fondo LeasOp III a sus inversionistas.",
-    
     "2014NovemberDate": "2014 Noviembre",
     "2014NovemberTitle": "2014 Noviembre",
     "2014NovemberDescription": "El fondo Sigma FI experimenta un crecimiento sustancial, aumentando su capital comprometido a unos impresionantes $249 millones.",
-    
     "2017MarchDate": "2017 Marzo",
     "2017MarchTitle": "2017 Marzo",
     "2017MarchDescription": "Expandiendo su portafolio operativo, Sigma lanza el fondo LeasOp VI con un capital autorizado de $100 millones.",
-    
     "2019JulyDate": "2019 Julio",
     "2019JulyTitle": "2019 Julio",
     "2019JulyDescription": "Expandiendo su portafolio operativo, Sigma lanza el fondo LeasOp VI con un capital autorizado de $100 millones."
   },
+  "InstitutionalPillars": {
+    "InstitutionalPillarsTitle": "Pilares Institucionales",
+    "InstitutionalPillarsTeamTitle": "Equipo / Junta Directiva",
+    "InstitutionalPillarsTeamDescription": "Profesionales de primer nivel con profundo conocimiento en Arrendamiento Operativo, estrecha relación con proveedores, así como una extensa red de clientes potenciales. Los miembros de la junta directiva de Sigma tienen una experiencia extensa en el sector bancario y los mercados de capitales.",
+    "InstitutionalPillarsTechnologyTitle": "Tecnología y Proceso",
+    "InstitutionalPillarsTechnologyDescription": "Software propio en casa que respalda cada proceso de flujo de trabajo principal, desde la estructuración, aprobaciones y administración de nuestros contratos, así como los procesos de cobranza y procedimientos contables. Acceso a diversas fuentes de información para la evaluación y preselección de clientes: World-check, Sentinel (registro central de créditos).",
+    "InstitutionalPillarsRiskTitle": "Gestión de Riesgos",
+    "InstitutionalPillarsRiskDescription": "Enfoque principal: cliente, activos y lugar de operación. Fuerte énfasis en la metodología Conozca a su Cliente (KYC). Experiencia con estructuras a medida que incluyen garantías/collaterales adicionales. Por ejemplo: Cross-defaults, garantías, fideicomisos, garantías en efectivo, entre otras."
+  },
+  "OperatingLease": {
+    "OperatingLeaseTitle": "Arrendamiento Operativo",
+    "OperatingLeaseManagedFunds": "Fondos Administrados",
+    "OperatingLeaseProductDescription": "Descripción del Producto",
+    "OperatingLeaseAdvantages": "Ventajas"
+  },
+  "ManagedFunds": {
+    "ManagedFundsTitle": "Fondos Administrados",
+    "ManagedFundsText": "Sigma actualmente administra 4 fondos de inversión, habiendo tenido compromisos de capital por más de 800 millones de dólares en los últimos 8 años para fondos de Arrendamiento Operativo y Private Equity.",
+    "LeasOpI": "LeasOp I",
+    "LeasOpIDescription1": "Fondo de arrendamiento operativo con $250 millones en operaciones que abarcan diversos sectores como construcción, minería, infraestructura, manufactura, logística, transporte y pesca.",
+    "LeasOpIDescription2": "Inició operaciones en 2006, logrando un crecimiento de diez veces respecto al compromiso inicial.",
+    "LeasOpIDescription3": "Cotizado en la Bolsa de Valores de Lima, con fondos de pensiones peruanos (AFP's) como principales inversionistas.",
+    "LeasOpIDescription4": "APOYO, respaldado por las calificaciones de Fitch, otorgó al LeasOp I una calificación A.",
+    "LeasOpII": "LeasOp II",
+    "LeasOpIIDescription1": "Fondo de arrendamiento operativo lanzado en 2009.",
+    "LeasOpIIDescription2": "Capital autorizado inicial de $100 millones, dedicado exclusivamente al sector corporativo.",
+    "LeasOpIIDescription3": "En 2017, Sigma mantiene su compromiso con la satisfacción de los inversionistas con el exitoso reembolso del fondo.",
+    "LeasOpIII": "LeasOp III",
+    "LeasOpIIIDescription1": "Lanzado en julio de 2008: Fondo de Arrendamiento Operativo.",
+    "LeasOpIIIDescription2": "Compromiso inicial de $100 millones; este fondo ha sido exitosamente reembolsado.",
+    "LeasOpIIIDescription3": "En 2013, continuando su tendencia de éxito financiero, Sigma alcanza un hito con el exitoso reembolso del fondo LeasOp III.",
+    "LeasOpV": "LeasOp V",
+    "LeasOpVDescription1": "Lanzado en julio de 2019: Fondo de Arrendamiento Operativo.",
+    "LeasOpVDescription2": "Capital autorizado total de $200 millones; se espera que el reembolso se complete para 2025, manteniendo una calificación PCR de AAf desde su inicio.",
+    "LeasOpVI": "LeasOp VI",
+    "LeasOpVIDescription1": "Lanzado en julio de 2008: Fondo de Arrendamiento Operativo.",
+    "LeasOpVIDescription2": "Compromiso inicial de $100 millones; este fondo ha sido exitosamente reembolsado.",
+    "LeasOpVIDescription3": "En 2013, continuando su tendencia de éxito financiero, Sigma alcanza un hito con el exitoso reembolso del fondo LeasOp III."
+  },
+  "ProductDescription": {
+    "ProductDescriptionTitle": "Descripción del Producto",
+    "ProductDescriptionText": "El Arrendamiento Operativo es un contrato de alquiler que facilita el uso de un activo por un término predeterminado, acordado mutuamente entre el arrendador y el cliente. Las características clave incluyen:",
+    "LeaseRenewableContract": "Contrato de Arrendamiento/ Renovable",
+    "LeaseRenewableContractDesc": "Opera como un contrato de arrendamiento en lugar de un acuerdo crediticio.",
+    "QuotaBasedOnValue": "Cuota Basada en el Valor Productivo del Activo (50% - 80%)",
+    "QuotaBasedOnValueDesc": "La cuota se determina según el valor productivo del activo.",
+    "SpecializedMaintenance": "Mantenimiento Especializado",
+    "SpecializedMaintenanceDesc": "Se ofrecen servicios de mantenimiento directo (concesionario) e indirecto (certificado por concesionarios) a través de la web.",
+    "SupportForProjects": "Apoyo para el Desarrollo de Proyectos y Planes de Crecimiento",
+    "SupportForProjectsDesc": "Una excelente alternativa para fortalecer proyectos e iniciativas de crecimiento.",
+    "CustomizedStructures": "Estructuras Personalizadas",
+    "CustomizedStructuresDesc": "Soluciones a medida para el desarrollo de estructuras específicas para empresas.",
+    "ContractualSimplicity": "Simplicidad Contractual",
+    "ContractualSimplicityDesc": "Hace hincapié en la simplicidad del marco contractual."
+  },
+  "InfrastructurePrivateEquityMF": {
+    "ManagedFundsTitle": "Fondos Administrados",
+    "InfrastructurePrivateEquityFundTitle": "Fondo de Capital Privado para Infraestructura",
+    "FundLaunchDetails": "Lanzado en 2012, el fondo de capital privado de $500 millones aseguró $250 millones en capital comprometido después de dos exitosas rondas de recaudación de fondos.",
+    "InvestorDetails": "Los inversores incluyen los tres principales fondos de pensiones peruanos y dos inversores institucionales reconocidos.",
+    "InvestmentFocus": "Dedicado a invertir en proyectos de infraestructura greenfield que abarcan generación de energía, transmisión, transporte, puertos, etc. Sigma colabora con patrocinadores globales clave para desarrollar proyectos de impacto en Perú."
+  },
+  "KatherineReyes": {
+    "KatherineReyesTitle": "Katherine Reyes Warthon",
+    "KatherineReyesText": "Una ejecutiva con más de 23 años de experiencia en el sector financiero, Katherine ocupó el cargo clave de Gerente en la División de Riesgos de la Banca Mayorista del Banco Financiero del Perú (ahora Banco Pichincha). Sus responsabilidades incluían la gestión y evaluación de la cartera de clientes. Antes de esto, fue Subgerente de Banca Corporativa en HSBC Bank Perú y Subgerente Adjunto de Banca Corporativa Senior en el Banco de Crédito del Perú. Es licenciada en Ingeniería Industrial por la Pontificia Universidad Católica del Perú y tiene un MBA especializado en Finanzas Corporativas por IE Business School en Madrid, España."
+  },"KarenAmes":{
+    "KarenAmesTitle": "Karen Ames",
+    "KarenAmesText": "Una ejecutiva con más de 15 años de experiencia en el sector financiero, Karen actualmente se desempeña como Vicepresidenta de Asuntos Legales y Cumplimiento en Sigma SAFI. A lo largo de su trayectoria profesional, ha adquirido experiencia en Derecho Corporativo, Seguros, Finanzas y Mercados de Capitales. La carrera legal de Karen incluye cargos en el Área de Asesoría y Contratos de la División Legal en Rímac Internacional Cía. de Seguros y Reaseguros S.A. Es egresada de la Universidad Peruana de Ciencias Aplicadas, con una Maestría en Derecho (LLM) de la Universidad Northwestern, junto con certificaciones en gestión de IE University y Yale University."
+  }
+,"GuillermoTeramura":  {
+  "GuillermoTeramuraTitle": "Guillermo Teramura Miyashiro",
+  "GuillermoTeramuraText": "Con más de 15 años de experiencia en el sector financiero, Guillermo ha demostrado competencia en planificación estratégica, operaciones comerciales, desarrollo de productos y gestión de proyectos. Su carrera incluye cargos como Jefe de Planificación para la división de Banca Personal de HSBC Perú, Director Comercial en Hermes Transportes Blindados y Especialista en Productos de Comercio Exterior y Coordinador de Proyectos en Scotiabank Perú. Guillermo es licenciado en Ingeniería Industrial por la Universidad de Lima y tiene un MBA de Hult International Business School en Boston, EE. UU."
+},"ArturoPalomares":{
+  "ArturoPalomaresTitle": "Arturo Palomares",
+  "ArturoPalomaresText": "Un ejecutivo con más de 20 años de experiencia en el Sistema Financiero Peruano y los Mercados de Capitales, Arturo ha ocupado cargos clave, incluyendo Subgerente de la División de Riesgos de Banco Sudamericano y Oficial Senior de Riesgos en BankBoston Perú. Sus responsabilidades incluyeron el desarrollo, gestión y control de la Política de Riesgos para productos ABF, tales como Leasing, Descuento, Factoring, Warrants y Créditos Hipotecarios para los segmentos de Banca Corporativa y Banca de Negocios. Arturo tiene experiencia previa en Administración y Control de Créditos, donde estuvo a cargo de evaluar y clasificar la Cartera de Créditos y la suficiencia de las provisiones. Es Contador Público Colegiado egresado de la Universidad de Lima y posee una Maestría en Finanzas de la Universidad del Pacífico."
+}
+,
+
   "footer": {
     "Staff": "Personal",
     "Investment Committee": "Comité de Inversiones",

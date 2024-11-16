@@ -18,7 +18,7 @@ const Home = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  const {t} = useTranslation();
+  const { t } = useTranslation();
   return (
     <>
       <div className="flex flex-col min-h-screen">
@@ -41,19 +41,8 @@ const Home = () => {
           <p className={styles.subtitle}></p>
         </main>
         <SectionComponent
-          title={t('welcome')}
-          text={
-            <>
-              Sigma SAFI have been a cornerstone of Peru's financial landscape
-              since 2005. With a robust invested capital of US$ 1,650 million,
-              we specialize in investment funds, particularly excelling in
-              asset-backed strategies, private credit, and private equity. Our
-              expertise lies in meticulous risk management, ensuring a balance
-              between risk and returns. At Sigma, we're committed to shaping a
-              prosperous financial future through innovation and strategic
-              vision
-            </>
-          }
+          title={t("Who we are")}
+          text={t("description")}
           imgSrc="./people2.png"
           childComponent3={<DataBoxIcons></DataBoxIcons>}
         />

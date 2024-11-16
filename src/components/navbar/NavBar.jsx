@@ -2,25 +2,22 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "./NavBar.module.css";
 import { IoPeopleSharp } from "react-icons/io5";
-import { FaHistory,FaUniversity,FaFileContract,FaChartLine } from "react-icons/fa";
-import { FaPeopleGroup,FaPeopleArrows,FaPeopleLine } from "react-icons/fa6";
+import { FaHistory, FaUniversity, FaFileContract, FaChartLine } from "react-icons/fa";
+import { FaPeopleGroup, FaPeopleArrows, FaPeopleLine } from "react-icons/fa6";
 import { DrawerComponent } from "../drawer/DrawerComponent";
 import LanguageSelector from "../languageSelector/LanguageSelector";
-
-
+import { useTranslation } from "react-i18next";
 
 const NavBar = () => {
-  const [isOpenBusisnes, setisOpenBusisnes] = useState(false);
+  const [isOpenBusisnes, setIsOpenBusisnes] = useState(false);
   const [isOpenSectores, setIsOpenSectores] = useState(false);
 
-  const handleAboutUsHover = () => {
-    setisOpenBusisnes(true);
-  };
-  const handleSectoresHover = () => {
-    setIsOpenSectores(true);
-  };
+  const { t } = useTranslation();
+
+  const handleAboutUsHover = () => setIsOpenBusisnes(true);
+  const handleSectoresHover = () => setIsOpenSectores(true);
   const handleMouseLeave = () => {
-    setisOpenBusisnes(false);
+    setIsOpenBusisnes(false);
     setIsOpenSectores(false);
   };
 
@@ -36,13 +33,13 @@ const NavBar = () => {
         </Link>
         <div className={styles.subnav}></div>
         <div className={styles.optionsNav}>
-        <div className={styles.subnav}>
+          <div className={styles.subnav}>
             <button
               className={styles.subnavbtn}
               onMouseEnter={handleAboutUsHover}
               onMouseLeave={handleMouseLeave}
             >
-              <Link to="#"> About Us</Link>
+              <Link to="#">{t("navbar.About Us")}</Link>
             </button>
             <div
               onMouseEnter={handleAboutUsHover}
@@ -55,7 +52,7 @@ const NavBar = () => {
                 <div className={styles.slidebottom}>
                   <div className={styles.category}>
                     <IoPeopleSharp className={styles.icon} />
-                    Who we are
+                    {t("navbar.Who we are")}
                   </div>
                 </div>
               </Link>
@@ -63,28 +60,29 @@ const NavBar = () => {
               <Link to="/history">
                 <div className={styles.slidebottom}>
                   <div className={styles.category}>
-                    <FaHistory className={styles.icon}/>
-                    History
+                    <FaHistory className={styles.icon} />
+                    {t("navbar.History")}
                   </div>
                 </div>
               </Link>
               <Link to="/institutional-pillars">
                 <div className={styles.slidebottom}>
                   <div className={styles.category}>
-                    <FaUniversity className={styles.icon}/>
-                    Institutional Pillars
+                    <FaUniversity className={styles.icon} />
+                    {t("navbar.Institutional Pillars")}
                   </div>
                 </div>
               </Link>
             </div>
           </div>
+
           <div className={styles.subnav}>
             <button
               className={styles.subnavbtn}
               onMouseEnter={handleAboutUsHover}
               onMouseLeave={handleMouseLeave}
             >
-              <Link to="#"> Busisness</Link>
+              <Link to="#">{t("navbar.Business")}</Link>
             </button>
             <div
               onMouseEnter={handleAboutUsHover}
@@ -97,11 +95,8 @@ const NavBar = () => {
                 <div className={styles.slidebottom}>
                   <div className={styles.category}>
                     <FaFileContract className={styles.icon} />
-                    Operating Lease
-
-                    
+                    {t("navbar.Operating Lease")}
                   </div>
-                  
                 </div>
               </Link>
 
@@ -109,20 +104,20 @@ const NavBar = () => {
                 <div className={styles.slidebottom}>
                   <div className={styles.category}>
                     <FaChartLine className={styles.icon} />
-                    Infrastructure Private
-                    Equity
+                    {t("navbar.Infrastructure Private Equity")}
                   </div>
                 </div>
               </Link>
             </div>
           </div>
+
           <div className={styles.subnav}>
             <button
               className={styles.subnavbtn}
               onMouseEnter={handleSectoresHover}
               onMouseLeave={handleMouseLeave}
             >
-              <Link to="#">Team</Link>
+              <Link to="#">{t("navbar.Team")}</Link>
             </button>
             <div
               onMouseEnter={handleSectoresHover}
@@ -135,15 +130,15 @@ const NavBar = () => {
                 <div className={styles.slidebottom}>
                   <div className={styles.category}>
                     <FaPeopleGroup className={styles.icon} />
-                    Staff
+                    {t("navbar.Staff")}
                   </div>
                 </div>
               </Link>
-              <Link to="/investment-commitee">
+              <Link to="/investment-committee">
                 <div className={styles.slidebottom}>
                   <div className={styles.category}>
                     <FaPeopleArrows className={styles.icon} />
-                    Investment Commitee
+                    {t("navbar.Investment Commitee")}
                   </div>
                 </div>
               </Link>
@@ -151,21 +146,22 @@ const NavBar = () => {
                 <div className={styles.slidebottom}>
                   <div className={styles.category}>
                     <FaPeopleLine className={styles.icon} />
-                    Board of Directors
+                    {t("navbar.Board of Directors")}
                   </div>
                 </div>
               </Link>
             </div>
           </div>
+
           <div className={styles.subnav}>
             <button className={styles.subnavbtn}>
-              <Link to="/news">News</Link>
+              <Link to="/news">{t("navbar.News")}</Link>
             </button>
           </div>
-          <Link to="/contact-us">Contact Us</Link>
-        <LanguageSelector></LanguageSelector>
+          <Link to="/contact-us">{t("navbar.Contact Us")}</Link>
+          <LanguageSelector />
         </div>
-        <DrawerComponent></DrawerComponent>
+        <DrawerComponent />
       </div>
     </>
   );

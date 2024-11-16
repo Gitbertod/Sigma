@@ -1,5 +1,35 @@
 {
-    "welcome": "Welcome to our website!",
-    "description": "This is a multi-language application."
+  "navbar": {
+    "About Us": "About Us",
+    "Business": "Business",
+    "Team": "Team",
+    "News": "News",
+    "Contact Us": "Contact Us",
+    "Who we are": "Who we are",
+    "History": "History",
+    "Institutional Pillars": "Institutional Pillars",
+    "Operating Lease": "Operating Lease",
+    "Infrastructure Private Equity": "Infrastructure Private Equity",
+    "Staff": "Staff",
+    "Investment Commitee": "Investment Commitee",
+    "Board of Directors": "Board of Directors"
+  },
+  "Who we are": "Who we are",
+  "description": "Sigma SAFI have been a cornerstone of Peru's financial landscape since 2005. With a robust invested capital of US$ 1,650 million, we specialize in investment funds, particularly excelling in asset-backed strategies, private credit, and private equity. Our expertise lies in meticulous risk management, ensuring a balance between risk and returns. At Sigma, we're committed to shaping a prosperous financial future through innovation and strategic vision.",
+  "DataBoxIcon": {
+    "experience": "EXPERIENCE",
+    "experienceText": "+19 Years of experience in asset management",
+    "investedCapitalText": "Invested capital since inception",
+    "topPosition": "#1",
+    "topPositionText": "Operating Lease Investment Fund Manager in the market"
+  },
+  "footer": {
+    "Staff": "Staff",
+    "Investment Committee": "Investment Committee",
+    "Board of Directors": "Board of Directors",
+    "News": "News",
+    "Contact Us": "Contact Us",
+    "All Rights Reserved": "All Rights Reserved",
+    "SIGMA": "SIGMA™"
   }
-  
+}

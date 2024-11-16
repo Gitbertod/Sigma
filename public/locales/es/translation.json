@@ -1,5 +1,35 @@
 {
-    "welcome": "¡Bienvenido a nuestro sitio web!",
-    "description": "Esta es una aplicación multilingüe."
+  "navbar": {
+    "About Us": "Sobre Nosotros",
+    "Business": "Negocios",
+    "Team": "Equipo",
+    "News": "Noticias",
+    "Contact Us": "Contáctanos",
+    "Who we are": "Quiénes somos",
+    "History": "Historia",
+    "Institutional Pillars": "Pilares Institucionales",
+    "Operating Lease": "Arrendamiento Operativo",
+    "Infrastructure Private Equity": "Capital Privado de Infraestructura",
+    "Staff": "Personal",
+    "Investment Commitee": "Comité de Inversiones",
+    "Board of Directors": "Junta Directiva"
+  },
+  "Who we are": "Quiénes somos",
+  "description": "Como fondo de inversión comprometido con la gestión experta de activos, nos especializamos en soluciones pioneras que combinan a la perfección estrategias de bajo riesgo y alta rentabilidad. Nuestra división de capital riesgo está a la vanguardia de la configuración del futuro de las infraestructuras, aprovechando décadas de experiencia para forjar oportunidades duraderas mediante asociaciones transparentes.",
+  "DataBoxIcon": {
+    "experience": "EXPERIENCIA",
+    "experienceText": "+19 Años de experiencia en gestión de activos",
+    "investedCapitalText": "Capital invertido desde el inicio",
+    "topPosition": "#1",
+    "topPositionText": "Gestor de Fondo de Inversión en Arrendamiento Operativo"
+  },
+  "footer": {
+    "Staff": "Personal",
+    "Investment Committee": "Comité de Inversiones",
+    "Board of Directors": "Junta Directiva",
+    "News": "Noticias",
+    "Contact Us": "Contáctanos",
+    "All Rights Reserved": "Todos los derechos reservados",
+    "SIGMA": "SIGMA™"
   }
-  
+}

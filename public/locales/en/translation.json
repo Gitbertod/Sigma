@@ -129,16 +129,57 @@
     "KarenAmesTitle": "Karen Ames",
     "KarenAmesText": "An executive with more than 15 years of experience in the Financial Sector, Karen currently serves as Vice President of Legal Affairs & Compliance at Sigma SAFI. Throughout her professional journey, she has garnered expertise in Corporate Law, Insurance, Finance, and Capital Markets. Karen's legal career includes positions in the Counseling and Contracts Area of the Legal Division at Rímac Internacional Cía. de Seguros y Reaseguros S.A. She is a graduate of the Universidad Peruana de Ciencias Aplicadas, holding a Master's Degree in Law (LLM) from Northwestern University, along with certifications in management from IE University and Yale University."
   },
-  "GuillermoTeramura":{
+  "GuillermoTeramura": {
     "GuillermoTeramuraTitle": "Guillermo Teramura Miyashiro",
     "GuillermoTeramuraText": "With over 15 years of experience in the financial sector, Guillermo has demonstrated proficiency in strategic planning, commercial operations, product development, and project management. His career includes roles such as Head of Planning for the Personal Banking division of HSBC Peru, Commercial Director at Hermes Transportes Blindados, and Foreign Trade Product Specialist and Project Coordinator at Scotiabank Peru. Guillermo holds a Bachelor's degree in Industrial Engineering from Universidad de Lima and an MBA from Hult International Business School in Boston, USA."
   },
-  "ArturoPalomares":{
+  "ArturoPalomares": {
     "ArturoPalomaresTitle": "Arturo Palomares",
     "ArturoPalomaresText": "An executive with over 20 years of experience in the Peruvian Financial System and Capital Markets, Arturo has held key positions, including Deputy Manager of the Risk Division of Banco Sudamericano and Senior Credit Officer of Risk Management at BankBoston Peru. His responsibilities involved developing, managing, and controlling the Risk Policy for ABF products, such as Leasing, Discounts, Factoring, Warrants, and Mortgage Loans for the Corporate Banking and Business Banking Segments. Arturo has previous experience in Administration and Credit Control, where he was in charge of evaluating and classifying the Loan Portfolio and the sufficiency of provisions. He is a Certified Public Accountant graduated from Universidad de Lima and holds a Master's in Finance from Universidad del Pacífico."
+  },
+  "CraigCarleton": {
+    "CraigTitle": "Craig Smith de Souza",
+    "CraigText": "With a career spanning over 20 years, Mr. Smith has provided banking services in Latam, Europe, and the US. Before founding SIGMA, he served as Sr. VP at BankBoston’s Commercial Banking Division in Peru, managing the Treasury, Asset-Based Finance, Foreign Commerce, SME, and Financial Institutions teams. His international experience includes roles such as Treasury Manager at the Treasury Group for Europe & The Far East at Electronic Data Systems in London. Mr. Smith holds a BA in Economics from Texas A&M University and an MBA degree from Duke University."
+  },
+  "LuizFelipeMauger": {
+    "LuizFelipeTitle": "Luiz Felipe Mauger",
+    "LuizFelipeText": "Mr. Mauger brings over 25 years of experience in the international finance system. Holding a specialization in Marketing and Finance from the Fundação Armando Alvares Penteado University of São Paulo, Brazil, he further enhanced his skills with specializations in the European Common Market from the Porto de Lisboa University, Portugal. Additionally, he holds certifications in Strategy Management and Macroeconomics from Harvard University. Mr. Mauger has a Global MBA from Duke University and has served in senior management roles at BankBoston and HSBC Bank in various locations."
+  },
+  "AnaMariaBitar":{
+    "AnaMariaTitle": "Ana María Bitar",
+    "AnaMariaText": "An executive and philanthropist with 20 years of experience in corporate management and leadership of nonprofit organizations, Ana María holds a Bachelor's degree in Economics and Philosophy from Duke University and an MBA with a specialization in Finance and Social Entrepreneurship from Columbia Business School. She has served as the General Manager of Convergia Networks, a telecommunications company in Venezuela and the United States, and as the Development and Brand Manager at Enseña Perú, among other roles. Currently, she serves on various boards of nonprofit educational organizations, such as Enseña Perú and Sembrando Juntos."
   }
-  ,
-  
+,  "ManuelSalazar":{
+  "ManuelSalazarTitle": "Manuel Salazar",
+  "ManuelSalazarText": "An executive with over 30 years of experience in finance and industry, Manuel served as CEO of Pesquera Diamante from 2007 to 2018. His extensive experience includes over 15 years at Citibank del Perú, where he served as Director of Corporate and Investment Banking and was a member of the Executive Committee. Manuel held the esteemed position of Business Senior Credit Officer and also served as General Manager and President of Citileasing S.A. He holds a bachelor’s degree in business administration from Universidad del Pacífico, with specializations in Finance and Marketing. Manuel completed the Programa de Alta Dirección (PAD) at Universidad de Piura and the Programa de Dirección de Empresas at Pacífico Business School in 2019."
+}
+,
+  "InvestmentCommittee": {
+    "InvestmentCommitteeTitle": "Investment Committee",
+    "CraigName": "Craig Carleton-Smith",
+    "CraigPosition": "Executive Chairman - CIO",
+    "LuizName": "Luiz Felipe Mauger",
+    "LuizPosition": "Director",
+    "ManuelName": "Manuel Salazar",
+    "ManuelPosition": "Managing Partner",
+    "KatherineName": "Katherine Reyes",
+    "KatherinePosition": "CEO"
+  },
+  "BoardOfDirectors": {
+    "BoardOfDirectorsTitle": "Board of Directors",
+    "CraigName": "Craig Carleton-Smith",
+    "CraigPosition": "Executive Chairman - CIO",
+    "LuizName": "Luiz Felipe Mauger",
+    "LuizPosition": "Director",
+    "AnaName": "Ana María Bitar",
+    "AnaPosition": "Independent Director",
+    "GonzaloName": "Gonzalo De Las Casas",
+    "GonzaloPosition": "Director",
+    "IrzioName": "Irzio Pinasco",
+    "IrzioPosition": "Director",
+    "MartinName": "Martín Pérez",
+    "MartinPosition": "Alternate Director"
+  },
   "footer": {
     "Staff": "Staff",
     "Investment Committee": "Investment Committee",

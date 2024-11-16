@@ -5,6 +5,7 @@ import { IoPeopleSharp } from "react-icons/io5";
 import { FaHistory,FaUniversity,FaFileContract,FaChartLine } from "react-icons/fa";
 import { FaPeopleGroup,FaPeopleArrows,FaPeopleLine } from "react-icons/fa6";
 import { DrawerComponent } from "../drawer/DrawerComponent";
+import LanguageSelector from "../languageSelector/LanguageSelector";
 
 
 
@@ -162,6 +163,7 @@ const NavBar = () => {
             </button>
           </div>
           <Link to="/contact-us">Contact Us</Link>
+        <LanguageSelector></LanguageSelector>
         </div>
         <DrawerComponent></DrawerComponent>
       </div>

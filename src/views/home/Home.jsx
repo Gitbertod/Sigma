@@ -9,11 +9,16 @@ import { FooterComponent } from "../../components/footer/FooterComponent";
 import News from "../../components/news/News";
 import DataBoxIcons from "../../components/data-box-icons/DataBoxIcons";
 
+import { useTranslation } from "react-i18next";
+import LanguageSelector from "../../components/languageSelector/LanguageSelector";
+
 const Home = () => {
   useEffect(() => {
     AOS.init();
     window.scrollTo(0, 0);
   }, []);
+
+  const {t} = useTranslation();
   return (
     <>
       <div className="flex flex-col min-h-screen">
@@ -35,9 +40,8 @@ const Home = () => {
           </div>
           <p className={styles.subtitle}></p>
         </main>
-
         <SectionComponent
-          title="Who we are"
+          title={t('welcome')}
           text={
             <>
               Sigma SAFI have been a cornerstone of Peru's financial landscape

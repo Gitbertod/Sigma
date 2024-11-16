@@ -100,7 +100,7 @@ export function DrawerComponent() {
                       </Sidebar.Item>
                     </Link>
                     <Sidebar.Item icon={HiInformationCircle}>
-                      <Link to="/contacto-us">Contact Us</Link>
+                      <Link to="/contact-us">Contact Us</Link>
                     </Sidebar.Item>
                   </Sidebar.ItemGroup>
                 </Sidebar.Items>

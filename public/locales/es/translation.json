@@ -23,6 +23,51 @@
     "topPosition": "#1",
     "topPositionText": "Gestor de Fondo de Inversión en Arrendamiento Operativo"
   },
+  "WhoWeAreTitle": "Quiénes somos",
+  "WhoWeAreText": "Sigma SAFI ha sido un pilar del panorama financiero del Perú desde 2005. Con un capital invertido de US$ 1,650 millones, nos especializamos en fondos de inversión, destacando especialmente en estrategias respaldadas por activos, crédito privado y capital privado. Nuestra experiencia se basa en una gestión rigurosa del riesgo, asegurando un balance entre riesgo y rentabilidad. En Sigma, estamos comprometidos con la construcción de un futuro financiero próspero a través de la innovación y visión estratégica.",
+  "WhoWeAreSectionText": "En los años posteriores, expandimos nuestro portafolio con el lanzamiento de LeasOp VI en abril de 2017. Además, en julio de 2019, se presentó LeasOp V, atrayendo inversiones de entidades destacadas en los sectores bancario y asegurador. Sigma se enorgullece de haber concluido exitosamente la gestión de dos fondos privados de arrendamiento operativo, LeasOp II (2016) y LeasOp III (2013), ambos con el reembolso completo del capital invertido y los respectivos rendimientos. En el ámbito del Capital Privado, nuestro Fondo de Capital Privado de Infraestructura invierte estratégicamente en empresas y proyectos asociados con el desarrollo de infraestructuras, abarcando transporte, plantas de tratamiento, generación y transmisión de energía, y fuentes de energía alternativa.",
+  "HistoryTitle": "Historia",
+  "Timeline": {
+    "2005AugustDate": "2005 Agosto",
+    "2005AugustTitle": "2005 Agosto",
+    "2005AugustDescription": "Sigma logra un hito significativo al obtener la autorización operativa de la SMV, sentando las bases para sus futuros esfuerzos en el ámbito financiero.",
+    
+    "2006JuneDate": "2006 Junio",
+    "2006JuneTitle": "2006 Junio",
+    "2006JuneDescription": "Sigma inicia su jornada operativa al presentar el fondo LeasOp I, captando atención con un capital suscrito de $16 millones.",
+    
+    "2008JulyDate": "2008 Julio",
+    "2008JulyTitle": "2008 Julio",
+    "2008JulyDescription": "Demostrando una colaboración estratégica, Sigma lanza el fondo LeasOp III, con un impresionante capital autorizado de $100 millones.",
+    
+    "2009MarchDate": "2009 Marzo",
+    "2009MarchTitle": "2009 Marzo",
+    "2009MarchDescription": "Sigma diversifica su portafolio de inversión con la iniciación del fondo LeasOp II, con un capital autorizado destacado de $100 millones.",
+    
+    "2010OctoberDate": "2010 Octubre",
+    "2010OctoberTitle": "2010 Octubre",
+    "2010OctoberDescription": "Respondiendo a las dinámicas necesidades del mercado, la SMV aprueba un aumento de capital en el fondo LeasOp I, permitiendo la expansión hasta $200 millones, extendiendo su término hasta el 31 de diciembre de 2020.",
+    
+    "2012AprilDate": "2012 Abril",
+    "2012AprilTitle": "2012 Abril",
+    "2012AprilDescription": "Sigma amplía su huella con la introducción del fondo Sigma FI Private Equity para proyectos de Infraestructura. Este fondo establece un ambicioso objetivo de recaudación de hasta $500 millones, con un compromiso inicial de $86 millones.",
+    
+    "2013DecemberDate": "2013 Diciembre",
+    "2013DecemberTitle": "2013 Diciembre",
+    "2013DecemberDescription": "Continuando con su tendencia de éxito financiero, Sigma logra un hito con el reembolso exitoso del fondo LeasOp III a sus inversionistas.",
+    
+    "2014NovemberDate": "2014 Noviembre",
+    "2014NovemberTitle": "2014 Noviembre",
+    "2014NovemberDescription": "El fondo Sigma FI experimenta un crecimiento sustancial, aumentando su capital comprometido a unos impresionantes $249 millones.",
+    
+    "2017MarchDate": "2017 Marzo",
+    "2017MarchTitle": "2017 Marzo",
+    "2017MarchDescription": "Expandiendo su portafolio operativo, Sigma lanza el fondo LeasOp VI con un capital autorizado de $100 millones.",
+    
+    "2019JulyDate": "2019 Julio",
+    "2019JulyTitle": "2019 Julio",
+    "2019JulyDescription": "Expandiendo su portafolio operativo, Sigma lanza el fondo LeasOp VI con un capital autorizado de $100 millones."
+  },
   "footer": {
     "Staff": "Personal",
     "Investment Committee": "Comité de Inversiones",

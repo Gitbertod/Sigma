@@ -23,6 +23,52 @@
     "topPosition": "#1",
     "topPositionText": "Operating Lease Investment Fund Manager in the market"
   },
+  "WhoWeAreTitle":"Who we are",
+  "WhoWeAreText":"Sigma is a dedicated investment fund management company specializing in both public and private Investment Funds. Our focus extends to financial products such as operating lease and private equity investments, particularly in companies dedicated to infrastructure development. With a robust track record, Sigma Safi S.A. has firmly established itself as a leading Investment Fund Manager in Peru, earning the trust of institutional investors and key companies alike.Since our inception in 2006, Sigma has successfully garnered US$950 million in investment commitments across six managed investment funds over the past 18 years. Notably, five of these funds have been allocated to operating lease, with a cumulative investment exceeding US$1,400 million in fixed assets.",
+  "WhoWeAreSectionText":"Among them, LeasOp I, the inaugural Operating Lease fund, stands out as a public fund with the participation of the country's three main Pension Funds. In subsequent years, we expanded our portfolio with the launch of LeasOp VI in April 2017. Additionally, in July 2019, LeasOp V was introduced, drawing investment from prominent entities in the banking and insurance sector.Sigma takes pride in successfully concluding the management of two private operating lease funds, LeasOp II (2016) and LeasOp III (2013), both of which saw the full repayment of invested capital and respective yields.In the realm of Private Equity, our Infrastructure Private Equity Fund strategically invests in companies and projects associated with infrastructure development, spanning transportation, treatment plants, energy generation and transmission, and alternative energy sources.",
+  "HistoryTitle": "History",
+  "Timeline": {
+    "2005AugustDate": "2005 August",
+    "2005AugustTitle": "2005 August",
+    "2005AugustDescription": "Sigma achieves a significant milestone by obtaining operating authorization from the SMV, laying the foundation for its future endeavors in the financial realm.",
+    
+    "2006JuneDate": "2006 June",
+    "2006JuneTitle": "2006 June",
+    "2006JuneDescription": "Embarking on its operational journey, Sigma introduces the LeasOp I fund, capturing attention with a substantial $16 million in subscribed equity.",
+    
+    "2008JulyDate": "2008 July",
+    "2008JulyTitle": "2008 July",
+    "2008JulyDescription": "Demonstrating strategic collaboration, Sigma launches the LeasOp III fund, boasting an impressive authorized capital of $100 million.",
+    
+    "2009MarchDate": "2009 March",
+    "2009MarchTitle": "2009 March",
+    "2009MarchDescription": "Sigma diversifies its investment portfolio with the initiation of the LeasOp II fund with an outstanding authorized capital of $100 million.",
+    
+    "2010OctoberDate": "2010 October",
+    "2010OctoberTitle": "2010 October",
+    "2010OctoberDescription": "Responding to dynamic market needs, the SMV approves a capital increase in the LeasOp I fund, allowing for expansion up to $200 million, while extending the term until December 31, 2020.",
+    
+    "2012AprilDate": "2012 April",
+    "2012AprilTitle": "2012 April",
+    "2012AprilDescription": "Sigma expands its footprint with the introduction of the Sigma FI Private Equity fund for Infrastructure Projects. This fund sets an ambitious fundraising target of up to $500 million, with an initial commitment of $86 million.",
+    
+    "2013DecemberDate": "2013 December",
+    "2013DecemberTitle": "2013 December",
+    "2013DecemberDescription": "Continuing its trend of financial success, Sigma achieves a milestone with the successful repayment of the LeasOp III fund to its investors.",
+    
+    "2014NovemberDate": "2014 November",
+    "2014NovemberTitle": "2014 November",
+    "2014NovemberDescription": "The Sigma FI fund experiences substantial growth, increasing its committed capital to an impressive $249 million.",
+    
+    "2017MarchDate": "2017 March",
+    "2017MarchTitle": "2017 March",
+    "2017MarchDescription": "Expanding its operational portfolio, Sigma launches the LeasOp VI fund with an authorized capital of $100 million.",
+    
+    "2019JulyDate": "2019 July",
+    "2019JulyTitle": "2019 July",
+    "2019JulyDescription": "Expanding its operational portfolio, Sigma launches the LeasOp VI fund with an authorized capital of $100 million."
+  },
+  
   "footer": {
     "Staff": "Staff",
     "Investment Committee": "Investment Committee",

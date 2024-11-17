@@ -4,8 +4,11 @@ import "slick-carousel/slick/slick-theme.css";
 
 import { Link } from "react-router-dom";
 import { CardComponent } from "../card/CardComponent";
+import { useTranslation } from "react-i18next";
 
 export function CarouselComponent() {
+  const { t } = useTranslation();
+
   const settings = {
     dots: true,
     infinite: true,
@@ -39,40 +42,36 @@ export function CarouselComponent() {
         <div className="m-11">
           <Link to="/blog">
             <CardComponent
-              photo={"/news1.jpeg"}
-              title={"Cavali Negotiable Invoices and Factoring 2024"}
-              text={"29 de May de 2024"}
+              photo={"./news/news1.jpeg"}
+              title={t("Carousel.News1.Title")}
+              text={t("Carousel.News1.Date")}
+            />
+          </Link>
+        </div>
+        <div className="m-11">
+          <a href="https://www.desdeadentro.pe/2024/04/luz-del-sur-recibe-formalmente-parques-eolicos-tres-hermanas-y-marcona/">
+            <CardComponent
+              photo={"./news/Mario_Firmando_v2.jpg"}
+              title={t("Carousel.News2.Title")}
+              text={t("Carousel.News2.Date")}
+            />
+          </a>
+        </div>
+        <div className="m-11">
+          <Link to="/blog">
+            <CardComponent
+              photo={"./news/noticia.png"}
+              title={t("Carousel.News3.Title")}
+              text={t("Carousel.News3.Date")}
             />
           </Link>
         </div>
         <div className="m-11">
           <Link to="/blog">
             <CardComponent
-              photo={"/Mario_Firmando_v2.jpg"}
-              title={"Luz del Sur formally receives Tres Hermanas and Marcona"}
-              text={"29 de May de 2024"}
-            />
-          </Link>
-        </div>
-        <div className="m-11">
-          <Link to="/blog">
-            <CardComponent
-              photo={"/noticia.png"}
-              title={
-                "Indecopi authorized Luz del Sur to acquire the 'Tres Hermanas' and 'Marcona' wind farms"
-              }
-              text={"25 de March de 2024"}
-            />
-          </Link>
-        </div>
-        <div className="m-11">
-          <Link to="/blog">
-            <CardComponent
-              photo={"/xv_latam_leasing.jpg"}
-              title={
-                "Insightful Discussions on Legal Frameworks, Pandemic Impact, and Leasing Market Trends"
-              }
-              text={"15 de Novenber de 2023"}
+              photo={"./news/xv_latam_leasing.jpg"}
+              title={t("Carousel.News4.Title")}
+              text={t("Carousel.News4.Date")}
             />
           </Link>
         </div>

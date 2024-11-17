@@ -23,6 +23,48 @@
     "topPosition": "#1",
     "topPositionText": "Operating Lease Investment Fund Manager in the market"
   },
+  "NewsSection": {
+    "NewsLogoAlt": "Sigma Logo",
+    "NewsTitle": "News and Insights"
+  },
+  "Carousel": {
+    "News1": {
+      "Title": "Cavali Negotiable Invoices and Factoring 2024",
+      "Date": "May 29, 2024"
+    },
+    "News2": {
+      "Title": "Luz del Sur formally receives Tres Hermanas and Marcona",
+      "Date": "May 29, 2024"
+    },
+    "News3": {
+      "Title": "Indecopi authorized Luz del Sur to acquire the 'Tres Hermanas' and 'Marcona' wind farms",
+      "Date": "March 25, 2024"
+    },
+    "News4": {
+      "Title": "Insightful Discussions on Legal Frameworks, Pandemic Impact, and Leasing Market Trends",
+      "Date": "November 15, 2023"
+    }
+  },"News": {
+    "Title": "News",
+    "Item1": { "Title": "Insightful Discussions on Legal Frameworks, Pandemic Impact, and Leasing Market Trends" },
+    "Item2": { "Title": "Luz del Sur formally receives Tres Hermanas and Marcona" },
+    "Item3": { "Title": "Cavali Negotiable Invoices and Factoring 2024" },
+    "Item4": { "Title": "Indecopi authorized Luz del Sur to acquire the 'Tres Hermanas' and 'Marcona' wind farms" },
+    "Item5": { "Title": "Sigma Finance and GRAM unveil U.S. Partnership" },
+    "Item6": { "Title": "Karen Ames recognized in GC Powerlist 2023 by The Legal 500" },
+    "Item7": { "Title": "Annual Report 2022", "Date": "March 27, 2023" },
+    "Item8": { "Title": "Annual Report 2021", "Date": "March 28, 2022" },
+    "Item9": { "Title": "Annual Report 2020", "Date": "March 29, 2021" },
+    "Item10": { "Title": "Safi – SMV Statement", "Date": "September 8, 2020" },
+    "Item11": { "Title": "2019 Report – Letter from the General Manager", "Date": "May 4, 2020" },
+    "Item12": { "Title": "2019 The Legal 500", "Date": "March 2, 2020" },
+    "Item13": { "Title": "Sigma SAFI approved the Crime Prevention Model, in accordance with the guidelines of Law No. 30424" },
+    "Item14": { "Title": "We see more investment in capital goods than we expected", "Date": "Wednesday, January 13, 2016" },
+    "Item15": { "Title": "Launch of new LR 11000 high capacity crane in Peru", "Date": "Friday, March 20, 2015" },
+    "Item16": { "Title": "We evaluate investment funds for high-income people", "Date": "Tuesday, March 10, 2015" },
+    "Item17": { "Title": "Main indicators of Investment Funds" },
+    "Item18": { "Title": "Investment funds manage assets for S/. 2,000 mls." }
+  },
   "WhoWeAreTitle": "Who we are",
   "WhoWeAreText": "Sigma is a dedicated investment fund management company specializing in both public and private Investment Funds. Our focus extends to financial products such as operating lease and private equity investments, particularly in companies dedicated to infrastructure development. With a robust track record, Sigma Safi S.A. has firmly established itself as a leading Investment Fund Manager in Peru, earning the trust of institutional investors and key companies alike.Since our inception in 2006, Sigma has successfully garnered US$950 million in investment commitments across six managed investment funds over the past 18 years. Notably, five of these funds have been allocated to operating lease, with a cumulative investment exceeding US$1,400 million in fixed assets.",
   "WhoWeAreSectionText": "Among them, LeasOp I, the inaugural Operating Lease fund, stands out as a public fund with the participation of the country's three main Pension Funds. In subsequent years, we expanded our portfolio with the launch of LeasOp VI in April 2017. Additionally, in July 2019, LeasOp V was introduced, drawing investment from prominent entities in the banking and insurance sector.Sigma takes pride in successfully concluding the management of two private operating lease funds, LeasOp II (2016) and LeasOp III (2013), both of which saw the full repayment of invested capital and respective yields.In the realm of Private Equity, our Infrastructure Private Equity Fund strategically invests in companies and projects associated with infrastructure development, spanning transportation, treatment plants, energy generation and transmission, and alternative energy sources.",
@@ -157,15 +199,14 @@
     "GonzaloDeLasCasasTitle": "Gonzalo De Las Casas",
     "GonzaloDeLasCasasText": "General Manager of SIGMA Capital, specializing in Infrastructure Investment projects, Gonzalo has served in leadership roles at AFP Integra. He graduated in Business Administration with a specialization in Finance from The University of Texas and holds an MBA from the University of Piura."
   },
-  "IrzioPinasco":{
+  "IrzioPinasco": {
     "IrzioPinascoTitle": "Irzio Pinasco",
     "IrzioPinascoText": "Serving as Director at SIGMA SAFI S.A and Banco de Crédito del Perú, Irzio holds a BA in Economics from Brown University and an MBA from Columbia University."
   },
-  "MartinPerez":{
+  "MartinPerez": {
     "MartinPerezTitle": "Martin Pérez",
     "MartinPerezText": "With 23 years of diverse executive experience, Martin served as Congressman and Minister of Foreign Trade and Tourism. Currently a Director at various organizations, he holds degrees in Business Administration, Marketing, and Finance."
   },
-  
   "InvestmentCommittee": {
     "InvestmentCommitteeTitle": "Investment Committee",
     "CraigName": "Craig Carleton-Smith",

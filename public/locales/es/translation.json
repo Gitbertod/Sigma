@@ -23,6 +23,49 @@
     "topPosition": "#1",
     "topPositionText": "Gestor de Fondo de Inversión en Arrendamiento Operativo"
   },
+  "NewsSection":{
+    "NewsLogoAlt": "Logotipo de Sigma",
+    "NewsTitle": "Noticias y Perspectivas"
+  },
+  "Carousel": {
+    "News1": {
+      "Title": "Facturas negociables de Cavali y factoring 2024",
+      "Date": "29 de mayo de 2024"
+    },
+    "News2": {
+      "Title": "Luz del Sur recibe formalmente Tres Hermanas y Marcona",
+      "Date": "29 de mayo de 2024"
+    },
+    "News3": {
+      "Title": "Indecopi autorizó a Luz del Sur a adquirir los parques eólicos 'Tres Hermanas' y 'Marcona'",
+      "Date": "25 de marzo de 2024"
+    },
+    "News4": {
+      "Title": "Discusiones sobre marcos legales, impacto pandémico y tendencias del mercado de leasing",
+      "Date": "15 de noviembre de 2023"
+    }
+  },
+  "News": {
+    "Title": "Noticias",
+    "Item1": { "Title": "Discusiones sobre marcos legales, impacto pandémico y tendencias del mercado de leasing" },
+    "Item2": { "Title": "Luz del Sur recibe formalmente Tres Hermanas y Marcona" },
+    "Item3": { "Title": "Facturas negociables de Cavali y factoring 2024" },
+    "Item4": { "Title": "Indecopi autorizó a Luz del Sur a adquirir los parques eólicos 'Tres Hermanas' y 'Marcona'" },
+    "Item5": { "Title": "Sigma Finance y GRAM presentan asociación en EE.UU." },
+    "Item6": { "Title": "Karen Ames reconocida en GC Powerlist 2023 por The Legal 500" },
+    "Item7": { "Title": "Informe Anual 2022", "Date": "27 de marzo de 2023" },
+    "Item8": { "Title": "Informe Anual 2021", "Date": "28 de marzo de 2022" },
+    "Item9": { "Title": "Informe Anual 2020", "Date": "29 de marzo de 2021" },
+    "Item10": { "Title": "Declaración de Safi – SMV", "Date": "8 de septiembre de 2020" },
+    "Item11": { "Title": "Informe 2019 – Carta del Gerente General", "Date": "4 de mayo de 2020" },
+    "Item12": { "Title": "The Legal 500 de 2019", "Date": "2 de marzo de 2020" },
+    "Item13": { "Title": "Sigma SAFI aprobó el Modelo de Prevención del Delito" },
+    "Item14": { "Title": "Vemos más inversión en bienes de capital de lo esperado", "Date": "Miércoles, 13 de enero de 2016" },
+    "Item15": { "Title": "Lanzamiento de nueva grúa LR 11000 en Perú", "Date": "Viernes, 20 de marzo de 2015" },
+    "Item16": { "Title": "Evaluamos fondos de inversión para personas de altos ingresos", "Date": "Martes, 10 de marzo de 2015" },
+    "Item17": { "Title": "Principales indicadores de Fondos de Inversión" },
+    "Item18": { "Title": "Fondos de inversión gestionan activos por S/. 2,000 mls." }
+  },
   "WhoWeAreTitle": "Quiénes somos",
   "WhoWeAreText": "Sigma SAFI ha sido un pilar del panorama financiero del Perú desde 2005. Con un capital invertido de US$ 1,650 millones, nos especializamos en fondos de inversión, destacando especialmente en estrategias respaldadas por activos, crédito privado y capital privado. Nuestra experiencia se basa en una gestión rigurosa del riesgo, asegurando un balance entre riesgo y rentabilidad. En Sigma, estamos comprometidos con la construcción de un futuro financiero próspero a través de la innovación y visión estratégica.",
   "WhoWeAreSectionText": "En los años posteriores, expandimos nuestro portafolio con el lanzamiento de LeasOp VI en abril de 2017. Además, en julio de 2019, se presentó LeasOp V, atrayendo inversiones de entidades destacadas en los sectores bancario y asegurador. Sigma se enorgullece de haber concluido exitosamente la gestión de dos fondos privados de arrendamiento operativo, LeasOp II (2016) y LeasOp III (2013), ambos con el reembolso completo del capital invertido y los respectivos rendimientos. En el ámbito del Capital Privado, nuestro Fondo de Capital Privado de Infraestructura invierte estratégicamente en empresas y proyectos asociados con el desarrollo de infraestructuras, abarcando transporte, plantas de tratamiento, generación y transmisión de energía, y fuentes de energía alternativa.",

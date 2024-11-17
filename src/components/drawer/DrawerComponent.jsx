@@ -11,6 +11,7 @@ import {
   HiShoppingBag,
   HiUsers,
 } from "react-icons/hi";
+import LanguageSelector from "../languageSelector/LanguageSelector";
 
 export function DrawerComponent() {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,6 +43,7 @@ export function DrawerComponent() {
           >
             <div className="flex h-full flex-col justify-between py-2">
               <div>
+              <LanguageSelector />
                 <Sidebar.Items>
                   <Sidebar.ItemGroup>
                     <Sidebar.Collapse icon={HiUsers} label="About Us">
@@ -94,16 +96,17 @@ export function DrawerComponent() {
                         </Sidebar.Item>
                       </Link>
                     </Sidebar.Collapse>
+                      <Sidebar.Item icon={HiCollection} >
                     <Link to={"/news"}>
-                      <Sidebar.Item icon={HiCollection} href="/news">
                         News and Insights
-                      </Sidebar.Item>
                     </Link>
+                      </Sidebar.Item>
                     <Sidebar.Item icon={HiInformationCircle}>
                       <Link to="/contact-us">Contact Us</Link>
                     </Sidebar.Item>
                   </Sidebar.ItemGroup>
                 </Sidebar.Items>
+                
               </div>
             </div>
           </Sidebar>

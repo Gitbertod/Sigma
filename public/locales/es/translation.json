@@ -137,6 +137,37 @@
     "ArturoPalomaresTitle": "Arturo Palomares",
     "ArturoPalomaresText": "Un ejecutivo con más de 20 años de experiencia en el Sistema Financiero Peruano y los Mercados de Capitales, Arturo ha ocupado cargos clave, incluyendo Subgerente de la División de Riesgos de Banco Sudamericano y Oficial Senior de Riesgos en BankBoston Perú. Sus responsabilidades incluyeron el desarrollo, gestión y control de la Política de Riesgos para productos ABF, tales como Leasing, Descuento, Factoring, Warrants y Créditos Hipotecarios para los segmentos de Banca Corporativa y Banca de Negocios. Arturo tiene experiencia previa en Administración y Control de Créditos, donde estuvo a cargo de evaluar y clasificar la Cartera de Créditos y la suficiencia de las provisiones. Es Contador Público Colegiado egresado de la Universidad de Lima y posee una Maestría en Finanzas de la Universidad del Pacífico."
   },
+  "CraigCarleton": {
+    "CraigTitle": "Craig Smith de Souza",
+    "CraigText": "Con una carrera que abarca más de 20 años, el Sr. Smith ha brindado servicios bancarios en América Latina, Europa y los Estados Unidos. Antes de fundar SIGMA, se desempeñó como Vicepresidente Senior en la División de Banca Comercial de BankBoston en Perú, gestionando los equipos de Tesorería, Finanzas Basadas en Activos, Comercio Exterior, PYMES e Instituciones Financieras. Su experiencia internacional incluye roles como Gerente de Tesorería en el Grupo de Tesorería para Europa y el Lejano Oriente en Electronic Data Systems en Londres. El Sr. Smith tiene una licenciatura en Economía de la Universidad de Texas A&M y un MBA de la Universidad de Duke."
+  },
+  "LuizFelipeMauger": {
+    "LuizFelipeTitle": "Luiz Felipe Mauger",
+    "LuizFelipeText": "El Sr. Mauger aporta más de 25 años de experiencia en el sistema financiero internacional. Con una especialización en Marketing y Finanzas de la Universidad Fundação Armando Alvares Penteado de São Paulo, Brasil, perfeccionó aún más sus habilidades con especializaciones en el Mercado Común Europeo en la Universidad Porto de Lisboa, Portugal. Además, cuenta con certificaciones en Gestión Estratégica y Macroeconomía de la Universidad de Harvard. El Sr. Mauger tiene un MBA Global de la Universidad de Duke y ha ocupado cargos de alta dirección en BankBoston y HSBC Bank en diversas ubicaciones."
+  },
+  "AnaMariaBitar": {
+    "AnaMariaTitle": "Ana María Bitar",
+    "AnaMariaText": "Ejecutiva y filántropa con 20 años de experiencia en gestión corporativa y liderazgo de organizaciones sin fines de lucro. Ana María tiene una licenciatura en Economía y Filosofía de la Universidad de Duke y un MBA con especialización en Finanzas y Emprendimiento Social de la Escuela de Negocios de Columbia. Se ha desempeñado como Gerente General de Convergia Networks, una empresa de telecomunicaciones en Venezuela y Estados Unidos, y como Gerente de Desarrollo y Marca en Enseña Perú, entre otros roles. Actualmente, forma parte de diversas juntas directivas de organizaciones educativas sin fines de lucro, como Enseña Perú y Sembrando Juntos."
+  },
+  "ManuelSalazar": {
+    "ManuelSalazarTitle": "Manuel Salazar",
+    "ManuelSalazarText": "Ejecutivo con más de 30 años de experiencia en finanzas e industria, Manuel se desempeñó como CEO de Pesquera Diamante desde 2007 hasta 2018. Su amplia trayectoria incluye más de 15 años en Citibank del Perú, donde fue Director de Banca Corporativa y de Inversión y miembro del Comité Ejecutivo. Manuel ocupó el prestigioso cargo de Business Senior Credit Officer y también fue Gerente General y Presidente de Citileasing S.A. Es licenciado en administración de empresas por la Universidad del Pacífico, con especializaciones en Finanzas y Marketing. Completó el Programa de Alta Dirección (PAD) en la Universidad de Piura y el Programa de Dirección de Empresas en la Pacífico Business School en 2019."
+  },
+  "GonzaloDeLasCasas": {
+    "GonzaloDeLasCasasTitle": "Gonzalo De Las Casas",
+    "GonzaloDeLasCasasText": "Gerente General de SIGMA Capital, especializado en proyectos de inversión en infraestructura, Gonzalo ha ocupado roles de liderazgo en AFP Integra. Es licenciado en Administración de Empresas con especialización en Finanzas por The University of Texas y cuenta con un MBA de la Universidad de Piura."
+  },
+  "IrzioPinasco":{
+    "IrzioPinascoTitle": "Irzio Pinasco",
+    "IrzioPinascoText": "Director en SIGMA SAFI S.A. y Banco de Crédito del Perú, Irzio es licenciado en Economía por la Universidad de Brown y posee un MBA de la Universidad de Columbia."
+  },
+  "MartinPerez":{
+    "MartinPerezTitle": "Martín Pérez",
+    "MartinPerezText": "Con 23 años de diversa experiencia ejecutiva, Martín se desempeñó como Congresista y Ministro de Comercio Exterior y Turismo. Actualmente es Director en varias organizaciones. Tiene títulos en Administración de Empresas, Marketing y Finanzas."
+  }
+  
+  
+  ,
   "InvestmentCommittee": {
     "InvestmentCommitteeTitle": "Comité de Inversiones",
     "CraigName": "Craig Carleton-Smith",
@@ -162,25 +193,8 @@
     "IrzioPosition": "Director",
     "MartinName": "Martín Pérez",
     "MartinPosition": "Director Alterno"
-  }
-  ,"CraigCarleton":{
-    "CraigTitle": "Craig Smith de Souza",
-    "CraigText": "Con una carrera que abarca más de 20 años, el Sr. Smith ha brindado servicios bancarios en América Latina, Europa y los Estados Unidos. Antes de fundar SIGMA, se desempeñó como Vicepresidente Senior en la División de Banca Comercial de BankBoston en Perú, gestionando los equipos de Tesorería, Finanzas Basadas en Activos, Comercio Exterior, PYMES e Instituciones Financieras. Su experiencia internacional incluye roles como Gerente de Tesorería en el Grupo de Tesorería para Europa y el Lejano Oriente en Electronic Data Systems en Londres. El Sr. Smith tiene una licenciatura en Economía de la Universidad de Texas A&M y un MBA de la Universidad de Duke."
-  }
-,"LuizFelipeMauger":{
-  "LuizFelipeTitle": "Luiz Felipe Mauger",
-  "LuizFelipeText": "El Sr. Mauger aporta más de 25 años de experiencia en el sistema financiero internacional. Con una especialización en Marketing y Finanzas de la Universidad Fundação Armando Alvares Penteado de São Paulo, Brasil, perfeccionó aún más sus habilidades con especializaciones en el Mercado Común Europeo en la Universidad Porto de Lisboa, Portugal. Además, cuenta con certificaciones en Gestión Estratégica y Macroeconomía de la Universidad de Harvard. El Sr. Mauger tiene un MBA Global de la Universidad de Duke y ha ocupado cargos de alta dirección en BankBoston y HSBC Bank en diversas ubicaciones."
-}  ,"AnaMariaBitar":{
-  "AnaMariaTitle": "Ana María Bitar",
-  "AnaMariaText": "Ejecutiva y filántropa con 20 años de experiencia en gestión corporativa y liderazgo de organizaciones sin fines de lucro. Ana María tiene una licenciatura en Economía y Filosofía de la Universidad de Duke y un MBA con especialización en Finanzas y Emprendimiento Social de la Escuela de Negocios de Columbia. Se ha desempeñado como Gerente General de Convergia Networks, una empresa de telecomunicaciones en Venezuela y Estados Unidos, y como Gerente de Desarrollo y Marca en Enseña Perú, entre otros roles. Actualmente, forma parte de diversas juntas directivas de organizaciones educativas sin fines de lucro, como Enseña Perú y Sembrando Juntos."
-}
-,"ManuelSalazar":{
-  "ManuelSalazarTitle": "Manuel Salazar",
-  "ManuelSalazarText": "Ejecutivo con más de 30 años de experiencia en finanzas e industria, Manuel se desempeñó como CEO de Pesquera Diamante desde 2007 hasta 2018. Su amplia trayectoria incluye más de 15 años en Citibank del Perú, donde fue Director de Banca Corporativa y de Inversión y miembro del Comité Ejecutivo. Manuel ocupó el prestigioso cargo de Business Senior Credit Officer y también fue Gerente General y Presidente de Citileasing S.A. Es licenciado en administración de empresas por la Universidad del Pacífico, con especializaciones en Finanzas y Marketing. Completó el Programa de Alta Dirección (PAD) en la Universidad de Piura y el Programa de Dirección de Empresas en la Pacífico Business School en 2019."
-}
-,
-
-
+  },
+  
   "footer": {
     "Staff": "Personal",
     "Investment Committee": "Comité de Inversiones",

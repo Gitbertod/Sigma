@@ -159,7 +159,7 @@ const NavBar = () => {
             </button>
           </div>
           <Link to="/contact-us">{t("navbar.Contact Us")}</Link>
-          <LanguageSelector />
+          
         </div>
         <DrawerComponent />
       </div>

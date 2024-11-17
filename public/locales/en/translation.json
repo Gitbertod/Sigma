@@ -145,15 +145,27 @@
     "LuizFelipeTitle": "Luiz Felipe Mauger",
     "LuizFelipeText": "Mr. Mauger brings over 25 years of experience in the international finance system. Holding a specialization in Marketing and Finance from the Fundação Armando Alvares Penteado University of São Paulo, Brazil, he further enhanced his skills with specializations in the European Common Market from the Porto de Lisboa University, Portugal. Additionally, he holds certifications in Strategy Management and Macroeconomics from Harvard University. Mr. Mauger has a Global MBA from Duke University and has served in senior management roles at BankBoston and HSBC Bank in various locations."
   },
-  "AnaMariaBitar":{
+  "AnaMariaBitar": {
     "AnaMariaTitle": "Ana María Bitar",
     "AnaMariaText": "An executive and philanthropist with 20 years of experience in corporate management and leadership of nonprofit organizations, Ana María holds a Bachelor's degree in Economics and Philosophy from Duke University and an MBA with a specialization in Finance and Social Entrepreneurship from Columbia Business School. She has served as the General Manager of Convergia Networks, a telecommunications company in Venezuela and the United States, and as the Development and Brand Manager at Enseña Perú, among other roles. Currently, she serves on various boards of nonprofit educational organizations, such as Enseña Perú and Sembrando Juntos."
-  }
-,  "ManuelSalazar":{
-  "ManuelSalazarTitle": "Manuel Salazar",
-  "ManuelSalazarText": "An executive with over 30 years of experience in finance and industry, Manuel served as CEO of Pesquera Diamante from 2007 to 2018. His extensive experience includes over 15 years at Citibank del Perú, where he served as Director of Corporate and Investment Banking and was a member of the Executive Committee. Manuel held the esteemed position of Business Senior Credit Officer and also served as General Manager and President of Citileasing S.A. He holds a bachelor’s degree in business administration from Universidad del Pacífico, with specializations in Finance and Marketing. Manuel completed the Programa de Alta Dirección (PAD) at Universidad de Piura and the Programa de Dirección de Empresas at Pacífico Business School in 2019."
-}
-,
+  },
+  "ManuelSalazar": {
+    "ManuelSalazarTitle": "Manuel Salazar",
+    "ManuelSalazarText": "An executive with over 30 years of experience in finance and industry, Manuel served as CEO of Pesquera Diamante from 2007 to 2018. His extensive experience includes over 15 years at Citibank del Perú, where he served as Director of Corporate and Investment Banking and was a member of the Executive Committee. Manuel held the esteemed position of Business Senior Credit Officer and also served as General Manager and President of Citileasing S.A. He holds a bachelor’s degree in business administration from Universidad del Pacífico, with specializations in Finance and Marketing. Manuel completed the Programa de Alta Dirección (PAD) at Universidad de Piura and the Programa de Dirección de Empresas at Pacífico Business School in 2019."
+  },
+  "GonzaloDeLasCasas": {
+    "GonzaloDeLasCasasTitle": "Gonzalo De Las Casas",
+    "GonzaloDeLasCasasText": "General Manager of SIGMA Capital, specializing in Infrastructure Investment projects, Gonzalo has served in leadership roles at AFP Integra. He graduated in Business Administration with a specialization in Finance from The University of Texas and holds an MBA from the University of Piura."
+  },
+  "IrzioPinasco":{
+    "IrzioPinascoTitle": "Irzio Pinasco",
+    "IrzioPinascoText": "Serving as Director at SIGMA SAFI S.A and Banco de Crédito del Perú, Irzio holds a BA in Economics from Brown University and an MBA from Columbia University."
+  },
+  "MartinPerez":{
+    "MartinPerezTitle": "Martin Pérez",
+    "MartinPerezText": "With 23 years of diverse executive experience, Martin served as Congressman and Minister of Foreign Trade and Tourism. Currently a Director at various organizations, he holds degrees in Business Administration, Marketing, and Finance."
+  },
+  
   "InvestmentCommittee": {
     "InvestmentCommitteeTitle": "Investment Committee",
     "CraigName": "Craig Carleton-Smith",

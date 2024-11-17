@@ -1,20 +1,17 @@
 import React from "react";
 import SectionComponent from "../../components/section-component/SectionComponent";
 import NavBar from "../../components/navbar/NavBar";
+import { useTranslation } from "react-i18next";
 
 const IrzioPinasco = () => {
+  const { t } = useTranslation();
+
   return (
     <>
-      <NavBar></NavBar>
+      <NavBar />
       <SectionComponent
-        title="Irzio Pinasco"
-        text={
-          <>
-            Serving as Director at SIGMA SAFI S.A and Banco de Crédito del Perú,
-            Irzio holds a BA in Economics from Brown University and an MBA from
-            Columbia University.{" "}
-          </>
-        }
+        title={t("IrzioPinasco.IrzioPinascoTitle")}
+        text={<>{t("IrzioPinasco.IrzioPinascoText")}</>}
         imgSrc="/irzio-pinasco.jpg"
       />
     </>
@@ -22,3 +19,4 @@ const IrzioPinasco = () => {
 };
 
 export default IrzioPinasco;
+

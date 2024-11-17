@@ -1,22 +1,22 @@
 import React from "react";
 import SectionComponent from "../../components/section-component/SectionComponent";
 import NavBar from "../../components/navbar/NavBar";
+import { useTranslation } from "react-i18next";
 
 const MartinPerez = () => {
+  const { t } = useTranslation();
+
   return (
     <>
-      <NavBar></NavBar>
+      <NavBar />
       <SectionComponent
-        title="Martin Pérez"
-        text="With 23 years of diverse executive experience, 
-        Martin served as Congressman and Minister of Foreign 
-        Trade and Tourism. Currently a Director at various organizations,
-         he holds degrees in Business Administration, Marketing, and Finance."
-      imgSrc="/martin-perez.jpg"
+        title={t("MartinPerez.MartinPerezTitle")}
+        text={t("MartinPerez.MartinPerezText")}
+        imgSrc="/martin-perez.jpg"
       />
-      
     </>
   );
 };
 
 export default MartinPerez;
+

@@ -26,6 +26,7 @@ import ProductsDescriptions from "./views/product-descriptions/ProductsDescripti
 import Advantages from "./views/advantages/Advantages";
 import InfrastructurePrivateEquityMF from "./views/infrastructure-private-equity-managed-funds/InfrastructurePrivateEquityMF";
 import OperatingLease from "./views/operating-lease/OperatingLease";
+import Article from "./views/news/articles/Article";
  
 
 function App() {
@@ -55,6 +56,7 @@ function App() {
         <Route path="/board-of-directors/martin-perez" element={<MartinPerez />}></Route>
         <Route path="/board-of-directors/ana-maria-bitar" element={<AnaMariaBitar />}></Route>
         <Route path="/news" element={<News />}></Route>
+        <Route path="/news/:articleId" element={<Article />}></Route>
         <Route path="/managed-funds" element={<ManagedFunds />}></Route>
         <Route path="/product-description" element={<ProductsDescriptions />}></Route>
         <Route path="/advantages" element={<Advantages />}></Route>

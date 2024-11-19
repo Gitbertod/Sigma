@@ -1,0 +1,47 @@
+.blogArticle {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .blogTitle {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-align: center;
+    background-image: url("/bgSigmaLogoGray.png");
+    min-height: 270px;
+    align-items: center;
+    align-content: center;
+    color: rgb(130, 6, 6);
+    
+  }
+  
+  .blogImages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .blogImage {
+    width: 100%;
+    max-width: 900px;
+  }
+  
+  .blogText {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-top: 20px;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 600px) {
+    .blogText {
+      font-size: 1em;
+    }
+  
+    .blogImage {
+      max-width: 100%;
+    }
+  }
+  

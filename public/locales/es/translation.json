@@ -23,7 +23,7 @@
     "topPosition": "#1",
     "topPositionText": "Gestor de Fondo de Inversión en Arrendamiento Operativo"
   },
-  "NewsSection":{
+  "NewsSection": {
     "NewsLogoAlt": "Logotipo de Sigma",
     "NewsTitle": "Noticias y Perspectivas"
   },
@@ -47,24 +47,139 @@
   },
   "News": {
     "Title": "Noticias",
-    "Item1": { "Title": "Discusiones sobre marcos legales, impacto pandémico y tendencias del mercado de leasing" },
-    "Item2": { "Title": "Luz del Sur recibe formalmente Tres Hermanas y Marcona" },
-    "Item3": { "Title": "Facturas negociables de Cavali y factoring 2024" },
-    "Item4": { "Title": "Indecopi autorizó a Luz del Sur a adquirir los parques eólicos 'Tres Hermanas' y 'Marcona'" },
-    "Item5": { "Title": "Sigma Finance y GRAM presentan asociación en EE.UU." },
-    "Item6": { "Title": "Karen Ames reconocida en GC Powerlist 2023 por The Legal 500" },
-    "Item7": { "Title": "Informe Anual 2022", "Date": "27 de marzo de 2023" },
-    "Item8": { "Title": "Informe Anual 2021", "Date": "28 de marzo de 2022" },
-    "Item9": { "Title": "Informe Anual 2020", "Date": "29 de marzo de 2021" },
-    "Item10": { "Title": "Declaración de Safi – SMV", "Date": "8 de septiembre de 2020" },
-    "Item11": { "Title": "Informe 2019 – Carta del Gerente General", "Date": "4 de mayo de 2020" },
-    "Item12": { "Title": "The Legal 500 de 2019", "Date": "2 de marzo de 2020" },
-    "Item13": { "Title": "Sigma SAFI aprobó el Modelo de Prevención del Delito" },
-    "Item14": { "Title": "Vemos más inversión en bienes de capital de lo esperado", "Date": "Miércoles, 13 de enero de 2016" },
-    "Item15": { "Title": "Lanzamiento de nueva grúa LR 11000 en Perú", "Date": "Viernes, 20 de marzo de 2015" },
-    "Item16": { "Title": "Evaluamos fondos de inversión para personas de altos ingresos", "Date": "Martes, 10 de marzo de 2015" },
-    "Item17": { "Title": "Principales indicadores de Fondos de Inversión" },
-    "Item18": { "Title": "Fondos de inversión gestionan activos por S/. 2,000 mls." }
+    "Item1": {
+      "Title": "Discusiones sobre marcos legales, impacto pandémico y tendencias del mercado de leasing"
+    },
+    "Item2": {
+      "Title": "Luz del Sur recibe formalmente Tres Hermanas y Marcona"
+    },
+    "Item3": {
+      "Title": "Facturas negociables de Cavali y factoring 2024"
+    },
+    "Item4": {
+      "Title": "Indecopi autorizó a Luz del Sur a adquirir los parques eólicos 'Tres Hermanas' y 'Marcona'"
+    },
+    "Item5": {
+      "Title": "Sigma Finance y GRAM presentan asociación en EE.UU."
+    },
+    "Item6": {
+      "Title": "Karen Ames reconocida en GC Powerlist 2023 por The Legal 500"
+    },
+    "Item7": {
+      "Title": "Informe Anual 2022",
+      "Date": "27 de marzo de 2023"
+    },
+    "Item8": {
+      "Title": "Informe Anual 2021",
+      "Date": "28 de marzo de 2022"
+    },
+    "Item9": {
+      "Title": "Informe Anual 2020",
+      "Date": "29 de marzo de 2021"
+    },
+    "Item10": {
+      "Title": "Declaración de Safi – SMV",
+      "Date": "8 de septiembre de 2020"
+    },
+    "Item11": {
+      "Title": "Informe 2019 – Carta del Gerente General",
+      "Date": "4 de mayo de 2020"
+    },
+    "Item12": {
+      "Title": "The Legal 500 de 2019",
+      "Date": "2 de marzo de 2020"
+    },
+    "Item13": {
+      "Title": "Sigma SAFI aprobó el Modelo de Prevención del Delito"
+    },
+    "Item14": {
+      "Title": "Vemos más inversión en bienes de capital de lo esperado",
+      "Date": "Miércoles, 13 de enero de 2016"
+    },
+    "Item15": {
+      "Title": "Lanzamiento de nueva grúa LR 11000 en Perú",
+      "Date": "Viernes, 20 de marzo de 2015"
+    },
+    "Item16": {
+      "Title": "Evaluamos fondos de inversión para personas de altos ingresos",
+      "Date": "Martes, 10 de marzo de 2015"
+    },
+    "Item17": {
+      "Title": "Principales indicadores de Fondos de Inversión"
+    },
+    "Item18": {
+      "Title": "Fondos de inversión gestionan activos por S/. 2,000 mls."
+    }
+  },
+  "Articles": {
+    "news-1": {
+      "title": "Nuestra VP en Legal & Compliance Karen Ames, hoy en la XV Conferencia Latinoamericana de Leasing",
+      "text": "Nuestra VP en Legal & Compliance Karen Ames, hoy en la XV Conferencia Latinoamericana de Leasing organizada por The Alta Group en Miami, www.thealtaconferences.com. Una oportunidad para discutir el estado actual del marco legal, las mejores prácticas y las lecciones aprendidas durante la pandemia en el mercado de leasing junto con destacados profesionales legales de América Latina."
+    },
+    "news-2": {
+      "title": "Luz del Sur recibe formalmente Tres Hermanas y Marcona",
+      "text": "Descripción detallada del artículo de Cavali..."
+    },
+    "news-3": {
+      "title": "Facturas Negociables y Factoring de Cavali 2024",
+      "text": ""
+    },
+    "news-4": {
+      "title": "Facturas Negociables y Factoring de Cavali 2024",
+      "text": ""
+    },
+    "news-5": {
+      "title": "Sigma Finance y GRAM presentan alianza en EE. UU.",
+      "text": "Sigma Finance y el Grupo Romero Asset Management (GRAM) han lanzado su asociación en EE.UU. en la Conferencia #ABSEast. Centrados en establecer relaciones, aprovechar nuestra larga trayectoria en América Latina y ampliar nuestra presencia en los Estados Unidos en los próximos años. Gracias a Information Management Network (IMN) y #FIIN por organizar un evento tan estupendo. Brian Herr GRAM www.gr-am.com"
+    },
+    "news-6": {
+      "title": "Karen Ames reconocida en GC Powerlist 2023 por The Legal 500",
+      "text": "Nos gustaría felicitar a Karen Ames, nuestra Vicepresidenta de Asuntos Jurídicos y Cumplimiento Normativo, que ha sido incluida en la GC Powerlist 2023 publicada por The Legal 500 (Legalease). Nos complace que Karen forme parte de nuestro equipo y que su profesionalidad y valiosa contribución a Sigma hayan recibido este reconocimiento. Gracias Karen por formar parte de nuestro equipo, que continúen los éxitos."
+    },
+    "news-7": {
+      "title": "Informe Anual 2022",
+      "text": "El año 2022 quedará marcado como uno de los de mayor incertidumbre y volatilidad en los mercados mundiales. Tras la apertura económica internacional debida a la reducción acelerada de las infecciones por Covid-19, las economías mundiales empezaron a ver los efectos de las políticas y estímulos económicos que ayudaron a superar una de las peores crisis sanitarias mundiales que provocó cuarentenas y restricciones en todo el mundo. mundo. Estos retrasos en las políticas monetarias expansivas, así como el prolongado conflicto entre Rusia y Ucrania, y los problemas en la cadena de suministro mundial, provocaron altos niveles de inflación en todo el mundo. Inflación que, durante el año 2022, los bancos centrales han intentado controlar con una de las subidas de tipos más agresivas de la historia."
+    },
+    "news-8": {
+      "title": "Informe Anual 2021",
+      "text": "El año 2021 cierra como uno de los más desafiantes de las últimas décadas en el Perú con la continuación de la crisis sanitaria global que se arrastraba desde el 2020, las estrictas medidas de confinamiento que se aplicaron en el país y una crisis política generada debido a los resultados de las elecciones presidenciales. Condiciones que generaron un clima de incertidumbre y volatilidad en los mercados que acabó repercutiendo en todos los sectores económicos del país."
+    },
+    "news-9": {
+      "title": "Informe Anual 2020",
+      "text": "El Director General de Sigma Safi Craig, John Carleton – Smith, a continuación nos entrega la carta del Informe del periodo 2020, en la cual nos hace un breve resumen de los retos y logros que se alcanzaron durante este periodo con incertidumbre política y jurídica por casos de corrupción y lavado de dinero que han venido impactando negativamente el rumbo de la economía del país desde el 2017, inyectando volatilidad y afectando las inversiones en bienes de capital, inmobiliarias y privadas principalmente en el sector de la construcción e infraestructura. Todo ello sin dejar de lado la atención prestada a la gestión del riesgo crediticio, macroeconómico y político. Por último, menciona las expectativas y los planes para el año siguiente, aprovechando de este modo los conocimientos, la experiencia y la trayectoria, así como la «venta cruzada» que Sigma Safi ha logrado a lo largo del tiempo.»"
+    },
+    "news-10": {
+      "title": "Informe Anual 2021",
+      "text": "El año 2021 cierra como uno de los más desafiantes de las últimas décadas en el Perú con la continuación de la crisis sanitaria global que se arrastraba desde el 2020, las estrictas medidas de confinamiento que se aplicaron en el país y una crisis política generada debido a los resultados de las elecciones presidenciales. Condiciones que generaron un clima de incertidumbre y volatilidad en los mercados que acabó repercutiendo en todos los sectores económicos del país."
+    },
+    "news-11": {
+      "title": "Informe Anual 2021",
+      "text": "El año 2021 cierra como uno de los más desafiantes de las últimas décadas en el Perú con la continuación de la crisis sanitaria global que se arrastraba desde el 2020, las estrictas medidas de confinamiento que se aplicaron en el país y una crisis política generada debido a los resultados de las elecciones presidenciales. Condiciones que generaron un clima de incertidumbre y volatilidad en los mercados que acabó repercutiendo en todos los sectores económicos del país."
+    },
+    "news-12": {
+      "title": "Informe Anual 2021",
+      "text": "El año 2021 cierra como uno de los más desafiantes de las últimas décadas en el Perú con la continuación de la crisis sanitaria global que se arrastraba desde el 2020, las estrictas medidas de confinamiento que se aplicaron en el país y una crisis política generada debido a los resultados de las elecciones presidenciales. Condiciones que generaron un clima de incertidumbre y volatilidad en los mercados que acabó repercutiendo en todos los sectores económicos del país."
+    },
+    "news-14": {
+      "title": "Informe Anual 2021",
+      "text": "El año 2021 cierra como uno de los más desafiantes de las últimas décadas en el Perú con la continuación de la crisis sanitaria global que se arrastraba desde el 2020, las estrictas medidas de confinamiento que se aplicaron en el país y una crisis política generada debido a los resultados de las elecciones presidenciales. Condiciones que generaron un clima de incertidumbre y volatilidad en los mercados que acabó repercutiendo en todos los sectores económicos del país."
+    },
+    "news-15": {
+      "title": "Informe Anual 2021",
+      "text": "El año 2021 cierra como uno de los más desafiantes de las últimas décadas en el Perú con la continuación de la crisis sanitaria global que se arrastraba desde el 2020, las estrictas medidas de confinamiento que se aplicaron en el país y una crisis política generada debido a los resultados de las elecciones presidenciales. Condiciones que generaron un clima de incertidumbre y volatilidad en los mercados que acabó repercutiendo en todos los sectores económicos del país."
+    },
+    "news-16": {
+      "title": "Informe Anual 2021",
+      "text": "El año 2021 cierra como uno de los más desafiantes de las últimas décadas en el Perú con la continuación de la crisis sanitaria global que se arrastraba desde el 2020, las estrictas medidas de confinamiento que se aplicaron en el país y una crisis política generada debido a los resultados de las elecciones presidenciales. Condiciones que generaron un clima de incertidumbre y volatilidad en los mercados que acabó repercutiendo en todos los sectores económicos del país."
+    },
+    "news-17": {
+      "title": "Informe Anual 2021",
+      "text": "El año 2021 cierra como uno de los más desafiantes de las últimas décadas en el Perú con la continuación de la crisis sanitaria global que se arrastraba desde el 2020, las estrictas medidas de confinamiento que se aplicaron en el país y una crisis política generada debido a los resultados de las elecciones presidenciales. Condiciones que generaron un clima de incertidumbre y volatilidad en los mercados que acabó repercutiendo en todos los sectores económicos del país."
+    },
+    "news-18": {
+      "title": "Informe Anual 2021",
+      "text": "El año 2021 cierra como uno de los más desafiantes de las últimas décadas en el Perú con la continuación de la crisis sanitaria global que se arrastraba desde el 2020, las estrictas medidas de confinamiento que se aplicaron en el país y una crisis política generada debido a los resultados de las elecciones presidenciales. Condiciones que generaron un clima de incertidumbre y volatilidad en los mercados que acabó repercutiendo en todos los sectores económicos del país."
+    }
   },
   "WhoWeAreTitle": "Quiénes somos",
   "WhoWeAreText": "Sigma SAFI ha sido un pilar del panorama financiero del Perú desde 2005. Con un capital invertido de US$ 1,650 millones, nos especializamos en fondos de inversión, destacando especialmente en estrategias respaldadas por activos, crédito privado y capital privado. Nuestra experiencia se basa en una gestión rigurosa del riesgo, asegurando un balance entre riesgo y rentabilidad. En Sigma, estamos comprometidos con la construcción de un futuro financiero próspero a través de la innovación y visión estratégica.",
@@ -200,17 +315,14 @@
     "GonzaloDeLasCasasTitle": "Gonzalo De Las Casas",
     "GonzaloDeLasCasasText": "Gerente General de SIGMA Capital, especializado en proyectos de inversión en infraestructura, Gonzalo ha ocupado roles de liderazgo en AFP Integra. Es licenciado en Administración de Empresas con especialización en Finanzas por The University of Texas y cuenta con un MBA de la Universidad de Piura."
   },
-  "IrzioPinasco":{
+  "IrzioPinasco": {
     "IrzioPinascoTitle": "Irzio Pinasco",
     "IrzioPinascoText": "Director en SIGMA SAFI S.A. y Banco de Crédito del Perú, Irzio es licenciado en Economía por la Universidad de Brown y posee un MBA de la Universidad de Columbia."
   },
-  "MartinPerez":{
+  "MartinPerez": {
     "MartinPerezTitle": "Martín Pérez",
     "MartinPerezText": "Con 23 años de diversa experiencia ejecutiva, Martín se desempeñó como Congresista y Ministro de Comercio Exterior y Turismo. Actualmente es Director en varias organizaciones. Tiene títulos en Administración de Empresas, Marketing y Finanzas."
-  }
-  
-  
-  ,
+  },
   "InvestmentCommittee": {
     "InvestmentCommitteeTitle": "Comité de Inversiones",
     "CraigName": "Craig Carleton-Smith",
@@ -237,7 +349,6 @@
     "MartinName": "Martín Pérez",
     "MartinPosition": "Director Alterno"
   },
-  
   "footer": {
     "Staff": "Personal",
     "Investment Committee": "Comité de Inversiones",

@@ -44,26 +44,138 @@
       "Title": "Insightful Discussions on Legal Frameworks, Pandemic Impact, and Leasing Market Trends",
       "Date": "November 15, 2023"
     }
-  },"News": {
+  },
+  "News": {
     "Title": "News",
-    "Item1": { "Title": "Insightful Discussions on Legal Frameworks, Pandemic Impact, and Leasing Market Trends" },
-    "Item2": { "Title": "Luz del Sur formally receives Tres Hermanas and Marcona" },
-    "Item3": { "Title": "Cavali Negotiable Invoices and Factoring 2024" },
-    "Item4": { "Title": "Indecopi authorized Luz del Sur to acquire the 'Tres Hermanas' and 'Marcona' wind farms" },
-    "Item5": { "Title": "Sigma Finance and GRAM unveil U.S. Partnership" },
-    "Item6": { "Title": "Karen Ames recognized in GC Powerlist 2023 by The Legal 500" },
-    "Item7": { "Title": "Annual Report 2022", "Date": "March 27, 2023" },
-    "Item8": { "Title": "Annual Report 2021", "Date": "March 28, 2022" },
-    "Item9": { "Title": "Annual Report 2020", "Date": "March 29, 2021" },
-    "Item10": { "Title": "Safi – SMV Statement", "Date": "September 8, 2020" },
-    "Item11": { "Title": "2019 Report – Letter from the General Manager", "Date": "May 4, 2020" },
-    "Item12": { "Title": "2019 The Legal 500", "Date": "March 2, 2020" },
-    "Item13": { "Title": "Sigma SAFI approved the Crime Prevention Model, in accordance with the guidelines of Law No. 30424" },
-    "Item14": { "Title": "We see more investment in capital goods than we expected", "Date": "Wednesday, January 13, 2016" },
-    "Item15": { "Title": "Launch of new LR 11000 high capacity crane in Peru", "Date": "Friday, March 20, 2015" },
-    "Item16": { "Title": "We evaluate investment funds for high-income people", "Date": "Tuesday, March 10, 2015" },
-    "Item17": { "Title": "Main indicators of Investment Funds" },
-    "Item18": { "Title": "Investment funds manage assets for S/. 2,000 mls." }
+    "Item1": {
+      "Title": "Insightful Discussions on Legal Frameworks, Pandemic Impact, and Leasing Market Trends"
+    },
+    "Item2": {
+      "Title": "Luz del Sur formally receives Tres Hermanas and Marcona"
+    },
+    "Item3": {
+      "Title": "Cavali Negotiable Invoices and Factoring 2024"
+    },
+    "Item4": {
+      "Title": "Indecopi authorized Luz del Sur to acquire the 'Tres Hermanas' and 'Marcona' wind farms"
+    },
+    "Item5": {
+      "Title": "Sigma Finance and GRAM unveil U.S. Partnership"
+    },
+    "Item6": {
+      "Title": "Karen Ames recognized in GC Powerlist 2023 by The Legal 500"
+    },
+    "Item7": {
+      "Title": "Annual Report 2022",
+      "Date": "March 27, 2023"
+    },
+    "Item8": {
+      "Title": "Annual Report 2021",
+      "Date": "March 28, 2022"
+    },
+    "Item9": {
+      "Title": "Annual Report 2020",
+      "Date": "March 29, 2021"
+    },
+    "Item10": {
+      "Title": "Safi – SMV Statement",
+      "Date": "September 8, 2020"
+    },
+    "Item11": {
+      "Title": "2019 Report – Letter from the General Manager",
+      "Date": "May 4, 2020"
+    },
+    "Item12": {
+      "Title": "2019 The Legal 500",
+      "Date": "March 2, 2020"
+    },
+    "Item13": {
+      "Title": "Sigma SAFI approved the Crime Prevention Model, in accordance with the guidelines of Law No. 30424"
+    },
+    "Item14": {
+      "Title": "We see more investment in capital goods than we expected",
+      "Date": "Wednesday, January 13, 2016"
+    },
+    "Item15": {
+      "Title": "Launch of new LR 11000 high capacity crane in Peru",
+      "Date": "Friday, March 20, 2015"
+    },
+    "Item16": {
+      "Title": "We evaluate investment funds for high-income people",
+      "Date": "Tuesday, March 10, 2015"
+    },
+    "Item17": {
+      "Title": "Main indicators of Investment Funds"
+    },
+    "Item18": {
+      "Title": "Investment funds manage assets for S/. 2,000 mls."
+    }
+  },
+  "Articles": {
+    "news-1": {
+      "title": "Our VP in Legal & Compliance Karen Ames, today in the XV Latin American Leasing Conference",
+      "text": "Our VP in Legal & Compliance Karen Ames, today in the XV Latin American Leasing Conference organized by The Alta Group in Miami, www.thealtaconferences.com. An opportunity to discuss the current state of the legal framework, best practices, and lessons learned during the pandemic in the Leasing Market along with leading legal practitioners from Latin America."
+    },
+    "news-2": {
+      "title": "Luz del Sur formally receives Tres Hermanas and Marcona",
+      "text": "Detailed description of the Cavali article..."
+    },
+    "news-3": {
+      "title": "Cavali Negotiable Invoices and Factoring 2024",
+      "text": ""
+    },
+    "news-4": {
+      "title": "Cavali Negotiable Invoices and Factoring 2024",
+      "text": ""
+    },
+    "news-5": {
+      "title": "Sigma Finance and GRAM unveil U.S. Partnership",
+      "text": "Sigma Finance and Grupo Romero Asset Management (GRAM) have launched their U.S. partnership at the #ABSEast Conference. Focused on building relationships, leveraging our long track record in Latin America, and expanding our direct lending & asset management footprint in the United States in the coming years. Thank you to Information Management Network (IMN) and #FIIN for organizing such a great event!"
+    },
+    "news-6": {
+      "title": "Karen Ames recognized in GC Powerlist 2023 by The Legal 500",
+      "text": "We would like to congratulate Karen Ames, our Vice President of Legal Affairs and Compliance, who has been included in the GC Powerlist 2023 published by The Legal 500 (Legalease). We are pleased to have Karen as part of our team and that her professionalism and valuable contribution to Sigma has received this recognition. Thank you, Karen, for being part of our team, may the successes continue."
+    },
+    "news-7": {
+      "title": "Annual Report 2022",
+      "text": "The year 2022 will be marked as one of the years with greatest uncertainty and volatility in global markets. After the international economic opening due to the accelerated reduction in Covid-19 infections, global economies began to see the effects of economic policies and stimuli that helped overcome one of the worst global health crises that caused quarantines and restrictions around the world. world. These delays in expansionary monetary policies, as well as the prolonged conflict between Russia and Ukraine, and problems in the global supply chain, caused high levels of inflation around the world. Inflation that, during the year 2022, central banks have tried to control with one of the most aggressive rate increases in history."
+    },
+    "news-8": {
+      "title": "Annual Report 2021",
+      "text": "The year 2021 closes as one of the most challenging in recent decades in Peru with the continuation of the global health crisis that had been dragging on since 2020, the strict confinement measures that were applied in the country, and a political crisis generated due to the results of the presidential elections. Conditions that generated a climate of uncertainty and volatility in the markets that ultimately impacted all economic sectors of the country."
+    },
+    "news-9": {
+      "title": "Annual Report 2020",
+      "text": "The General Managing Director of Sigma Safi Craig, John Carleton – Smith, below gives us the letter from the Report for the 2020 period, in which he gives us a brief summary of the challenges and achievements that were achieved during this period with political uncertainty and legal due to cases of corruption and money laundering that have been negatively impacting the course of the country’s economy since 2017, injecting volatility and affecting investments in capital goods, real estate and private investments mainly in the construction and infrastructure sector. All this without leaving aside the focus on credit, macro and political risk management. Finally, he mentions the expectations and plans for the following year, leveraging in this way the knowledge, expertise and track record as well as taking advantage of the “cross-selling” that Sigma Safi has achieved over time.”"
+    },
+    "news-10": {
+      "title": "Safi – SMV Statement",
+      "text": "It is reported that due to the state of health emergency in which our country finds itself and in order to counteract the spread of the pandemic to which we are exposed, all documentation that is sent to our office located at Av. Santo Toribio 173, Of. 601, Torre Real 8 – San Isidro, must be delivered to the reception of the building."
+    },
+    "news-11": {
+      "title": "2019 Report – Letter from the General Manager",
+      "text": "The General Managing Director of Sigma Safi Craig, John Carleton – Smith, below gives us the letter from the Report for the 2019 period, in which he gives us a brief summary of the challenges and achievements that were achieved during this period with political uncertainty and legal due to cases of corruption and money laundering that have been negatively impacting the direction of the country’s economy since 2017, injecting volatility and affecting investments in capital goods, real estate and private investments mainly in the construction and infrastructure sector. All this without leaving aside the focus on credit, macro and political risk management. Finally, he mentions the expectations and plans for the following year, thus leveraging the knowledge, expertise and track record as well as taking advantage of the cross-selling that Sigma Safi has achieved over time."
+    },
+    "news-12": {
+      "title": "2019 The Legal 500",
+      "text": "In 2019, The Legal 500, an English firm that compiles rankings of the best lawyers in the world, included our legal team as one of the best in-house legal teams in the Peruvian market in its GC Powerlist Peru Teams 2019. Likewise, in 2018, the same firm considered our Vice President of Legal Affairs, Karen Ames, within the ranking of The Legal 500 GC Powerlist: General Counsel. This ranking recognizes the outstanding leaders of the legal areas of the Peruvian market."
+    },
+    "news-13": {
+      "title": "Sigma SAFI approved the Crime Prevention Model, in accordance with the guidelines of Law No. 30424.",
+      "text": "Sigma SAFI approved the Crime Prevention Model, in accordance with the guidelines of Law No. 30424."
+    },
+    "news-14": {
+      "title": "We see more investment in capital goods than we expected",
+      "text": "We see more investment in capital goods than we expected"
+    },
+    "news-15": {
+      "title": "Annual Report 2021",
+      "text": "The year 2021 closes as one of the most challenging in recent decades in Peru..."
+    },
+    "news-16": {
+      "title": "Annual Report 2021",
+      "text": "The year 2021 closes as one of the most challenging in recent decades in Peru..."
+    }
   },
   "WhoWeAreTitle": "Who we are",
   "WhoWeAreText": "Sigma is a dedicated investment fund management company specializing in both public and private Investment Funds. Our focus extends to financial products such as operating lease and private equity investments, particularly in companies dedicated to infrastructure development. With a robust track record, Sigma Safi S.A. has firmly established itself as a leading Investment Fund Manager in Peru, earning the trust of institutional investors and key companies alike.Since our inception in 2006, Sigma has successfully garnered US$950 million in investment commitments across six managed investment funds over the past 18 years. Notably, five of these funds have been allocated to operating lease, with a cumulative investment exceeding US$1,400 million in fixed assets.",

@@ -78,7 +78,7 @@ const News = () => {
       text: t("News.Item11.Date"),
     },
     {
-      id: "certificate-2024",
+      id: "news-12",
       title: t("News.Item12.Title"),
       photo: "./news/certificate.jpg",
       text: t("News.Item12.Date"),

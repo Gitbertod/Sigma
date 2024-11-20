@@ -40,7 +40,7 @@ export function CarouselComponent() {
     <div className="slider-container">
       <Slider {...settings}>
         <div className="m-11">
-          <Link to="/blog">
+          <Link to="/news/news-3">
             <CardComponent
               photo={"./news/news1.jpeg"}
               title={t("Carousel.News1.Title")}
@@ -58,7 +58,7 @@ export function CarouselComponent() {
           </a>
         </div>
         <div className="m-11">
-          <Link to="/blog">
+          <Link to="/news">
             <CardComponent
               photo={"./news/noticia.png"}
               title={t("Carousel.News3.Title")}
@@ -67,7 +67,7 @@ export function CarouselComponent() {
           </Link>
         </div>
         <div className="m-11">
-          <Link to="/blog">
+          <Link to="/news/news-1">
             <CardComponent
               photo={"./news/xv_latam_leasing.jpg"}
               title={t("Carousel.News4.Title")}

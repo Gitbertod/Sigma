@@ -85,7 +85,7 @@ export function DrawerComponent() {
                       <Link to={"/staff"}>
                         <Sidebar.Item href="/staff">Staff</Sidebar.Item>
                       </Link>
-                      <Link to={"/investment-commitee"}>
+                      <Link to={"/investment-committee"}>
                         <Sidebar.Item href="/investment-commitee">
                           Investment Committee
                         </Sidebar.Item>

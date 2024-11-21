@@ -1,0 +1,18 @@
+.languageSelectorContainer {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Espacio entre ícono y selector */
+  }
+  
+  .languageIcon {
+    font-size: 1.5rem;
+    color: #333; /* Ajusta el color según el diseño */
+  }
+  
+  .languageDropdown {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 1rem;
+  }
+  

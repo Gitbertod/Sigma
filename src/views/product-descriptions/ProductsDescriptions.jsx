@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "../../components/navbar/NavBar";
 import CategoryWithBackgroundVideo from "../../components/category/CategoryWithBackgroundVideo";
 import styles from "./ProductsDescriptions.module.css";
-import video_bg from "../../assets/productDescription.mov";
+import video_bg from "../../assets/productDescription.mp4";
 import { useTranslation } from "react-i18next";
 
 const ProductsDescriptions = () => {

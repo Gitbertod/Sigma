@@ -13,7 +13,7 @@ const CategoryWithBackgroundVideo = ({
       <div className={styles.videoContainer}>
         <video
           src={videoSrc}
-          preload="auto"
+          preload="none"
           autoPlay
           loop
           muted

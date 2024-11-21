@@ -145,7 +145,6 @@
   .videoBg {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Asegura que el video rellene todo el espacio */
   }
 }
 

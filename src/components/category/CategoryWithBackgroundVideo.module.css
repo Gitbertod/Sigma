@@ -156,9 +156,11 @@
   }
 
   .mainContainer {
-    background-image: var(--imagen-fondo);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: none; /* Elimina la imagen de fondo en móviles */
+    position: relative;
+  }
+  .videoBg {
+    display: block;
   }
 }
 @media (max-width: 640px) {

@@ -4,14 +4,13 @@ import CardProfile from "../../components/card-profile/CardProfile";
 import AOS from "aos";
 import { useEffect } from "react";
 
-
 const Staff = () => {
   
   useEffect(() => {
     AOS.init();
     window.scrollTo(0, 0);
   }, []);
-
+ 
   return (
     <>
       <NavBar></NavBar>
@@ -23,14 +22,14 @@ const Staff = () => {
               photo={"/katherine-reyes.jpg"}
               name={"Katherine Reyes"}
               position={"CEO"}
-              link={"/staff/katherine-Reyes"}
+              link={"/staff/katherine-reyes"}
               linkedin={"https://www.linkedin.com/in/katherine-reyes-warthon-a480612/"}
             />
             <CardProfile
               photo={"/karen-ames.jpg"}
               name={"Karen Ames"}
               position={"VP - Legal Affairs"}
-              link={"/staff/karen-ames"}
+              link= {"/staff/karen-ames"}
               linkedin={"https://www.linkedin.com/in/karen-ames-26008824/"}
             />
             <CardProfile

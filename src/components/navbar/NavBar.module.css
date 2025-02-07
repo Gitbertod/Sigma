@@ -49,7 +49,7 @@
     background-color: white;
     width: 100%;
     opacity: 0;
-    height: 25vh;
+    height: 20vh;
     color: #f9b03a;
     transform: translateY(-50%);
     transition: opacity 600ms, transform 600ms;
@@ -93,8 +93,8 @@
   .icon {
     margin: 0px auto;
     margin-bottom: 10px;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     color: #921345;
     z-index: 10;
   }

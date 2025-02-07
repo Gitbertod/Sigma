@@ -1,7 +1,7 @@
 "use client";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { Button, Drawer, Sidebar } from "flowbite-react";
-
+import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import styles from "./DrawerComponent.module.css";
 import { Link } from "react-router-dom";
@@ -17,6 +17,7 @@ export function DrawerComponent() {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleClose = () => setIsOpen(false);
+  const { t } = useTranslation();
 
   return (
     <>
@@ -46,63 +47,63 @@ export function DrawerComponent() {
               <LanguageSelector />
                 <Sidebar.Items>
                   <Sidebar.ItemGroup>
-                    <Sidebar.Collapse icon={HiUsers} label="About Us">
-                      <Link to="/who-we-are">Who we are</Link>
+                    <Sidebar.Collapse icon={HiUsers} label={t("navbar.About Us")}>
+                      <Link to="/who-we-are">{t("navbar.Who we are")}</Link>
                       <br></br>
-                      <Link to="/history">History</Link>
+                      <Link to="/history">{t("navbar.History")}</Link>
                       <br></br>
                       <Link to="/institutional-pillars">
-                        Institutional Pillars
+                      {t("navbar.Institutional Pillars")}
                       </Link>
                       <br></br>
                     </Sidebar.Collapse>
 
-                    <Sidebar.Collapse icon={HiShoppingBag} label="Busisness">
+                    <Sidebar.Collapse icon={HiShoppingBag} label={t("navbar.Business")}>
                       <Sidebar.Collapse
                         href="/who-we-are"
-                        label="Operating Lease"
+                        label={t("navbar.Operating Lease")}
                       >
                         <Link to={"/managed-funds"}>
-                          <Sidebar.Item>Managed Funds</Sidebar.Item>
+                          <Sidebar.Item>{t("OperatingLease.OperatingLeaseManagedFunds")}</Sidebar.Item>
                         </Link>
                         <Link to={"/product-description"}>
-                          <Sidebar.Item>Product Description</Sidebar.Item>
+                          <Sidebar.Item>{t("OperatingLease.OperatingLeaseProductDescription")}</Sidebar.Item>
                         </Link>
                         <Link to="/advantages">
-                          <Sidebar.Item>Advantages</Sidebar.Item>
+                          <Sidebar.Item>{t("OperatingLease.OperatingLeaseAdvantages")}</Sidebar.Item>
                         </Link>
                       </Sidebar.Collapse>
                       <Sidebar.Collapse
                         href="#"
-                        label="Infrastructure Private Equity"
+                        label={t("navbar.Infrastructure Private Equity")}
                       >
                         <Link to="/infrastructure-private-equity/managed-funds">
                           <Sidebar.Item>Managed Funds</Sidebar.Item>
                         </Link>
                       </Sidebar.Collapse>
                     </Sidebar.Collapse>
-                    <Sidebar.Collapse icon={HiCollection} label="Team">
+                    <Sidebar.Collapse icon={HiCollection} label={t("navbar.Team")}>
                       <Link to={"/staff"}>
-                        <Sidebar.Item href="/staff">Staff</Sidebar.Item>
+                        <Sidebar.Item href="/staff">{t("navbar.Staff")}</Sidebar.Item>
                       </Link>
                       <Link to={"/investment-committee"}>
                         <Sidebar.Item href="/investment-commitee">
-                          Investment Committee
+                        {t("navbar.Investment Commitee")}
                         </Sidebar.Item>
                       </Link>
                       <Link to={"/board-of-directors"}>
                         <Sidebar.Item href="/board-of-directors">
-                          Board of Directors
+                        {t("navbar.Board of Directors")}
                         </Sidebar.Item>
                       </Link>
                     </Sidebar.Collapse>
                       <Sidebar.Item icon={HiCollection} >
                     <Link to={"/news"}>
-                        News and Insights
+                    {t("navbar.News")}
                     </Link>
                       </Sidebar.Item>
                     <Sidebar.Item icon={HiInformationCircle}>
-                      <Link to="/contact-us">Contact Us</Link>
+                      <Link to="/contact-us">{t("navbar.Contact Us")}</Link>
                     </Sidebar.Item>
                   </Sidebar.ItemGroup>
                 </Sidebar.Items>

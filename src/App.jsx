@@ -42,7 +42,7 @@ function App() {
         <Route path="/infrastructure-private-equity/managed-funds" element={<InfrastructurePrivateEquityMF />}></Route>
         <Route path="/contact-us" element={<ContactView />}></Route>
       </Routes>
-      <FooterComponent></FooterComponent>
+      <FooterComponent/>
     </>
   );
 }

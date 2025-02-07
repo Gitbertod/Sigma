@@ -18,13 +18,13 @@ const Staff = () => {
         <div className={styles.container}>
           <h3 className="mt-5">Staff</h3>
           <div className={styles.containerInfo}>
-            <CardProfile
+            {/* <CardProfile
               photo={"/katherine-reyes.jpg"}
               name={"Katherine Reyes"}
               position={"CEO"}
               link={"/staff/katherine-reyes"}
               linkedin={"https://www.linkedin.com/in/katherine-reyes-warthon-a480612/"}
-            />
+            /> */}
             <CardProfile
               photo={"/karen-ames.jpg"}
               name={"Karen Ames"}

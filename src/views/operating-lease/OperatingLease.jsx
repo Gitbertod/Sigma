@@ -6,7 +6,7 @@ import styles from "./OperatingLease.module.css";
 import { HiOutlineDocumentSearch } from "react-icons/hi";
 import { GiPodiumWinner } from "react-icons/gi";
 import CategoryBox from "../../components/category-box/CategoryBox";
-import video_bg from "../../assets/oleoducto.mov";
+import video_bg from "../../assets/oleoducto.mp4";
 import { useTranslation } from "react-i18next";
 
 const OperatingLease = () => {

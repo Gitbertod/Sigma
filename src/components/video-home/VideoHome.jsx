@@ -1,4 +1,4 @@
-import bgvideo2 from "../../assets/homeVideo.mov";
+import bgvideo2 from "../../assets/homeVideo.mp4";
 import styles from "./VideoHome.module.css";
 
 const VideoHome = () => {

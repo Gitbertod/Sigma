@@ -1,0 +1,22 @@
+.card {
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  margin: 0px auto;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  background-color: rgb(240, 244, 246);
+  width: 300px;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px gray;
+}
+
+.title {
+  font-weight: bold;
+  padding: 10px;
+}
+
+.date {
+  padding: 10px;
+}

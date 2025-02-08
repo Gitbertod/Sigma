@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "../../components/navbar/NavBar";
 import CategoryWithBackgroundVideo from "../../components/category/CategoryWithBackgroundVideo";
 import styles from "./InfrastructurePrivateEquityMF.module.css";
-import video_bg from "../../assets/eolico.mov";
+import video_bg from "../../assets/eolico.mp4";
 import { useTranslation } from "react-i18next";
 
 const InfrastructurePrivateEquityMF = () => {

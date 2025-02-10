@@ -24,6 +24,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Home />}></Route>
+        <Route path="/es" element={<Home />}></Route>
         <Route path="/who-we-are" element={<WhoWeAre />}></Route>
         <Route path="/history" element={<History />}></Route>
         <Route path="/institutional-pillars" element={<InstitutionalPillars />}></Route>

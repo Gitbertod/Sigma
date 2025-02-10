@@ -35,7 +35,7 @@ export function FooterComponent() {
               </a>
             </li>
             <li>
-              <a href="/sectores" className="hover:underline me-4 md:me-6">
+              <a href="/news" className="hover:underline me-4 md:me-6">
                 {t("footer.News")}
               </a>
             </li>

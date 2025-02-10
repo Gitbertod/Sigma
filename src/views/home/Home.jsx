@@ -43,7 +43,7 @@ const Home = () => {
         <SectionComponent
           title={t("Who we are")}
           text={t("description")}
-          imgSrc="./people2.png"
+          imgSrc="/people2.png"
           childComponent3={<DataBoxIcons></DataBoxIcons>}
         />
         <div className="bg-white justify-items-center">

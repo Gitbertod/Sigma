@@ -42,7 +42,7 @@ export function CarouselComponent() {
         <div className="m-11">
           <Link to="/news/news-3">
             <CardComponent
-              photo={"./news/news1.jpeg"}
+              photo={"/news/news1.jpeg"}
               title={t("Carousel.News1.Title")}
               text={t("Carousel.News1.Date")}
             />
@@ -51,7 +51,7 @@ export function CarouselComponent() {
         <div className="m-11">
           <a href="https://www.desdeadentro.pe/2024/04/luz-del-sur-recibe-formalmente-parques-eolicos-tres-hermanas-y-marcona/">
             <CardComponent
-              photo={"./news/Mario_Firmando_v2.jpg"}
+              photo={"/news/Mario_Firmando_v2.jpg"}
               title={t("Carousel.News2.Title")}
               text={t("Carousel.News2.Date")}
             />
@@ -60,7 +60,7 @@ export function CarouselComponent() {
         <div className="m-11">
           <Link to="/news">
             <CardComponent
-              photo={"./news/noticia.png"}
+              photo={"/news/noticia.png"}
               title={t("Carousel.News3.Title")}
               text={t("Carousel.News3.Date")}
             />
@@ -69,7 +69,7 @@ export function CarouselComponent() {
         <div className="m-11">
           <Link to="/news/news-1">
             <CardComponent
-              photo={"./news/xv_latam_leasing.jpg"}
+              photo={"/news/xv_latam_leasing.jpg"}
               title={t("Carousel.News4.Title")}
               text={t("Carousel.News4.Date")}
             />

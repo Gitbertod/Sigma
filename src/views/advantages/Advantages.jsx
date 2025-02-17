@@ -1,7 +1,7 @@
 import React from "react";
 import NavBar from "../../components/navbar/NavBar";
 import CategoryWithBackgroundVideo from "../../components/category/CategoryWithBackgroundVideo";
-import video_bg from "../../assets/construccion.mov";
+import video_bg from "../../assets/ventajas.mp4";
 import styles from "./Advantages.module.css";
 
 const Advantages = () => {

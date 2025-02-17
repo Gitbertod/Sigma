@@ -1,6 +1,6 @@
 import React from "react";
 import CategoryWithBackgroundVideo from "../../components/category/CategoryWithBackgroundVideo";
-import video_bg from "../../assets/construccion.mov";
+import video_bg from "../../assets/camion.mp4";
 import NavBar from "../../components/navbar/NavBar";
 import CardProfile from "../../components/card-profile/CardProfile";
 import LeasOp from "../../components/leas-op/LeasOp";

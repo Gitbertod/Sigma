@@ -2,8 +2,10 @@ import styles from "./ContactoForm.module.css";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
+import { useTranslation } from "react-i18next";
 
 const ContactoForm = () => {
+  const { t } = useTranslation();
   const form = useRef();
 
   const [values, setValues] = useState({
@@ -86,10 +88,10 @@ const ContactoForm = () => {
     
       <form ref={form} onSubmit={handleForm} className={styles.form}>
       <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white flex">
-        Formulario de contacto
+        {t("ContactForm.Title")}
       </h5>
         <div className={styles.field}>
-          <label>Nombre</label>
+          <label>{t("ContactForm.Name")}</label>
           <input
             type="text"
             name="user_name"
@@ -119,7 +121,7 @@ const ContactoForm = () => {
           )}
         </div>
         <div className={styles.field}>
-          <label>Mensaje</label>
+          <label>{t("ContactForm.Mensaje")}</label>
           <textarea
             name="message"
             value={values.message}
@@ -133,7 +135,7 @@ const ContactoForm = () => {
           )}
         </div>
         <div className={styles.field}>
-          <input type="submit" value="Enviar" className={styles.button} />
+          <button type="submit" value="Enviar" className={styles.button} >{t("ContactForm.Enviar")}</button>
         </div>
       </form>
     </>

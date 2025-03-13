@@ -353,6 +353,18 @@
     "MartinName": "Martín Pérez",
     "MartinPosition": "Director Alterno"
   },
+  "ContactView": {
+    "Contact": "CONTACTO",
+    "Paragraph": "Bienvenido al portal de Solicitud de Información SIGMA. Nuestro servicio es rápido y su información es segura no vendemos ni distribuimos su información a nadie."
+  },
+  "ContactForm":{
+    "Title":"Formulario de contacto",
+    "Name":"Nombre",
+    "Email": "Email",
+    "Mensaje":"Mensaje",
+    "Enviar":"Enviar",
+    "ErrorName:":"Por favor, ingrese un nombre válido (2-30 caracteres)"
+  },
   "footer": {
     "Staff": "Personal",
     "Investment Committee": "Comité de Inversiones",

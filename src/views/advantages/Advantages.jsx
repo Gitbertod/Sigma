@@ -1,15 +1,17 @@
-import React from "react";
 import NavBar from "../../components/navbar/NavBar";
 import CategoryWithBackgroundVideo from "../../components/category/CategoryWithBackgroundVideo";
 import video_bg from "../../assets/ventajas.mp4";
 import styles from "./Advantages.module.css";
+import { useTranslation } from "react-i18next";
 
 const Advantages = () => {
+  const { t } = useTranslation();
+  
   return (
     <>
       <NavBar />
       <CategoryWithBackgroundVideo
-        title="Advantages: Operating Lease "
+        title={t("Advantages.Title")}
         videoSrc={video_bg}
         text={
           <>

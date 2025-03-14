@@ -38,7 +38,15 @@ const StaffPerson = () => {
         linkedin: "https://www.linkedin.com/in/arturo-palomares-588a5214/",
         text: t("ArturoPalomares.ArturoPalomaresText"),
       },
+      "ivan-alencastre": {
+        name: "Ivan Alencastre",
+        position: "VP - Finance, Accounting and HR",
+        photo: "/ivan-alencastre.jpg",
+        linkedin: "https://www.linkedin.com/in/ivan-alencastre-16593755/",
+        text: t("IvanAlencastre.Text"),
+      },
     },
+    
     investmentCommittee: {
       "craig-carleton": {
         name: "Craig Carleton",

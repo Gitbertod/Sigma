@@ -8,6 +8,7 @@
     "Who we are": "Quiénes somos",
     "History": "Historia",
     "Institutional Pillars": "Pilares Institucionales",
+    "Regulatory information":"Información Regulatoria",
     "Operating Lease": "Arrendamiento Operativo",
     "Infrastructure Private Equity": "Capital Privado de Infraestructura",
     "Staff": "Personal",
@@ -238,7 +239,7 @@
   },
   "ManagedFunds": {
     "ManagedFundsTitle": "Fondos Administrados",
-    "ManagedFundsText": "Sigma actualmente administra 4 fondos de inversión, habiendo tenido compromisos de capital por más de 800 millones de dólares en los últimos 8 años para fondos de Arrendamiento Operativo y Private Equity.",
+    "ManagedFundsText": "Sigma actualmente administra 5 fondos de inversión, habiendo tenido compromisos de capital por más de 800 millones de dólares en los últimos 19 años para fondos de Arrendamiento Operativo y Private Equity.",
     "LeasOpI": "LeasOp I",
     "LeasOpIDescription1": "Fondo de arrendamiento operativo con $250 millones en operaciones que abarcan diversos sectores como construcción, minería, infraestructura, manufactura, logística, transporte y pesca.",
     "LeasOpIDescription2": "Inició operaciones en 2006, logrando un crecimiento de diez veces respecto al compromiso inicial.",

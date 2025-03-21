@@ -52,10 +52,9 @@ export function DrawerComponent() {
                       <br></br>
                       <Link to="/history">{t("navbar.History")}</Link>
                       <br></br>
-                      <Link to="/institutional-pillars">
-                      {t("navbar.Institutional Pillars")}
-                      </Link>
+                      <Link to="/institutional-pillars">{t("navbar.Institutional Pillars")}</Link>
                       <br></br>
+                      <Link target="_blank" to="http://www.smv.gob.pe/Frm_HechosDeImportancia.aspx?data=BEB75436DC71EE607D46589474D68761351A8157801DC3AC70032EF5C7E5A670732B3C77E6">{t("navbar.Regulatory information")}</Link>
                     </Sidebar.Collapse>
 
                     <Sidebar.Collapse icon={HiShoppingBag} label={t("navbar.Business")}>

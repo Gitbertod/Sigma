@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "./NavBar.module.css";
 import { IoPeopleSharp } from "react-icons/io5";
+import { GrContactInfo } from "react-icons/gr";
 import { FaHistory, FaUniversity, FaFileContract, FaChartLine } from "react-icons/fa";
 import { FaPeopleGroup, FaPeopleArrows, FaPeopleLine } from "react-icons/fa6";
 import { DrawerComponent } from "../drawer/DrawerComponent";
@@ -70,6 +71,14 @@ const NavBar = () => {
                   <div className={styles.category}>
                     <FaUniversity className={styles.icon} />
                     {t("navbar.Institutional Pillars")}
+                  </div>
+                </div>
+              </Link>
+              <Link target="_blank" to="http://www.smv.gob.pe/Frm_HechosDeImportancia.aspx?data=BEB75436DC71EE607D46589474D68761351A8157801DC3AC70032EF5C7E5A670732B3C77E6">
+                <div className={styles.slidebottom}>
+                  <div className={styles.category}>
+                    <GrContactInfo className={styles.icon} />
+                    {t("navbar.Regulatory information")}
                   </div>
                 </div>
               </Link>

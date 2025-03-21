@@ -8,6 +8,7 @@
     "Who we are": "Who we are",
     "History": "History",
     "Institutional Pillars": "Institutional Pillars",
+    "Regulatory information":"Regulatory information",
     "Operating Lease": "Operating Lease",
     "Infrastructure Private Equity": "Infrastructure Private Equity",
     "Staff": "Staff",
@@ -238,7 +239,7 @@
   },
   "ManagedFunds": {
     "ManagedFundsTitle": "Managed Funds",
-    "ManagedFundsText": "Sigma currently manages 4 investment funds, having had capital commitments of over US$800 million in the last 8 years for Operating Lease and Private Equity funds.",
+    "ManagedFundsText": "Sigma currently manages 5 investment funds, having had capital commitments of over US$800 million in the last 19 years for Operating Lease and Private Equity funds.",
     "LeasOpI": "LeasOp I",
     "LeasOpIDescription1": "Operating Lease fund with $250 million in operations spanning diverse sectors like construction, mining, infrastructure, manufacturing, logistics, transportation, and fishing.",
     "LeasOpIDescription2": "Commenced operations in 2006, achieving tenfold growth from the initial commitment.",

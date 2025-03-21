@@ -46,13 +46,13 @@ const Staff = () => {
               link={"/staff/arturo-palomares"}
               linkedin={"https://www.linkedin.com/in/arturo-palomares-588a5214/"}
             />
-            {/* <CardProfile
+            <CardProfile
               photo={"/ivan-alencastre.jpg"}
               name={"Ivan Alencastre"}
               position={" Business Analysis & Planning"}
               link={"/staff/ivan-alencastre"}
               linkedin={"https://www.linkedin.com/in/arturo-palomares-588a5214/"}
-            /> */}
+            />
             <div className={styles.imagen}></div>
           </div>
         </div>

@@ -69,7 +69,6 @@ const ManagedFunds = () => {
                 <>
                   <li>{t("ManagedFunds.LeasOpVIDescription1")}</li>
                   <li>{t("ManagedFunds.LeasOpVIDescription2")}</li>
-                  <li>{t("ManagedFunds.LeasOpVIDescription3")}</li>
                 </>
               }
             />

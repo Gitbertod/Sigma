@@ -15,9 +15,9 @@ Web desarrollada para la empresa de fondos de inversión Sigma en Lima Perú.
 
 ```bash
 # Clona el repositorio
-git clone https://github.com/usuario/repositorio.git
+git clone https://github.com/Gitbertod/Sigma
 
-# Ingresa al directorio del proyecto
+# Ingresa al directorio del proyecto si es necesario
 cd sigma
 
 # Instala las dependencias

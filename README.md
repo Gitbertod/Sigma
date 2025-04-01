@@ -1,8 +1,28 @@
-# React + Vite
+# Web oficial de Sigmasafi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Web desarrollada para la empresa de fondos de inversión Sigma en Lima Perú.
 
-Currently, two official plugins are available:
+### Desarrollada con React + Vite, tailwind CSS y CCS Modules.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Capturas de pantalla 
+![Captura de pantalla](./public/captura1.png)
+![Captura de pantalla](./public/captura2.jpeg)
+ 
+
+# Para empezar
+
+### 1. Clona el repositorio
+
+```bash
+# Clona el repositorio
+git clone https://github.com/usuario/repositorio.git
+
+# Ingresa al directorio del proyecto
+cd sigma
+
+# Instala las dependencias
+npm install
+
+# Ejecuta el proyecto
+npm run dev
+

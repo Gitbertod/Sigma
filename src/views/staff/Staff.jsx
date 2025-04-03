@@ -51,7 +51,7 @@ const Staff = () => {
               name={"Ivan Alencastre"}
               position={" Business Analysis & Planning"}
               link={"/staff/ivan-alencastre"}
-              linkedin={"https://www.linkedin.com/in/arturo-palomares-588a5214/"}
+              linkedin={"https://www.linkedin.com/in/ivan-alencastre-16593755/"}
             />
             <div className={styles.imagen}></div>
           </div>

@@ -23,6 +23,12 @@ const StaffPerson = () => {
         photo: "/katherine-reyes.jpg",
         linkedin: "https://www.linkedin.com/in/katherine-reyes-warthon-a480612/",
         text: t("KatherineReyes.KatherineReyesText"),
+      },"stephano-heredia": {
+        name: "Stephano Heredia",
+        position: "CEO",
+        photo: "/stephanoHeredia.png",
+        linkedin: "https://www.linkedin.com/in/katherine-reyes-warthon-a480612/",
+        text: t("StephanoHeredia.StephanoHerediaText"),
       },
       "guillermo-teramura": {
         name: "Guillermo Teramura",

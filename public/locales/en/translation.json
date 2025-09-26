@@ -352,7 +352,7 @@
   "InvestmentCommittee": {
     "InvestmentCommitteeTitle": "Investment Committee",
     "CraigName": "Craig Carleton-Smith",
-    "CraigPosition": "General Manager - CIO",
+    "CraigPosition": "General Manager",
     "LuizName": "Luiz Felipe Mauger",
     "LuizPosition": "Director",
     "ManuelName": "Manuel Salazar",
@@ -363,7 +363,7 @@
   "BoardOfDirectors": {
     "BoardOfDirectorsTitle": "Board of Directors",
     "CraigName": "Craig Carleton-Smith",
-    "CraigPosition": "Executive Chairman - CIO",
+    "CraigPosition": "General Manager",
     "LuizName": "Luiz Felipe Mauger",
     "LuizPosition": "Director",
     "AnaName": "Ana María Bitar",

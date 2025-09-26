@@ -20,13 +20,13 @@ const BoardOfDirectors = () => {
         <div className={styles.container}>
           <h3 className="mt-5">{t("BoardOfDirectors.BoardOfDirectorsTitle")}</h3>
           <div className={styles.containerInfo}>
-            <CardProfile
+            {/* <CardProfile
               photo={"./craig-smith.jpg"}
               name={t("BoardOfDirectors.CraigName")}
               position={t("BoardOfDirectors.CraigPosition")}
               link={"/board-of-directors/craig-carleton"}
               linkedin={"https://www.linkedin.com/in/craig-carleton-smith-56a3236/"}
-            />
+            /> */}
             <CardProfile
               photo={"./luis-felipe-mauger.jpg"}
               name={t("BoardOfDirectors.LuizName")}

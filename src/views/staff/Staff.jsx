@@ -3,9 +3,11 @@ import NavBar from "../../components/navbar/NavBar";
 import CardProfile from "../../components/card-profile/CardProfile";
 import AOS from "aos";
 import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 const Staff = () => {
   
+  const { t } = useTranslation();
   useEffect(() => {
     AOS.init();
     window.scrollTo(0, 0);
@@ -38,6 +40,13 @@ const Staff = () => {
               position={" VP - Assets and Insurance"}
               link={"/staff/guillermo-teramura"}
               linkedin={"https://www.linkedin.com/in/gteramura/"}
+            />
+            <CardProfile
+              photo={"./craig-smith.jpg"}
+              name={t("BoardOfDirectors.CraigName")}
+              position={t("BoardOfDirectors.CraigPosition")}
+              link={"/board-of-directors/craig-carleton"}
+              linkedin={"https://www.linkedin.com/in/craig-carleton-smith-56a3236/"}
             />
             <CardProfile
               photo={"/arturo-palomares.jpg"}

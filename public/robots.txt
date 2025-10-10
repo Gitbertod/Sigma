@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /author/
+Allow: /
+
+Sitemap: https://www.sigmasafi.pe/sitemap.xml

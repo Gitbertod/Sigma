@@ -75,14 +75,14 @@ const NavBar = () => {
                   </div>
                 </div>
               </Link>
-              <Link target="_blank" to="http://www.smv.gob.pe/Frm_HechosDeImportancia.aspx?data=BEB75436DC71EE607D46589474D68761351A8157801DC3AC70032EF5C7E5A670732B3C77E6">
+              {/* <Link target="_blank" to="http://www.smv.gob.pe/Frm_HechosDeImportancia.aspx?data=BEB75436DC71EE607D46589474D68761351A8157801DC3AC70032EF5C7E5A670732B3C77E6">
                 <div className={styles.slidebottom}>
                   <div className={styles.category}>
                     <GrContactInfo className={styles.icon} />
                     {t("navbar.Regulatory information")}
                   </div>
                 </div>
-              </Link>
+              </Link> */}
             </div>
           </div>
 
@@ -127,7 +127,7 @@ const NavBar = () => {
               onMouseEnter={handleSectoresHover}
               onMouseLeave={handleMouseLeave}
             >
-              <Link to="#">{t("navbar.Team")}</Link>
+              <Link to="#">{t("navbar.Regulatory information")/*t("navbar.Team")*/}</Link>
             </button>
             <div
               onMouseEnter={handleSectoresHover}
@@ -156,7 +156,7 @@ const NavBar = () => {
                 <div className={styles.slidebottom}>
                   <div className={styles.category}>
                     <FaBookReader className={styles.icon} />
-                    {t("navbar.Regulatory information")}
+                    {"Enlace a portal SMV"}
                   </div>
                 </div>
               </Link>

@@ -82,19 +82,19 @@ export function DrawerComponent() {
                       </Sidebar.Collapse>
                     </Sidebar.Collapse>
                     <Sidebar.Collapse icon={HiCollection} label={t("navbar.Team")}>
-                      <Link to={"/staff"}>
-                        <Sidebar.Item href="/staff">{t("navbar.Staff")}</Sidebar.Item>
+                      <Link to={"https://www.smv.gob.pe/SIMV/Frm_LisDatosGenerales?data=1526C9A15B544F0B1C7C30E69D8118B7F01CEC39E0"}>
+                        <Sidebar.Item href="https://www.smv.gob.pe/SIMV/Frm_LisDatosGenerales?data=1526C9A15B544F0B1C7C30E69D8118B7F01CEC39E0">{t("navbar.Regulatory information")}</Sidebar.Item>
                       </Link>
-                      <Link to={"/investment-committee"}>
+                      {/* <Link to={"/investment-committee"}>
                         <Sidebar.Item href="/investment-commitee">
                         {t("navbar.Investment Commitee")}
                         </Sidebar.Item>
-                      </Link>
-                      <Link to={"/board-of-directors"}>
+                      </Link> */}
+                      {/* <Link to={"/board-of-directors"}>
                         <Sidebar.Item href="/board-of-directors">
                         {t("navbar.Board of Directors")}
                         </Sidebar.Item>
-                      </Link>
+                      </Link> */}
                     </Sidebar.Collapse>
                       <Sidebar.Item icon={HiCollection} >
                     <Link to={"/news"}>

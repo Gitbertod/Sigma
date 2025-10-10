@@ -5,6 +5,7 @@ import { IoPeopleSharp } from "react-icons/io5";
 import { GrContactInfo } from "react-icons/gr";
 import { FaHistory, FaUniversity, FaFileContract, FaChartLine } from "react-icons/fa";
 import { FaPeopleGroup, FaPeopleArrows, FaPeopleLine } from "react-icons/fa6";
+import { FaBookReader } from "react-icons/fa";
 import { DrawerComponent } from "../drawer/DrawerComponent";
 import LanguageSelector from "../languageSelector/LanguageSelector";
 import { useTranslation } from "react-i18next";
@@ -135,27 +136,27 @@ const NavBar = () => {
                 isOpenSectores ? styles.slidebottom : ""
               }`}
             >
-              <Link to="/staff">
+              {/* <Link to="/staff">
                 <div className={styles.slidebottom}>
                   <div className={styles.category}>
                     <FaPeopleGroup className={styles.icon} />
                     {t("navbar.Staff")}
                   </div>
                 </div>
-              </Link>
-              <Link to="/investment-committee">
+              </Link> */}
+              {/* <Link to="/investment-committee">
                 <div className={styles.slidebottom}>
                   <div className={styles.category}>
                     <FaPeopleArrows className={styles.icon} />
                     {t("navbar.Investment Commitee")}
                   </div>
                 </div>
-              </Link>
-              <Link to="/board-of-directors">
+              </Link> */}
+              <Link to="https://www.smv.gob.pe/SIMV/Frm_LisDatosGenerales?data=1526C9A15B544F0B1C7C30E69D8118B7F01CEC39E0"/*"/board-of-directors"*/>
                 <div className={styles.slidebottom}>
                   <div className={styles.category}>
-                    <FaPeopleLine className={styles.icon} />
-                    {t("navbar.Board of Directors")}
+                    <FaBookReader className={styles.icon} />
+                    {t("navbar.Regulatory information")}
                   </div>
                 </div>
               </Link>

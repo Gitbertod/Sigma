@@ -28,13 +28,13 @@ function App() {
         <Route path="/who-we-are" element={<WhoWeAre />}></Route>
         <Route path="/history" element={<History />}></Route>
         <Route path="/institutional-pillars" element={<InstitutionalPillars />}></Route>
-        <Route path="/staff" element={<Staff />}></Route>
-        <Route path="/staff/:personId" element ={<StaffPerson/>}></Route>
-        <Route path="/investment-committee" element={<InvestmentCommitee />}></Route>
-        <Route path="/investment-committee/:personId" element={<StaffPerson />}></Route>     
+        {/* <Route path="/staff" element={<Staff />}></Route> */}
+        {/* <Route path="/staff/:personId" element ={<StaffPerson/>}></Route> */}
+        {/* <Route path="/investment-committee" element={<InvestmentCommitee />}></Route>
+        <Route path="/investment-committee/:personId" element={<StaffPerson />}></Route>      */}
         <Route path="/operating-lease" element={<OperatingLease />}></Route>
-        <Route path="/board-of-directors" element={<BoardOfDirectors />}></Route>
-        <Route path="/board-of-directors/:personId" element={<StaffPerson />}></Route>
+        {/* <Route path="/board-of-directors" element={<BoardOfDirectors />}></Route> */}
+        {/* <Route path="/board-of-directors/:personId" element={<StaffPerson />}></Route> */}
         <Route path="/news" element={<News />}></Route>
         <Route path="/news/:articleId" element={<Article />}></Route>
         <Route path="/managed-funds" element={<ManagedFunds />}></Route>

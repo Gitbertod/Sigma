@@ -19,21 +19,21 @@ export function FooterComponent() {
             />
           </Link>
           <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-400 sm:mb-0 dark:text-gray-400">
-            <li>
+            {/* <li>
               <a href="/staff" className="hover:underline me-4 md:me-6">
                 {t("footer.Staff")}
               </a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a href="/investment-commitee" className="hover:underline me-4 md:me-6">
                 {t("footer.Investment Committee")}
               </a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a href="/board-of-directors" className="hover:underline me-4 md:me-6">
                 {t("footer.Board of Directors")}
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="/news" className="hover:underline me-4 md:me-6">
                 {t("footer.News")}

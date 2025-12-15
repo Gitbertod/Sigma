@@ -17,6 +17,7 @@ import InfrastructurePrivateEquityMF from "./views/infrastructure-private-equity
 import OperatingLease from "./views/operating-lease/OperatingLease";
 import Article from "./views/news/articles/Article";
 import StaffPerson from "./views/staff/StaffPerson";
+import Navidad from "./views/navidad/Navidad";
  
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
         <Route path="/advantages" element={<Advantages />}></Route>
         <Route path="/infrastructure-private-equity/managed-funds" element={<InfrastructurePrivateEquityMF />}></Route>
         <Route path="/contact-us" element={<ContactView />}></Route>
+        <Route path="/navidad" element={<Navidad></Navidad>}></Route>
       </Routes>
       <FooterComponent/>
     </>

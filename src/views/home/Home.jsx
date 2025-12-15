@@ -11,6 +11,7 @@ import DataBoxIcons from "../../components/data-box-icons/DataBoxIcons";
 
 import { useTranslation } from "react-i18next";
 import LanguageSelector from "../../components/languageSelector/LanguageSelector";
+import SnowEffect from "../../components/snowEffect/SnowEffect";
 
 const Home = () => {
   useEffect(() => {
@@ -21,6 +22,7 @@ const Home = () => {
   const { t } = useTranslation();
   return (
     <>
+    <SnowEffect flakes={50} />
       <div className="flex flex-col min-h-screen">
         <NavBar />
         <VideoHome></VideoHome>

@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import NavBar from "../../components/navbar/NavBar";
+//import NavBar from "../../components/navbar/NavBar";
 import styles from "./Navidad.module.css";
 
 const Navidad = () => {
@@ -8,21 +8,10 @@ const Navidad = () => {
   useEffect(() => {
     const video = videoRef.current;
     if (video) {
-      // Primero silencia para permitir autoplay
       video.muted = true;
-      
-      video.play()
-        .then(() => {
-          // Una vez que el video está reproduciéndose, desactiva mute
-          video.muted = false;
-          // Vuelve a llamar play para asegurar que continúa
-          video.play().catch(err => {
-            console.warn("Error al reproducir sin mute:", err);
-          });
-        })
-        .catch((err) => {
-          console.warn("Error al reproducir video:", err);
-        });
+      video.play().catch((err) => {
+        console.warn("Error al reproducir video:", err);
+      });
     }
   }, []);
 
@@ -41,6 +30,7 @@ const Navidad = () => {
             loop
             autoPlay
             allowFullScreen
+           
           >
             Tu navegador no soporta el video.
           </video>

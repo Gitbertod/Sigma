@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import {
   HiCollection,
   HiInformationCircle,
+  HiNewspaper,
   HiShoppingBag,
   HiUsers,
 } from "react-icons/hi";
@@ -21,7 +22,7 @@ export function DrawerComponent() {
 
   return (
     <>
-      <div className="flex  items-center justify-center">
+      <div className="flex items-center justify-center">
         <Button onClick={() => setIsOpen(true)} className="bg-pink-900 p-0">
           <RxHamburgerMenu className={styles.icon} />
         </Button>
@@ -44,69 +45,63 @@ export function DrawerComponent() {
           >
             <div className="flex h-full flex-col justify-between py-2">
               <div>
-              <LanguageSelector />
+                <div className="mb-3 px-2">
+                  <LanguageSelector />
+                </div>
                 <Sidebar.Items>
                   <Sidebar.ItemGroup>
                     <Sidebar.Collapse icon={HiUsers} label={t("navbar.About Us")}>
-                      <Link to="/who-we-are">{t("navbar.Who we are")}</Link>
-                      <br></br>
-                      <Link to="/history">{t("navbar.History")}</Link>
-                      <br></br>
-                      <Link to="/institutional-pillars">{t("navbar.Institutional Pillars")}</Link>
-                      <br></br>
-                      <Link target="_blank" to="http://www.smv.gob.pe/Frm_HechosDeImportancia.aspx?data=BEB75436DC71EE607D46589474D68761351A8157801DC3AC70032EF5C7E5A670732B3C77E6">{t("navbar.Regulatory information")}</Link>
+                      <Link to="/who-we-are" onClick={handleClose}>
+                        <Sidebar.Item>{t("navbar.Who we are")}</Sidebar.Item>
+                      </Link>
+                      <Link to="/history" onClick={handleClose}>
+                        <Sidebar.Item>{t("navbar.History")}</Sidebar.Item>
+                      </Link>
+                      <Link to="/institutional-pillars" onClick={handleClose}>
+                        <Sidebar.Item>{t("navbar.Institutional Pillars")}</Sidebar.Item>
+                      </Link>
+                      <Link to="/investment-committee" onClick={handleClose}>
+                        <Sidebar.Item>{t("navbar.Investment Commitee")}</Sidebar.Item>
+                      </Link>
+                      <a
+                        href="http://www.smv.gob.pe/Frm_HechosDeImportancia.aspx?data=BEB75436DC71EE607D46589474D68761351A8157801DC3AC70032EF5C7E5A670732B3C77E6"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={handleClose}
+                      >
+                        <Sidebar.Item>{t("navbar.Regulatory information")}</Sidebar.Item>
+                      </a>
                     </Sidebar.Collapse>
 
                     <Sidebar.Collapse icon={HiShoppingBag} label={t("navbar.Business")}>
-                      <Sidebar.Collapse
-                        href="/who-we-are"
-                        label={t("navbar.Operating Lease")}
-                      >
-                        <Link to={"/managed-funds"}>
-                          <Sidebar.Item>{t("OperatingLease.OperatingLeaseManagedFunds")}</Sidebar.Item>
-                        </Link>
-                        <Link to={"/product-description"}>
-                          <Sidebar.Item>{t("OperatingLease.OperatingLeaseProductDescription")}</Sidebar.Item>
-                        </Link>
-                        <Link to="/advantages">
-                          <Sidebar.Item>{t("OperatingLease.OperatingLeaseAdvantages")}</Sidebar.Item>
-                        </Link>
-                      </Sidebar.Collapse>
-                      <Sidebar.Collapse
-                        href="#"
-                        label={t("navbar.Infrastructure Private Equity")}
-                      >
-                        <Link to="/infrastructure-private-equity/managed-funds">
-                          <Sidebar.Item>Managed Funds</Sidebar.Item>
-                        </Link>
-                      </Sidebar.Collapse>
-                    </Sidebar.Collapse>
-                    <Sidebar.Collapse icon={HiCollection} label={t("navbar.Team")}>
-                      <Link to={"https://www.smv.gob.pe/SIMV/Frm_LisDatosGenerales?data=1526C9A15B544F0B1C7C30E69D8118B7F01CEC39E0"}>
-                        <Sidebar.Item href="https://www.smv.gob.pe/SIMV/Frm_LisDatosGenerales?data=1526C9A15B544F0B1C7C30E69D8118B7F01CEC39E0">{t("navbar.Regulatory information")}</Sidebar.Item>
+                      <Link to="/operating-lease" onClick={handleClose}>
+                        <Sidebar.Item>{t("navbar.Operating Lease")}</Sidebar.Item>
                       </Link>
-                      {/* <Link to={"/investment-committee"}>
-                        <Sidebar.Item href="/investment-commitee">
-                        {t("navbar.Investment Commitee")}
-                        </Sidebar.Item>
-                      </Link> */}
-                      {/* <Link to={"/board-of-directors"}>
-                        <Sidebar.Item href="/board-of-directors">
-                        {t("navbar.Board of Directors")}
-                        </Sidebar.Item>
-                      </Link> */}
+                      <Link to="/infrastructure-private-equity/managed-funds" onClick={handleClose}>
+                        <Sidebar.Item>{t("navbar.Infrastructure Private Equity")}</Sidebar.Item>
+                      </Link>
                     </Sidebar.Collapse>
-                      <Sidebar.Item icon={HiCollection} >
-                    <Link to={"/news"}>
-                    {t("navbar.News")}
+
+                    <Sidebar.Collapse icon={HiCollection} label={t("navbar.Team")}>
+                      <a
+                        href="https://www.smv.gob.pe/SIMV/Frm_LisDatosGenerales?data=1526C9A15B544F0B1C7C30E69D8118B7F01CEC39E0"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={handleClose}
+                      >
+                        <Sidebar.Item>{t("navbar.Regulatory information")}</Sidebar.Item>
+                      </a>
+                    </Sidebar.Collapse>
+
+                    <Link to="/news" onClick={handleClose}>
+                      <Sidebar.Item icon={HiNewspaper}>{t("navbar.News")}</Sidebar.Item>
                     </Link>
-                      </Sidebar.Item>
-                    <Sidebar.Item icon={HiInformationCircle}>
-                      <Link to="/contact-us">{t("navbar.Contact Us")}</Link>
-                    </Sidebar.Item>
+
+                    <Link to="/contact-us" onClick={handleClose}>
+                      <Sidebar.Item icon={HiInformationCircle}>{t("navbar.Contact Us")}</Sidebar.Item>
+                    </Link>
                   </Sidebar.ItemGroup>
                 </Sidebar.Items>
-                
               </div>
             </div>
           </Sidebar>

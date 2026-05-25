@@ -8,7 +8,6 @@ import { Button } from "flowbite-react";
 import { FooterComponent } from "../../components/footer/FooterComponent";
 import News from "../../components/news/News";
 import DataBoxIcons from "../../components/data-box-icons/DataBoxIcons";
-
 import { useTranslation } from "react-i18next";
 import LanguageSelector from "../../components/languageSelector/LanguageSelector";
 

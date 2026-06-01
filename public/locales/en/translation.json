@@ -333,6 +333,10 @@
     "ManuelSalazarTitle": "Manuel Salazar",
     "ManuelSalazarText": "An executive with over 30 years of experience in finance and industry, Manuel served as CEO of Pesquera Diamante from 2007 to 2018. His extensive experience includes over 15 years at Citibank del Perú, where he served as Director of Corporate and Investment Banking and was a member of the Executive Committee. Manuel held the esteemed position of Business Senior Credit Officer and also served as General Manager and President of Citileasing S.A. He holds a bachelor’s degree in business administration from Universidad del Pacífico, with specializations in Finance and Marketing. Manuel completed the Programa de Alta Dirección (PAD) at Universidad de Piura and the Programa de Dirección de Empresas at Pacífico Business School in 2019."
   },
+  "MirkoStiglich": {
+    "MirkoStiglichTitle": "Mirko Stiglich",
+    "MirkoStiglichText": "Mirko joined Standard Chartered Bank in October 2020 and served as Regional Head of Macro Trading for Europe & the Americas until January 2026. He is based in London. Prior to this, Mirko spent 13 years at Morgan Stanley in senior leadership roles, including Head of EMEA FX & EM Trading (London), Head of North America FX & EM Trading (New York), and Country Head for Morgan Stanley Peru. Earlier in his career, he worked in Emerging Markets trading at Bankers Trust and held roles at Donaldson, Lufkin & Jenrette, Banco Santander, the Ministry of Finance of Peru, and Deutsche Bank. Mirko has served on the boards of GFXD (Global Foreign Exchange Division), AFME (Association for Financial Markets in Europe), and Zodia Markets, a crypto exchange majority owned by Standard Chartered."
+  },
   "GonzaloDeLasCasas": {
     "GonzaloDeLasCasasTitle": "Gonzalo De Las Casas",
     "GonzaloDeLasCasasText": "General Manager of SIGMA Capital, specializing in Infrastructure Investment projects, Gonzalo has served in leadership roles at AFP Integra. He graduated in Business Administration with a specialization in Finance from The University of Texas and holds an MBA from the University of Piura."
@@ -357,6 +361,8 @@
     "LuizPosition": "Director",
     "ManuelName": "Manuel Salazar",
     "ManuelPosition": "Managing Partner",
+    "MirkoName": "Mirko Stiglich",
+    "MirkoPosition": "Director",
     "KatherineName": "Katherine Reyes",
     "KatherinePosition": "CEO"
   },

@@ -333,6 +333,10 @@
     "ManuelSalazarTitle": "Manuel Salazar",
     "ManuelSalazarText": "Ejecutivo con más de 30 años de experiencia en finanzas e industria, Manuel se desempeñó como CEO de Pesquera Diamante desde 2007 hasta 2018. Su amplia trayectoria incluye más de 15 años en Citibank del Perú, donde fue Director de Banca Corporativa y de Inversión y miembro del Comité Ejecutivo. Manuel ocupó el prestigioso cargo de Business Senior Credit Officer y también fue Gerente General y Presidente de Citileasing S.A. Es licenciado en administración de empresas por la Universidad del Pacífico, con especializaciones en Finanzas y Marketing. Completó el Programa de Alta Dirección (PAD) en la Universidad de Piura y el Programa de Dirección de Empresas en la Pacífico Business School en 2019."
   },
+  "MirkoStiglich": {
+    "MirkoStiglichTitle": "Mirko Stiglich",
+    "MirkoStiglichText": "Mirko se incorporó a Standard Chartered Bank en octubre de 2020 y se desempeñó como Director Regional de Macro Trading para Europa y las Américas hasta enero de 2026. Reside en Londres. Anteriormente, Mirko pasó 13 años en Morgan Stanley en cargos de alta dirección, incluyendo Director de FX y Mercados Emergentes para EMEA (Londres), Director de FX y Mercados Emergentes para Norteamérica (Nueva York) y Country Head de Morgan Stanley Perú. Al inicio de su carrera trabajó en trading de Mercados Emergentes en Bankers Trust y ocupó cargos en Donaldson, Lufkin & Jenrette, Banco Santander, el Ministerio de Economía y Finanzas del Perú y Deutsche Bank. Mirko ha sido miembro de los directorios de GFXD (Global Foreign Exchange Division), AFME (Association for Financial Markets in Europe) y Zodia Markets, un exchange de criptomonedas cuya mayoría es propiedad de Standard Chartered."
+  },
   "GonzaloDeLasCasas": {
     "GonzaloDeLasCasasTitle": "Gonzalo De Las Casas",
     "GonzaloDeLasCasasText": "Gerente General de SIGMA Capital, especializado en proyectos de inversión en infraestructura, Gonzalo ha ocupado roles de liderazgo en AFP Integra. Es licenciado en Administración de Empresas con especialización en Finanzas por The University of Texas y cuenta con un MBA de la Universidad de Piura."
@@ -356,6 +360,8 @@
     "LuizPosition": "Director",
     "ManuelName": "Manuel Salazar",
     "ManuelPosition": "Socio Gerente",
+    "MirkoName": "Mirko Stiglich",
+    "MirkoPosition": "Director",
     "KatherineName": "Katherine Reyes",
     "KatherinePosition": "CEO"
   },

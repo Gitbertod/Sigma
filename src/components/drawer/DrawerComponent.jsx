@@ -63,6 +63,9 @@ export function DrawerComponent() {
                       <Link to="/investment-committee" onClick={handleClose}>
                         <Sidebar.Item>{t("navbar.Investment Commitee")}</Sidebar.Item>
                       </Link>
+                      <Link to="/staff" onClick={handleClose}>
+                        <Sidebar.Item>{t("navbar.Staff")}</Sidebar.Item>
+                      </Link>
                       <a
                         href="http://www.smv.gob.pe/Frm_HechosDeImportancia.aspx?data=BEB75436DC71EE607D46589474D68761351A8157801DC3AC70032EF5C7E5A670732B3C77E6"
                         target="_blank"

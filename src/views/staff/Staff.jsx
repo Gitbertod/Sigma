@@ -45,7 +45,7 @@ const Staff = () => {
               photo={"./craig-smith.jpg"}
               name={t("BoardOfDirectors.CraigName")}
               position={t("BoardOfDirectors.CraigPosition")}
-              link={"/board-of-directors/craig-carleton"}
+              link={"/staff/craig-carleton"}
               linkedin={"https://www.linkedin.com/in/craig-carleton-smith-56a3236/"}
             />
             <CardProfile

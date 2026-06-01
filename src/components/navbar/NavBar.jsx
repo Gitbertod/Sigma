@@ -83,6 +83,14 @@ const NavBar = () => {
                   </div>
                 </div>
               </Link>
+              <Link to="/staff">
+                <div className={styles.slidebottom}>
+                  <div className={styles.category}>
+                    <FaPeopleGroup className={styles.icon} />
+                    {t("navbar.Staff")}
+                  </div>
+                </div>
+              </Link>
               {/* <Link target="_blank" to="http://www.smv.gob.pe/Frm_HechosDeImportancia.aspx?data=BEB75436DC71EE607D46589474D68761351A8157801DC3AC70032EF5C7E5A670732B3C77E6">
                 <div className={styles.slidebottom}>
                   <div className={styles.category}>
@@ -144,14 +152,7 @@ const NavBar = () => {
                 isOpenSectores ? styles.slidebottom : ""
               }`}
             >
-              {/* <Link to="/staff">
-                <div className={styles.slidebottom}>
-                  <div className={styles.category}>
-                    <FaPeopleGroup className={styles.icon} />
-                    {t("navbar.Staff")}
-                  </div>
-                </div>
-              </Link> */}
+              
              
               <Link to="https://www.smv.gob.pe/SIMV/Frm_LisDatosGenerales?data=1526C9A15B544F0B1C7C30E69D8118B7F01CEC39E0"/*"/board-of-directors"*/>
                 <div className={styles.slidebottom}>

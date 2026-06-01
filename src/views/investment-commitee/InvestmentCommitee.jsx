@@ -41,6 +41,13 @@ const InvestmentCommittee = () => {
               link={"/investment-committee/manuel-salazar"}
               linkedin={"https://www.linkedin.com/in/manuel-salazar-maurer/"}
             />
+            <CardProfile
+              photo={"./mirko.jpg"}
+              name={t("InvestmentCommittee.MirkoName")}
+              position={t("InvestmentCommittee.MirkoPosition")}
+              link={"/investment-committee/Mirko-Stiglich"}
+              linkedin={"https://www.linkedin.com/in/mirko-stiglich-8701a731/"}
+            />
             {/* <CardProfile
               photo={"./katherine-reyes.jpg"}
               name={t("InvestmentCommittee.KatherineName")}

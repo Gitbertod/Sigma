@@ -23,7 +23,15 @@ const StaffPerson = () => {
         photo: "/katherine-reyes.jpg",
         linkedin: "https://www.linkedin.com/in/katherine-reyes-warthon-a480612/",
         text: t("KatherineReyes.KatherineReyesText"),
-      },"stephano-heredia": {
+      },
+       "craig-carleton": {
+        name: "Craig Carleton",
+        position: "Investment Committee Member",
+        photo: "/craig-smith.jpg",
+        linkedin: "https://www.linkedin.com/in/craig-carleton/",
+        text: t("CraigCarleton.CraigText"),
+      },
+      "stephano-heredia": {
         name: "Stephano Heredia",
         position: "CEO",
         photo: "/stephanoHeredia.png",
@@ -74,6 +82,13 @@ const StaffPerson = () => {
         photo: "/manuel-salazar.jpg",
         linkedin: "https://www.linkedin.com/in/manuel-salazar/",
         text: t("ManuelSalazar.ManuelSalazarText"),
+      },
+      "Mirko-Stiglich": {
+        name: "Mirko Stiglich",
+        position: "Director",
+        photo: "/mirko.jpg",
+        linkedin: "https://www.linkedin.com/in/mirko-stiglich-8701a731/",
+        text: t("MirkoStiglich.MirkoStiglichText"),
       },
     },
     boardOfDirectors: {

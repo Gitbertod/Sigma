@@ -29,8 +29,8 @@ function App() {
         <Route path="/who-we-are" element={<WhoWeAre />}></Route>
         <Route path="/history" element={<History />}></Route>
         <Route path="/institutional-pillars" element={<InstitutionalPillars />}></Route>
-        {/* <Route path="/staff" element={<Staff />}></Route> */}
-        {/* <Route path="/staff/:personId" element ={<StaffPerson/>}></Route> */}
+        <Route path="/staff" element={<Staff />}></Route>
+        <Route path="/staff/:personId" element ={<StaffPerson/>}></Route>
         <Route path="/investment-committee" element={<InvestmentCommitee />}></Route>
         <Route path="/investment-committee/:personId" element={<StaffPerson />}></Route>     
         <Route path="/operating-lease" element={<OperatingLease />}></Route>

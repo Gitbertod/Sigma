@@ -28,11 +28,11 @@
 
 .container img{
     mask-image: linear-gradient(white 50%,transparent);
-    margin-left: 40px;  
-    max-height: auto;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    max-width: 460px; /* tope para que la foto no crezca de más en pantallas grandes */
+    height: auto;     /* mantiene la proporción de la foto */
     margin-top: 40px;
+    object-fit: contain;
 }
 .containerText{
     width: 50%;
@@ -40,14 +40,21 @@
     padding-top: 100px;
 }
 .parrafo{
-    font-size:x-large;
-    text-align: left;
+    font-size: 1.125rem; /* 18px — tamaño convencional para texto corrido largo */
+    text-align: justify;
+    line-height: 1.7;
+    letter-spacing: 0.2px;
+    max-width: 68ch;
+    color: rgb(40, 40, 40);
+    white-space: pre-line; /* respeta los saltos de párrafo (\n\n) del texto i18n */
+    hyphens: auto;
 }
 .imgContainer{
-    width: 70%;
+    flex: 1 1 0;           /* ocupa el espacio restante junto al texto, sin saltos */
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 24px;
 }
 
 /*RESPONSIVE*/
@@ -57,27 +64,19 @@
         font-size: 60px;
     }
     .parrafo{
-        font-size: x-large;
+        font-size: 1.125rem; /* 18px */
     }
     .container img{
-        mask-image: linear-gradient(white 50%,transparent);
-        width: 50%;  
-    }
-    .imgContainer{
-        width: 40%;
+        max-width: 420px;
     }
 }
 @media (max-width:1460px){
-    
+
     .parrafo{
-        font-size:large;
+        font-size: 1rem; /* 16px */
     }
     .container img{
-       
-        width: 100%;  
-    }
-    .imgContainer{
-        width: 70%;
+        max-width: 380px;
     }
     .containerInfo{
         display: flex;
@@ -86,11 +85,14 @@
     }
 }
 @media (max-width:1024px){
-    
+
     .containerText h5{
         font-size: 55px;
     }
-    
+    .container img{
+        max-width: 340px;
+    }
+
 }
 @media (max-width:768px){
     .containerText h5{
@@ -107,8 +109,12 @@
         width: 100%;
     }
     .imgContainer{
-        width: 90%;
+        flex: 0 0 auto;
+        width: 100%;
         margin-bottom: 40px;
+    }
+    .container img{
+        max-width: 320px;
     }
     .container h5{
         font-size: 35px;
@@ -116,12 +122,12 @@
 
 }
 @media (max-width:375px){
-    
+
     .containerText{
         width: 90%;
     }
-    .imgContainer{
-        width: 100%;
+    .container img{
+        max-width: 260px;
     }
     .container h5{
         font-size: 30px;

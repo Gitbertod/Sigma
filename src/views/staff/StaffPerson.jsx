@@ -25,8 +25,8 @@ const StaffPerson = () => {
         text: t("KatherineReyes.KatherineReyesText"),
       },
        "craig-carleton": {
-        name: "Craig Carleton",
-        position: "Investment Committee Member",
+        name: "Craig John Carleton – Smith de Souza",
+        position: "Presidente — Director Gerente General de SIGMA SAFI",
         photo: "/craig-smith.jpg",
         linkedin: "https://www.linkedin.com/in/craig-carleton/",
         text: t("CraigCarleton.CraigText"),
@@ -63,22 +63,22 @@ const StaffPerson = () => {
     
     investmentCommittee: {
       "craig-carleton": {
-        name: "Craig Carleton",
-        position: "Investment Committee Member",
+        name: "Craig John Carleton – Smith de Souza",
+        position: "Presidente — Director Gerente General de SIGMA SAFI",
         photo: "/craig-smith.jpg",
         linkedin: "https://www.linkedin.com/in/craig-carleton/",
         text: t("CraigCarleton.CraigText"),
       },
       "luiz-felipe-mauger": {
-        name: "Luiz Felipe Mauger",
-        position: "Investment Committee Member",
+        name: "Luiz Felipe Mauger Cordenonsi",
+        position: "Miembro Titular del Comité de Inversiones",
         photo: "/luis-felipe-mauger.jpg",
         linkedin: "https://www.linkedin.com/in/luiz-felipe-mauger/",
         text: t("LuizFelipeMauger.LuizFelipeText"),
       },
       "manuel-salazar": {
-        name: "Manuel Salazar",
-        position: "Investment Committee Member",
+        name: "Manuel Salazar Maurer",
+        position: "Miembro Titular del Comité de Inversiones",
         photo: "/manuel-salazar.jpg",
         linkedin: "https://www.linkedin.com/in/manuel-salazar/",
         text: t("ManuelSalazar.ManuelSalazarText"),

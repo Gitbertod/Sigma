@@ -31,13 +31,14 @@ const StaffPerson = () => {
         linkedin: "https://www.linkedin.com/in/craig-carleton/",
         text: t("CraigCarleton.CraigText"),
       },
-      "stephano-heredia": {
-        name: "Stephano Heredia",
-        position: "CEO",
-        photo: "/stephanoHeredia.png",
-        linkedin: "https://www.linkedin.com/in/katherine-reyes-warthon-a480612/",
-        text: t("StephanoHeredia.StephanoHerediaText"),
-      },
+      // Desactivado: /staff/stephano-heredia ya no está disponible
+      // "stephano-heredia": {
+      //   name: "Stephano Heredia",
+      //   position: "CEO",
+      //   photo: "/stephanoHeredia.png",
+      //   linkedin: "https://www.linkedin.com/in/katherine-reyes-warthon-a480612/",
+      //   text: t("StephanoHeredia.StephanoHerediaText"),
+      // },
       "guillermo-teramura": {
         name: "Guillermo Teramura",
         position: "VP - Assets and Insurance",

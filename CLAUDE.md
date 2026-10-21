@@ -67,4 +67,4 @@ El sitio carga muchos MB innecesarios. Al añadir o tocar media:
 - Usar `loading="lazy"` en `<img>` y `preload="none"` + `poster` en `<video>`.
 - Evitar importar las vistas de forma eager si se trabaja en el routing (preferir `React.lazy`).
 
-Existe una auditoría detallada con mejoras pendientes priorizadas (rendimiento primero) guardada en la memoria del proyecto y en el plan correspondiente. Consultarla antes de refactorizar.
+Hay una auditoría con mejoras pendientes ordenadas por prioridad (rendimiento primero) en [docs/auditoria.md](docs/auditoria.md). Consultarla antes de refactorizar.
